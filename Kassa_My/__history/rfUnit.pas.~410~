@@ -1,0 +1,527 @@
+unit rfUnit;
+
+interface
+uses SysUtils, Classes, CPort;
+
+const
+  Header: String[18] = 'FISREGISTRATOR2160';
+  SOH	= #$01;
+	STX = #$02;
+	ETX	= #$03;
+	EOT	= #$04;
+	ENQ	= #$05;
+	ACK	= #$06;
+	FS	= #$1C;
+	ETB	= #$17;
+	NAK	= #$15;
+
+  ofsLen = 21;
+  ofsData = 24;
+//  ofsChecksum = 25;
+
+  mBit0 = 1;
+  mBit1 = 2;
+  mBit2 = 4;
+  mBit3 = 8;
+  mBit4 = 16;
+  mBit5 = 32;
+  mBit6 = 64;
+  mBit7 = 128;
+
+  rmOff = '0';
+  rmWork = '1';
+  rmXmode = '2';
+  rmZmode = '3';
+
+  repX = 'X';
+  repZ = 'Z';
+
+  repDaily = #$E0;
+  repCashier = #$E6;
+  repGoods = #$E8;
+
+  stdSize = 30;
+
+  srvGet = '0';
+  srvPut = '1';
+
+  MaxStringSize = 1200;
+
+  PauseTime = 250;
+  MaxRetries = 3;
+
+  txtPacket = '    ...  ';
+
+type
+  TRFPacket = record
+      TotalLen,
+      DataLen: Integer;
+      Data: array [0..MaxStringSize] of Char;
+  end;
+
+var
+  SndPacket,
+  RcvPacket: TRFPacket;
+  LogFile: TFileStream = nil;
+
+  ComPort: TComPort = nil;
+  LogFileName: String = 'rf.log';
+
+  CallBackBusy: procedure = nil;
+  CallBackDone: procedure = nil;
+
+  WorkMode: Char = rmOff;
+
+  STS1, STS2, STS3, STS4: Integer;
+
+procedure Init(AComPort: TComPort);
+procedure GeneratePacket(var Packet: TRFPacket; Len: Integer);
+procedure UpdateChecksum(var Packet: TRFPacket);
+function isACK(var Packet: TRFPacket): Boolean;
+function isNAK(var Packet: TRFPacket): Boolean;
+function IntToASCII(Value, Digits: Integer): String;
+procedure IntToFixed(Value: LongWord; PtrOfs: Integer; PtrLen: Integer = 8);
+
+function SendPacket(RespSize: Integer = 5): Boolean;
+
+procedure LogPacket(Comment: String; APacket: TRFPacket);
+procedure LogText(AStr: String; LogDT: Boolean = True);
+procedure LogCRLF;
+procedure LogError(AErr: String);
+
+procedure RaiseError(AErr: String);
+
+procedure ParseStatus;
+
+procedure rfGetStatus;
+procedure rfSetMode(rmMode: Char; ModePsw: String = '00000001');
+procedure rfOpenRegister;
+procedure rfResetRF;
+procedure rfReport(repType: Char; repMode: Char);
+procedure rfServicePay(payType: Char; ASum: LongWord);
+procedure rfLogIn(Num: Integer; Psw: String = '00000001');
+procedure rfProgramGoods(Code, Tid, Oid, Did, Gid, Gcd, Qty, Price: Integer; Name: String);
+procedure rfComment(Comment: String);
+procedure rfDoSale(Code, Qty: Integer);
+procedure rfDoPay(Sum: Integer);
+procedure rfDoClose;
+
+implementation
+
+procedure GeneratePacket(var Packet: TRFPacket; Len: Integer);
+var Tmp: String;
+begin
+     Packet.TotalLen := Len + stdSize;
+     Packet.DataLen := Len;
+     Packet.Data[00] := SOH;
+     Move(Header[01], Packet.Data[1], 18);
+     Packet.Data[19] := STX;
+     Packet.Data[20] := FS;
+     Tmp := IntToASCII(Len, 3);
+     Move(Tmp[1], Packet.Data[ofsLen], 3);
+     Packet.Data[24 + Len] := ETX;
+     Packet.Data[29 + Len] := EOT;
+end;
+
+procedure UpdateChecksum(var Packet: TRFPacket);
+var i: Integer;
+    CRC: LongWord;
+    Tmp: String;
+begin
+     CRC := 0;
+     if ((Packet.DataLen + 30) <> Packet.TotalLen) then RaiseError('001: Не совпадают значения длины пакета и данных');
+     for i := 1 to Packet.DataLen + 25 do
+         Inc(CRC, Ord(Packet.Data[i-1]));
+     Tmp := IntToASCII(CRC, 4);
+     if (Length(Tmp) <> 4) then RaiseError('002: Неправильная длина строки с контрольной суммой');
+     Move(Tmp[1], Packet.Data[Packet.DataLen + 25], 4);
+end;
+
+function isACK(var Packet: TRFPacket): Boolean;
+begin
+     Result := (Packet.TotalLen = 1) and (Packet.Data[0] = ACK);
+end;
+
+function isNAK(var Packet: TRFPacket): Boolean;
+begin
+     Result := (Packet.TotalLen = 1) and (Packet.Data[0] = NAK); 
+end;
+
+function IntToASCII(Value, Digits: Integer): String;
+var i: Integer;
+begin
+     Result := IntToStr(Value);
+     for i := 1 to Digits - Length(Result) do
+         Result := '0' + Result;
+end;
+
+function SendPacket(RespSize: Integer): Boolean;
+var c: Integer;
+    Buf: String;
+begin
+     Result := False;
+     if Assigned(CallBackBusy) then CallBackBusy;
+
+     if (ComPort = nil) then RaiseError('003: Не установлен COM-порт');
+     c := 0;
+     repeat
+           LogPacket('Отправляем пакет ', SndPacket);
+           ComPort.Write(SndPacket.Data, SndPacket.TotalLen);
+           Sleep(PauseTime);
+           if ComPort.ReadStr(Buf, 1) = 0 then Exit;
+           if not (Buf[1] in [ACK, NAK]) then RaiseError('004: Недопустимый ответ РФ');
+           Inc(c);
+           if c >= MaxRetries then
+           begin
+                if Assigned(CallBackDone) then CallBackDone;
+                Exit;
+           end;
+     until Buf[1] = ACK;
+
+     Sleep(PauseTime);
+     GeneratePacket(RcvPacket, RespSize);
+     c := ComPort.ReadStr(Buf, stdSize + RespSize);
+
+     if Assigned(CallBackDone) then CallBackDone;
+     if c <> (stdSize + RespSize) then
+          RaiseError('!!!НЕПРАВИЛЬНЫЙ РАЗМЕР ОТВЕТНОГО ПАКЕТА! Ожидалось: '+
+                     IntToStr(c)+' байт, пришло: '+IntToStr(stdSize + RespSize)+
+                     ' байт.');
+     Move(Buf[1], RcvPacket.Data, Length(Buf));
+     RcvPacket.TotalLen := Length(Buf);
+     RcvPacket.DataLen := Length(Buf) - stdSize;
+     LogPacket('Получен пакет ', RcvPacket);
+     Buf := ACK;
+     Sleep(PauseTime);
+     ComPort.WriteStr(Buf[1]);
+
+     Result := True;
+end;
+
+procedure Init(AComPort: TComPort);
+begin
+     ComPort := AComPort;
+     try
+        LogFile := TFileStream.Create(LogFileName, fmOpenReadWrite or fmShareDenyNone);
+        LogFile.Position := LogFile.Size;
+     except
+        try
+           LogFile := TFileStream.Create(LogFileName, fmCreate);
+        except
+           raise Exception.Create('005: Не могу открыть файл протокола.');
+        end;
+     end;
+     LogCRLF;
+     LogCRLF;
+     LogCRLF;
+     LogText('***ЗАПУСК ПРОГРАММЫ');
+     LogCRLF;
+end;
+
+procedure LogPacket(Comment: String; APacket: TRFPacket);
+var
+    i, j: Integer;
+    S1, S2: String;
+    D1, D2: String;
+begin
+     LogText(txtPacket+Comment+' (всего байт: '+IntToStr(APacket.TotalLen)+', байт данных: '+IntToStr(APacket.DataLen)+')');
+     S1 := txtPacket;
+     S2 := txtPacket;
+     for i  := 1 to APacket.TotalLen do
+     begin
+          j := i-1;
+          D1 := ' ';
+
+          if (APacket.DataLen <> 0) then
+          begin
+               if (j>ofsData) and (j<(ofsData+APacket.DataLen)) then
+               begin
+                    D1 := ' ';
+               end;
+               if j=ofsData then
+               begin
+                    D1 := '*';
+               end;
+               if j=(ofsData+APacket.DataLen) then
+               begin
+                    D1 := '*';
+               end;
+          end;
+          //     1   "X"
+          S1 := S1 + D1 + ' '+ APacket.Data[j] + ' '; // +  D2;
+          S2 := S2 + D1 + IntToHex(Ord(APacket.Data[j]),2) + 'h';
+     end;
+     LogText(S1, False);
+     LogText(S2, False);
+end;
+
+procedure LogText(AStr: String; LogDT: Boolean);
+var S: String;
+begin
+     S := AStr;
+     if LogDT then S := S+'       ['+DateTimeToStr(Now)+']';
+     LogFile.Write(S[1], Length(S));
+     LogCRLF;
+end;
+
+procedure LogCRLF;
+var S: String;
+begin
+     S := #13#10; // CRLF
+     LogFile.Write(S[1], Length(S));
+end;
+
+procedure rfGetStatus;
+begin
+     LogText(' . rfGetStatus()');
+     GeneratePacket(SndPacket, 1);
+     SndPacket.Data[ofsData + 0] := '[';
+     UpdateChecksum(SndPacket);
+     SendPacket;
+
+     WorkMode := rmOff;
+
+     if RcvPacket.Data[ofsData + 0] <> '[' then RaiseError('GST: Неправильный ответный пакет.');
+
+     sts1 := Ord(RcvPacket.Data[ofsData + 1]);
+     sts2 := Ord(RcvPacket.Data[ofsData + 2]);
+     sts3 := Ord(RcvPacket.Data[ofsData + 3]);
+     sts4 := Ord(RcvPacket.Data[ofsData + 4]);
+
+     if (sts1 and mBit0) <> 0 then WorkMode := rmWork;
+     if (sts1 and mBit1) <> 0 then WorkMode := rmXmode;
+     if (sts1 and mBit2) <> 0 then WorkMode := rmZmode;
+
+     ParseStatus;
+end;
+
+procedure rfSetMode(rmMode: Char; ModePsw: String);
+begin
+     if (Length(ModePsw) <> 8) then RaiseError('006: Неправильная длина пароля.' );
+     GeneratePacket(SndPacket, 10);
+     SndPacket.Data[ofsData + 0] := 'o';
+     SndPacket.Data[ofsData + 1] := rmMode;
+     Move(ModePsw[1], SndPacket.Data[ofsData + 2], 8);
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure rfOpenRegister;
+begin
+     LogText(' . rfOpenRegister()');
+     GeneratePacket(SndPacket, 1);
+     SndPacket.Data[ofsData + 0] := '0';
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure rfResetRF;
+begin
+     LogText(' . rfResetRF()');
+     GeneratePacket(SndPacket, 1);
+     SndPacket.Data[ofsData + 0] := 'R';
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure rfReport(repType: Char; repMode: Char);
+begin
+     LogText(' . rfReport(repType='+repType+',repMode='+repMode+')');
+     GeneratePacket(SndPacket, 3);
+     SndPacket.Data[ofsData + 0] := 'I';
+     SndPacket.Data[ofsData + 1] := repType;
+     SndPacket.Data[ofsData + 2] := repMode;
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure rfServicePay(payType: Char; ASum: LongWord);
+begin
+     LogText(' . rfServicePay(payType='+payType+',ASum='+IntToStr(ASum)+')');
+     GeneratePacket(SndPacket, 11);
+     SndPacket.Data[ofsData + 0] := '9';
+     SndPacket.Data[ofsData + 1] := payType;
+     SndPacket.Data[ofsData + 2] := '8';
+     IntToFixed(ASum, ofsData + 3);
+
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure IntToFixed(Value: LongWord; PtrOfs: Integer; PtrLen: Integer);
+var
+    P, i: Integer;
+    V: LongWord;
+    B: Byte;
+begin
+     P := PtrOfs + (PtrLen-1);
+     V := Value;
+     for i := 0 to (PtrLen-1) do
+     begin
+          B := V and $FF;
+          SndPacket.Data[P] :=  Chr(B);
+          Dec(P);
+          V := V shr 8;
+     end;
+end;
+
+procedure ParseStatus;
+var LS: String;
+begin
+     sts1 := Ord(RcvPacket.Data[ofsData + 1]);
+     sts2 := Ord(RcvPacket.Data[ofsData + 2]);
+     sts3 := Ord(RcvPacket.Data[ofsData + 3]);
+     sts4 := Ord(RcvPacket.Data[ofsData + 4]);
+
+     LogText(' . PStatus: sts1='+IntToStr(sts1)+' sts2='+IntToStr(sts2)+
+                       ' sts3='+IntToStr(sts3)+' sts4='+IntToStr(sts4));
+     LS :=   '   . STAT Mode: ';
+     if (sts1 and mBit0) <> 0 then
+     begin
+          WorkMode := rmWork;
+          LS := LS+'WorkM';
+     end else
+     if (sts1 and mBit1) <> 0 then
+     begin
+          WorkMode := rmXmode;
+          LS := LS+'Xmode';
+     end else
+     if (sts1 and mBit2) <> 0 then
+     begin
+          WorkMode := rmZmode;
+          LS := LS+'Zmode';
+     end
+     else
+         LS := LS+'!!!UNKNOWN';
+
+     LogText(LS);
+     if sts2 <> 0 then
+          LogText('!!!STAT ERROR: '+IntToStr(sts2));
+     if Assigned(CallBackDone) then CallBackDone;
+end;
+
+procedure rfLogIn(Num: Integer; Psw: String);
+var CN: String[2];
+begin
+     LogText(' . rfLogIn(Num='+IntToStr(Num)+',Psw="'+Psw+'")');
+     if (Length(Psw) <> 8) then RaiseError('LIN: Неправильная длина пароля.' );
+     if ((Num < 0) or (Num > 16)) then RaiseError('LIN: Неправильный номер кассира.' );
+     GeneratePacket(SndPacket, 11);
+     SndPacket.Data[ofsData + 0] := '5';
+     CN := IntToASCII(Num, 2);
+     SndPacket.Data[ofsData + 1] := CN[1];
+     SndPacket.Data[ofsData + 2] := CN[2];
+     Move(Psw[1], SndPacket.Data[ofsData + 3], 8);
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure rfProgramGoods(Code, Tid, Oid, Did, Gid, Gcd, Qty, Price: Integer; Name: String);
+var i: Integer;
+begin
+     LogText(' . rfProgramGoods(Code=' + IntToStr(Code) +
+                               'TaxId=' + IntToStr(Tid) + 
+                               'OpId=' + IntToStr(Oid) + 
+                               'DivId=' + IntToStr(Did) +
+                               'Qty=' + IntToStr(Qty) +
+                               'Price=' + IntToStr(Price)
+                               );
+                               
+     GeneratePacket(SndPacket, 44);
+     SndPacket.Data[ofsData + 0] := 'P';
+     SndPacket.Data[ofsData + 1] := 'P';
+     IntToFixed(Code, ofsData + 2, 2); // код товара
+     SndPacket.Data[ofsData + 4] := Chr(Tid); // код ставки налога
+     SndPacket.Data[ofsData + 5] := Chr(Oid shl 4); // код операции * 10h
+     SndPacket.Data[ofsData + 6] := #0;
+     SndPacket.Data[ofsData + 7] := Chr(Did shl 4); // код отдела * 10h
+
+     SndPacket.Data[ofsData + 8] := #0;  // глобальный код
+     SndPacket.Data[ofsData + 9] := #0;
+     SndPacket.Data[ofsData + 10] := #0;
+     SndPacket.Data[ofsData + 11] := #1;
+
+     for i := 12 to 35 do
+         SndPacket.Data[ofsData + i] := #32;
+
+     Move(Name[1], SndPacket.Data[ofsData + 12], Length(Name)); // наименование
+
+     IntToFixed(Price, ofsData + 36, 4); // код товара
+     IntToFixed(Qty, ofsData + 40, 4); // код товара
+
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure rfComment(Comment: String);
+var i: Integer;
+begin
+     LogText(' . rfComment(Comment="'+Comment+'")');
+     GeneratePacket(SndPacket, 25);
+     SndPacket.Data[ofsData + 0] := '@';
+     for i := ofsData + 1 to ofsData + 24 do
+         SndPacket.Data[i] := #32;
+     Move(Comment[1], SndPacket.Data[ofsData + 1], Length(Comment));
+
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure rfDoSale(Code, Qty: Integer);
+begin
+     LogText(' . rfDoSale(Code='+IntToStr(Code)+',Qty='+IntToStr(Qty)+')');
+     GeneratePacket(SndPacket, 11);
+     SndPacket.Data[ofsData + 0] := #32;
+     IntToFixed(Code, ofsData + 1, 2); // код товара
+     IntToFixed(Qty, ofsData + 3, 8); // количество
+
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure rfDoPay(Sum: Integer);
+begin
+     LogText(' . rfDoPay(Sum='+IntToStr(Sum)+')');
+     GeneratePacket(SndPacket, 10);
+     SndPacket.Data[ofsData + 0] := '2';
+     SndPacket.Data[ofsData + 1] := '8';
+     IntToFixed(Sum, ofsData + 2, 8);
+
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure rfDoClose;
+begin
+     LogText(' . rfDoClose()');
+     GeneratePacket(SndPacket, 2);
+     SndPacket.Data[ofsData + 0] := '1';
+     SndPacket.Data[ofsData + 1] := '8';
+
+     UpdateChecksum(SndPacket);
+     SendPacket;
+     ParseStatus;
+end;
+
+procedure LogError(AErr: String);
+begin
+     LogText('!!!ERR: '+AErr);
+end;
+
+procedure RaiseError(AErr: String);
+begin
+     LogError(AErr);
+     raise Exception.Create(AErr);
+end;
+
+end.

@@ -1,0 +1,306 @@
+unit rfReq;
+
+
+interface
+uses Windows, Classes, SysUtils, rfUnit;
+
+procedure ListFiles;
+procedure ReadFile(FN: String);
+function MoveFile(FN: String): Boolean;
+
+procedure ProcessFiles;
+procedure ProcessRequest;
+
+function GetArgNum(Cmd: String): Integer;
+function GetNextArg(var Cmd: String): String;
+
+procedure prServicePay(Cmd: String);
+procedure prReport(Cmd: String);
+procedure prProgramGoods(Cmd: String);
+procedure prComment(Cmd: String);
+procedure prDoSale(Cmd: String);
+procedure prDoPay(Cmd: String);
+
+var
+   FileList,
+   CurrFile: TStringList;
+
+   WorkFolder : String = 'C:\RFBILLS\';
+   MoveFolder : String = 'C:\RFBILLS\ARCHIVE\';
+
+   chrSep: Char = '$';
+   maxSum: Integer = 100000; // 1000 грн
+
+
+implementation
+
+procedure ListFiles;
+var
+    FindResult: integer;
+    SearchRec : TSearchRec;
+begin
+ FileList.Clear;
+ FindResult := FindFirst(WorkFolder + '*.*', faAnyFile - faDirectory, SearchRec);
+ while FindResult = 0 do
+ begin
+   FileList.Add(SearchRec.Name);
+   FindResult := FindNext(SearchRec);
+ end;
+ FindClose(SearchRec);
+ FileList.Sort;
+end;
+
+function MoveFile(FN: String): Boolean;
+var
+     c, NN: Char;
+begin
+     if not FileExists(MoveFolder) then
+          MkDir(MoveFolder);
+     if FileExists(MoveFolder+FN) then
+     begin
+          NN := '!';
+          for c := '0' to '9' do
+              if Not FileExists(MoveFolder+FN+'.'+c) then
+                 NN := c;
+          if NN='!' then RaiseError('MVF: Слишком много старых файлов с именем '+FN) else
+          LogText(' * Файл в архиве уже существует, переименовываем в '+MoveFolder+FN+'.'+NN);
+          Result := (Windows.MoveFile(PAnsiChar(WorkFolder+FN), PAnsiChar(MoveFolder+FN+'.'+NN)));
+     end
+     else
+          Result := (Windows.MoveFile(PAnsiChar(WorkFolder+FN), PAnsiChar(MoveFolder+FN)));
+end;
+
+procedure ReadFile(FN: String);
+var
+    T: Text;
+    S: String;
+begin
+     LogText(' * Найден файл: '+FN); 
+     Assign(T, WorkFolder+FN);
+     Reset(T);
+     CurrFile.Clear;
+     while not EOF(T) do
+     begin
+          ReadLn(T, S);
+          S := Trim(S);
+          if S<>'' then CurrFile.Add(S);
+     end;
+     Close(T);
+end;
+
+procedure ProcessRequest;
+var
+    i: Integer;
+    S: String;
+begin
+     LogCRLF;
+     LogCRLF;
+     LogText('[*]ОБРАБОТКА ФАЙЛА:');
+     for i := 0 to CurrFile.Count - 1 do
+     begin
+          S := CurrFile.Strings[i];
+          LogCRLF;
+          LogText(' * Обработка команды: "'+S+'"');
+          case S[1] of
+              '9': prServicePay(S);
+              'Z': rfSetMode(rmZmode);
+              'X': rfSetMode(rmXmode);
+              'I': prReport(S);
+              '0': if S[2] = '$' then rfOpenRegister;
+              'P': prProgramGoods(S);
+              '@': prComment(S);
+              '!': prDoSale(S);
+              '2': prDoPay(S);
+              else
+                   RaiseError('PRQ: Непонятная команда: "'+S+'"'); 
+          end;
+     end;
+end;
+
+procedure prServicePay(Cmd: String);
+var
+    S, Arg: String;
+    ASum: LongWord;
+    M: Char;
+begin
+     if WorkMode <> rmWork then rfSetMode(rmWork);     
+     if GetArgNum(Cmd) <> 3 then RaiseError('RSP: Неправильное количество аргументов');
+     S := Cmd;
+     Arg := GetNextArg(S);  // 9
+     Arg := GetNextArg(S);  // 0 | 1
+     if (Length(Arg)<>1) or ( not (Arg[1] in [srvGet, srvPut] ) ) then RaiseError('RSP: Неправильный аргумент 2');
+     M := Arg[1];
+     Arg := GetNextArg(S);
+     ASum := StrToInt(Arg);
+//     if ASum > maxSum then raise Exception.Create('RSP: Превышена максимальная сумма');
+     rfServicePay(M, ASum);
+end;
+
+function GetArgNum(Cmd: String): Integer;
+var
+    i, t: Integer;
+begin
+     if Length(Cmd) = 0 then
+     begin
+          Result := 0;
+          Exit;
+     end;
+     t := 1;
+     for i := 1 to Length(Cmd) do
+         if Cmd[i] = chrSep then Inc(t);
+     Result := t;
+end;
+
+function GetNextArg(var Cmd: String): String;
+var
+    i, l: Integer;
+    S: String;
+begin
+     if Length(Cmd) = 0 then RaiseError('R01: Аргументов в строке меньше, чем ожидалось');
+
+     S := '';
+     i := 1;
+     l := Length(Cmd);
+     while (i <= l) and (Cmd[i] <> '$')  do
+     begin
+          S := S + Cmd[i];
+          Inc(i);
+     end;
+     if i>l then Cmd := '' else Delete(Cmd, 1, i);
+     Result := S;
+end;
+
+procedure prReport(Cmd: String);
+var
+    S, Arg: String;
+    M, R: Char;
+begin
+     S := Cmd;
+     Arg := GetNextArg(S);
+     Arg := GetNextArg(S);
+     if (Length(Arg)<>1) or ( not (Arg[1] in [repDaily, repGoods] ) ) then RaiseError('RPT: Неправильный аргумент 2');
+     R := Arg[1];
+     Arg := GetNextArg(S);
+     if (Length(Arg)<>1) or ( not (Arg[1] in [repX, repZ] ) ) then RaiseError('RPT: Неправильный аргумент 2');
+     M := Arg[1];
+     if M=repX then if WorkMode <> rmXmode then rfSetMode(rmXmode);
+     if M=repZ then if WorkMode <> rmZmode then rfSetMode(rmZmode);
+     rfReport(R, M);
+end;
+
+procedure prProgramGoods(Cmd: String);
+var
+     S, Arg, Nm: String;
+     Code,
+     Tid,
+     Oid,
+     Did,
+     Gid,
+     Gcd,
+     Qty,
+     Price:
+            Integer;
+begin
+     S := Cmd;
+     if GetArgNum(S) <> 10 then RaiseError('PRG: Неправильное количество аргументов');
+     Arg := GetNextArg(S); // P
+
+     Arg := GetNextArg(S); // код товара
+     Code := StrToInt(Arg);
+     if (Code < 1) or (Code > 8000) then RaiseError('PRG: Неправильный аргумент 2');
+
+     Arg := GetNextArg(S); // код ставки налога
+     Tid := StrToInt(Arg);
+     if not (Tid in [1, 2, 3]) then RaiseError('PRG: Неправильный аргумент 3');
+
+     Arg := GetNextArg(S); // операция продажи/выплат
+     Oid := StrToInt(Arg);
+     if not (Oid in [0, 8]) then RaiseError('PRG: Неправильный аргумент 4');
+
+     Arg := GetNextArg(S); // связанный отдел
+     Did := StrToInt(Arg);
+     if not (Did in [0, 1, 2]) then RaiseError('PRG: Неправильный аргумент 5');
+
+     Arg := GetNextArg(S); // товарная группа
+     Gid := StrToInt(Arg);
+     if (Gid <> 0) then RaiseError('PRG: Неправильный аргумент 6');
+
+     Arg := GetNextArg(S); // глобальный код
+     Gcd := StrToInt(Arg);
+     if (Gcd <> 1) then RaiseError('PRG: Неправильный аргумент 7');
+
+     Arg := GetNextArg(S); // наименование
+     Nm := Trim(Arg);
+     if (Length(Nm) >20) then RaiseError('PRG: Неправильный аргумент 8');
+
+     Arg := GetNextArg(S); // количество
+     Price := StrToInt(Arg);
+
+     Arg := GetNextArg(S); // цена
+     Qty := StrToInt(Arg);
+
+     rfProgramGoods(Code, Tid, Oid, Did, Gid, Gcd, Qty, Price, Nm);
+end;
+
+procedure prComment(Cmd: String);
+var
+    S, Arg: String;
+begin
+     S := Cmd;
+     if GetArgNum(S) <> 2 then RaiseError('CMT: Неправильное количество аргументов');
+     Arg := GetNextArg(S); // @
+
+     Arg := GetNextArg(S); // комментарий
+     if Length(Arg) > 24 then RaiseError('CMT: Строка слишком длинная');
+end;
+
+procedure prDoSale(Cmd: String);
+var
+    S, Arg: String;
+    Code, Qty: Integer;
+begin
+     if WorkMode <> rmWork then rfSetMode(rmWork);
+
+     S := Cmd;
+     if GetArgNum(S) <> 3 then RaiseError('DSL: Неправильное количество аргументов');
+     Arg := GetNextArg(S); // !
+
+     Arg := GetNextArg(S); // код
+     Code := StrToInt(Arg);
+
+     Arg := GetNextArg(S); // количество
+     Qty := StrToInt(Arg);
+
+     rfDoSale(Code, Qty);
+end;
+
+procedure prDoPay(Cmd: String);
+var
+    S, Arg: String;
+    Sum: Integer;
+begin
+     if WorkMode <> rmWork then rfSetMode(rmWork);     
+
+     S := Cmd;
+     if GetArgNum(S) <> 2 then RaiseError('DPY: Неправильное количество аргументов');
+     Arg := GetNextArg(S); // 2
+
+     Arg := GetNextArg(S); // 2
+     Sum := StrToInt(Arg);
+     rfDoPay(Sum);
+end;
+
+procedure ProcessFiles;
+begin
+     ListFiles; // Получить список файлов
+     if FileList.Count > 0 then // Проверить кол-во
+     begin // Обработать первый по списку файл
+          ReadFile(FileList.Strings[0]);
+          if MoveFile(FileList.Strings[0]) then
+              ProcessRequest
+          else
+              RaiseError('Не могу перенести файл в папку для обработанных файлов.');
+     end;
+end;
+
+end.

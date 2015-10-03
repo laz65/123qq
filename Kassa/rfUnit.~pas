@@ -1,0 +1,123 @@
+unit rfUnit;
+
+interface
+uses SysUtils, CPort;
+
+const
+  HEADER: String[18] = 'FISREGISTRATOR2160';
+  SOH	= #$01;
+	STX = #$02;
+	ETX	= #$03;
+	EOT	= #$04;
+	ENQ	= #$05;
+	ACK	= #$06;
+	FS	= #$1C;
+	ETB	= #$17;
+	NAK	= #$15;
+
+  ofsLen = 22;
+  ofsData = 25;
+  ofsChecksum = 26;
+
+  stdSize = 35;
+
+  MaxStringSize = 100;
+
+  MaxRetries = 3;
+
+type
+  TRFPacket = record
+      TotalLen,
+      DataLen: Integer;
+      Data: String [MaxStringSize];
+  end;
+
+var
+  SndPacket,
+  RcvPacket: TRFPacket;
+
+  ComPort: TComPort = nil;
+
+procedure GeneratePacket(var Packet: TRFPacket; Len: Integer);
+procedure UpdateChecksum(var Packet: TRFPacket);
+function isACK(var Packet: TRFPacket): Boolean;
+function isNAK(var Packet: TRFPacket): Boolean;
+function IntToASCII(Value, Digits: Integer): String;
+function SendPacket(RespSize: Integer = stdSize): Boolean;
+
+implementation
+
+
+procedure GeneratePacket(var Packet: TRFPacket; Len: Integer);
+var Tmp: String;
+begin
+     Packet.TotalLen := Len + 30;
+     Packet.DataLen := Len;
+     Packet.Data[00] := Chr(Packet.TotalLen);
+     Packet.Data[01] := SOH;
+     Move(Header[01], Packet.Data[2], 18);
+     Packet.Data[20] := STX;
+     Packet.Data[21] := FS;
+     Tmp := IntToASCII(Len, 3);
+     Move(Tmp[1], Packet.Data[22], 3);
+     Packet.Data[25 + Len] := ETX;
+     Packet.Data[30 + Len] := EOT;
+end;
+
+procedure UpdateChecksum(var Packet: TRFPacket);
+var i: Integer;
+    CRC: LongWord;
+    Tmp: String;
+begin
+     CRC := 0;
+     Assert( ((Packet.DataLen + 30) = Packet.TotalLen), '001: Не совпадают значения длины пакета и данных');
+     for i := 1 to Packet.DataLen + 25 do
+         Inc(CRC, Ord(Packet.Data[i]));
+     Tmp := IntToASCII(CRC, 4);
+     Assert((Length(Tmp) = 4), '002: Неправильная длина строки с контрольной суммой');
+     Move(Tmp[1], Packet.Data[Packet.DataLen + 26], 4);
+end;
+
+function isACK(var Packet: TRFPacket): Boolean;
+begin
+     Result := (Packet.TotalLen = 1) and (Packet.Data[1] = ACK); 
+end;
+
+function isNAK(var Packet: TRFPacket): Boolean;
+begin
+     Result := (Packet.TotalLen = 1) and (Packet.Data[1] = NAK); 
+end;
+
+function IntToASCII(Value, Digits: Integer): String;
+var i: Integer;
+begin
+     Result := IntToStr(Value);
+     for i := 1 to Digits - Length(Result) do
+         Result := '0' + Result;
+end;
+
+function SendPacket(RespSize: Integer): Boolean;
+var c: Integer;
+    Buf: String;
+begin
+     Result := False;
+     Assert(ComPort <> nil, '003: Не установлен COM-порт');
+     c := 0;
+     repeat
+           ComPort.WriteStr(SndPacket.Data);
+           if ComPort.ReadStr(Buf, 1) = 0 then Exit;
+           Assert((Buf[1] in [ACK, NAK]), '004: Недопустимый ответ РФ');
+           Inc(c);
+           if c >= MaxRetries then Exit;
+     until Buf[1] = ACK;
+
+     GeneratePacket(RcvPacket, RespSize);
+     if ComPort.ReadStr(Buf, RespSize) = 0 then Exit;
+     Move(Buf[1], RcvPacket.Data[1], RespSize);
+     Buf := ACK;
+     ComPort.WriteStr(Buf[1], 1);
+
+     Result := True;
+end;
+
+end.

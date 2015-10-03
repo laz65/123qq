@@ -1,0 +1,6 @@
+1) Log text
+2) Log send
+3) Log recv
+4) Ini File
+5) Tray mode
+6) MoveFile existing

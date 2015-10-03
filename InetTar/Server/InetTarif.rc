@@ -1,0 +1,1092 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\InetTarif.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_INETTARIF_DIALOG DIALOGEX 0, 0, 375, 300
+STYLE DS_SETFONT | DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CLIENTEDGE | WS_EX_APPWINDOW
+CAPTION "Интернет-Тарификатор"
+MENU IDR_MAINMENU
+FONT 9, "Microsoft Sans Serif", 400, 0, 0xCC
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,0,196,45,0,WS_EX_TRANSPARENT
+    LTEXT           "Сервер управления предоставлением услуг",IDC_STATIC,35,16,160,8,0,WS_EX_TRANSPARENT
+    LTEXT           "ЦИТТО ХФ ОАО Укртелеком",IDC_STATIC,35,7,122,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Принято денег:",IDC_STATIC,208,21,54,8,0,WS_EX_TRANSPARENT
+    LTEXT           "2000-2009",IDC_STATIC,35,35,48,8,SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    ICON            IDI_HTML,IDC_STATIC,10,9,20,20,WS_GROUP,WS_EX_TRANSPARENT
+    LTEXT           "Версия 2.0.8 build 2275",IDC_STATIC,115,35,81,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Взято в залог:",IDC_STATIC,208,34,54,8
+    LTEXT           "в Пунктах коллективного пользования Интернет",IDC_STATIC,35,25,172,9
+    GROUPBOX        "Суммы текущего дня",IDC_STATIC,198,7,143,38
+    RTEXT           "0.00",IDC_PRIN_UAH,264,14,54,16,0,WS_EX_RIGHT
+    RTEXT           "0.00",IDC_ZALOG_UAH,262,28,56,16,0,WS_EX_RIGHT
+END
+
+IDD_TIP DIALOG  0, 0, 231, 164
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Совет дня"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,12,11,207,123
+    LTEXT           "Some String",IDC_TIPSTRING,28,63,177,60
+    CONTROL         "&Показывать при запуске",IDC_STARTUP,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,13,146,99,10
+    PUSHBUTTON      "&Следующий",IDC_NEXTTIP,113,143,50,14,WS_GROUP
+    DEFPUSHBUTTON   "Закрыть",IDOK,168,143,50,14,WS_GROUP
+    CONTROL         "",IDC_BULB,"Static",SS_BITMAP,20,17,190,111
+END
+
+IDD_PSWDIALOG DIALOGEX 0, 0, 155, 97
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Вход в систему"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_IDEDIT,7,45,84,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWEDIT,7,74,85,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,98,38,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,98,55,50,14
+    LTEXT           "Пароль",IDC_STATIC,7,64,26,8
+    LTEXT           "Идентифицирующий код",IDC_STATIC,7,32,86,11
+    ICON            IDI_KEY,IDC_STATIC,115,69,21,20
+    CTEXT           "Проверьте, все ли рабочие станции включены и готовы к работе.",IDC_STATIC,17,12,124,23
+END
+
+IDD_SETUPDIALOG DIALOGEX 0, 0, 242, 321
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Настройки"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_INAME,124,9,106,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_INOMER,124,24,106,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOCKEDIT,124,39,106,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_UNLOCKEDIT,124,54,106,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BILLPATH,109,70,121,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SHAREPATH,109,86,121,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GATEWAYNAME,109,102,69,14,ES_AUTOHSCROLL
+    CONTROL         "Блокировать Интернет",IDC_CHECKINET,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,118,94,10
+    CONTROL         "Блокировать Эксплорер",IDC_CHECKEXPLORER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,109,118,99,10
+    CONTROL         "Кассовый аппарат",IDC_CASSACHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,131,79,10
+    CONTROL         "Выдача залогового чека",IDC_BOTH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,109,131,99,10
+    CONTROL         "Использовать РФ2160",IDC_RF2160,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,145,95,10
+    CONTROL         "Использовать для управления NamedPipes",IDC_CHECKPIPES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,159,162,10
+    EDITTEXT        IDC_COUNTCOMP,109,170,64,14,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_COMPSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,173,170,11,14
+    CONTROL         "List1",IDC_GRID,"SysListView32",LVS_REPORT | LVS_NOSORTHEADER | WS_TABSTOP,13,191,217,98,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "OK",IDOK,45,294,52,14
+    PUSHBUTTON      "Отмена",IDCANCEL,138,294,52,14
+    LTEXT           "Наименование ПКП Интернет",IDC_STATIC,14,12,103,8
+    LTEXT           "Идентификационный номер",IDC_STATIC,14,27,96,8
+    LTEXT           "Команда для блокировки",IDC_STATIC,14,41,87,8
+    LTEXT           "Команда для разблокировки",IDC_STATIC,14,56,99,8
+    LTEXT           "Путь к папке для чеков КА",IDC_STATIC,13,73,92,8
+    LTEXT           "Путь к папке приложения",IDC_STATIC,13,89,88,8
+    LTEXT           "Основной Gateway",IDC_STATIC,40,105,64,8
+    LTEXT           "Количество компьютеров",IDC_STATIC,13,176,88,8
+    GROUPBOX        "",IDC_STATIC,7,2,228,312
+END
+
+IDD_TARIFDLG DIALOGEX 0, 0, 250, 196
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Тарифы"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TARIF1,2,21,95,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,97,20,13,14
+    EDITTEXT        IDC_TARIF2,112,22,108,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN2,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,234,21,13,14
+    EDITTEXT        IDC_TARIF3,2,46,97,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN3,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,98,46,13,14
+    EDITTEXT        IDC_TARIF4,112,47,106,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN4,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,234,46,13,14
+    EDITTEXT        IDC_TARIF5,2,74,96,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN5,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,98,73,13,14
+    EDITTEXT        IDC_TARIF6,112,74,106,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN6,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,234,73,13,14
+    CTEXT           "Стоимость 1 секунды",IDC_STATIC,78,2,77,8
+    LTEXT           "работы в интернете (обычный)",IDC_STATIC,2,11,109,8
+    LTEXT           "работы на компьютере (обычный)",IDC_STATIC,128,12,119,8
+    LTEXT           "работы в интернете (ночной)",IDC_STATIC,2,37,101,8
+    LTEXT           "работы на компьютере (ночной)",IDC_STATIC,112,36,117,8
+    LTEXT           "работы в интернете (праздник)",IDC_STATIC,2,63,106,8
+    LTEXT           "работы на компьютере (праздник)",IDC_STATIC,112,64,117,8
+    EDITTEXT        IDC_TARIF7,2,109,96,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN7,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,98,108,13,14
+    EDITTEXT        IDC_TARIF8,112,109,106,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN8,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,234,108,13,14
+    LTEXT           "работы в интернете для студентов",IDC_STATIC,2,89,106,17
+    LTEXT           "работы на компьютере для студентов",IDC_STATIC,112,89,117,18
+    DEFPUSHBUTTON   "OK",IDOK,49,176,52,14
+    PUSHBUTTON      "Отмена",IDCANCEL,132,176,52,14
+    EDITTEXT        IDC_CurNds,99,142,71,12,ES_AUTOHSCROLL
+    LTEXT           "Текущий НДС (%)",IDC_STATIC,31,145,65,12
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 185, 137
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе..."
+FONT 8, "Arial", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,116,171,14,WS_GROUP
+    LTEXT           "Сервер управления предоставлением услуг",IDC_STATIC,7,34,171,9
+    LTEXT           "в Пунктах коллективного пользования Интернет",IDC_STATIC,7,42,171,9
+    LTEXT           "ОАО Укртелеком",IDC_STATIC,7,71,93,9
+    LTEXT           "Версия 2.0.8 build 2275 (Product Version 2.1.2.1) ",IDC_STATIC,7,51,171,9
+    CONTROL         157,IDC_WWW,"Static",SS_BITMAP | SS_NOTIFY | SS_CENTERIMAGE,7,7,171,27,WS_EX_TRANSPARENT
+    LTEXT           "2000-2009",IDC_STATIC,7,60,164,8
+    LTEXT           "Херсонский филиал",IDC_STATIC,7,79,97,9
+    LTEXT           "Центр информационных технологий",IDC_STATIC,7,87,171,9
+    LTEXT           "и технического обеспечения",IDC_STATIC,7,95,98,8
+    LTEXT           "Тел.(0552)42-01-40",IDC_STATIC,7,103,64,8
+END
+
+IDD_REPORTDLG DIALOGEX 0, 0, 274, 217
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_THICKFRAME
+CAPTION "Отчет по Интернет услугам"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Показать отчет",IDC_SHOW,7,196,60,16
+    PUSHBUTTON      "Экспорт Excel",IDC_PRINT,108,196,59,16
+    PUSHBUTTON      "Выход",IDOK,208,196,60,16
+    CONTROL         "List1",IDC_GRID,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,3,263,186,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+END
+
+IDD_RASCHDIALOG DIALOGEX 0, 0, 142, 109
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Расчет"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,21,88,99,14
+    LTEXT           "Время работы",IDC_STATIC,7,30,50,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_ISPTIME,87,30,48,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Залог",IDC_STATIC,7,14,21,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_ZALOG,87,14,48,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Использовано (с НДС)",IDC_STATIC,7,46,79,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_INUSE,87,46,48,14,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "Сдача",IDC_OST,7,66,79,14,SS_CENTERIMAGE | WS_BORDER
+    EDITTEXT        IDC_OSTATOK,87,66,48,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Станция №: ",IDC_STATIC,7,3,42,8
+    LTEXT           "",IDC_COLCOMP,50,3,18,8
+END
+
+IDD_NAMECOMPUTER DIALOGEX 0, 0, 118, 97
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Рабочая станция"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_NAMEEDIT,7,26,103,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_STATCOMBO,7,57,104,47,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,7,76,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,61,76,50,14
+    CTEXT           "Введите наименование компьютера или его IP адрес",IDC_STATIC,7,7,101,18
+    LTEXT           "Текущее состояние:",IDC_STATIC,7,44,76,8
+END
+
+IDD_CHANGEPAS DIALOG  0, 0, 137, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Смена пароля"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Старый пароль",IDC_STATIC,7,7,65,9
+    EDITTEXT        IDC_PWDOLD,7,18,65,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Новый пароль",IDC_STATIC,7,33,65,9
+    EDITTEXT        IDC_PWDNEW,7,44,65,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Повтор пароля",IDC_STATIC,7,59,65,9
+    EDITTEXT        IDC_PWDREP,7,69,65,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,80,7,50,14
+    PUSHBUTTON      "О&тмена",IDCANCEL,80,24,50,14
+END
+
+IDD_ADMIN DIALOG  0, 0, 180, 157
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Администрирование"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | TVS_FULLROWSELECT | TVS_SINGLEEXPAND | WS_BORDER | WS_TABSTOP,7,7,110,143
+    DEFPUSHBUTTON   "&OK",IDOK,123,7,50,14
+    DEFPUSHBUTTON   "О&тмена",IDCANCEL,123,24,50,14
+    PUSHBUTTON      "&Добавить",IDADD,123,41,50,14
+    PUSHBUTTON      "&Удалить",IDDEL,123,59,50,14
+    PUSHBUTTON      "&Изменить",IDEDIT,123,77,50,14
+    PUSHBUTTON      "&Вкл/выкл",IDACTIVE,123,95,50,14
+    ICON            IDI_ADMIN,IDC_STATIC,137,118,21,20
+END
+
+IDD_USER DIALOGEX 0, 0, 258, 249
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Добавление нового пользователя"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Идентифицирующий код",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | WS_GROUP,9,7,93,14
+    EDITTEXT        IDC_ID,109,7,142,14,ES_AUTOHSCROLL
+    LTEXT           "Фамилия И. О.",IDC_STATIC,7,24,52,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_FIO,109,24,142,14,ES_AUTOHSCROLL
+    GROUPBOX        " Тип пользователя  ",IDC_STATIC,7,41,244,25,WS_GROUP
+    CONTROL         "Суперпользователь",IDC_SUPER,"Button",BS_AUTORADIOBUTTON | WS_GROUP,17,51,83,10
+    CONTROL         "Администратор",IDC_ADMIN,"Button",BS_AUTORADIOBUTTON,105,51,69,10
+    CONTROL         "Пользователь",IDC_USER,"Button",BS_AUTORADIOBUTTON,179,51,64,10
+    GROUPBOX        "  Права администрирования  ",IDC_STATIC,7,71,244,130,WS_GROUP
+    CONTROL         "Администрирование пользователей",IDC_CHANGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,83,136,10
+    CONTROL         "Внесение измененний в тарифы",IDC_TARIF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,96,126,10
+    CONTROL         "Внесение изменений в настройки программы",IDC_COM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,109,173,10
+    CONTROL         "Внесение изменений в праздничные дни",IDC_HOLIDAY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,122,155,10
+    CONTROL         "Управление станциями",IDC_MANAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,135,96,10,WS_EX_TRANSPARENT
+    GROUPBOX        "",IDC_STATIC,11,134,236,62
+    CONTROL         "Разблокировка",IDC_UNBLOCK,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,15,147,69,10
+    CONTROL         "Блокировка",IDC_BLOCK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,159,57,10
+    CONTROL         "Перегрузка",IDC_REBOOT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,171,56,10
+    CONTROL         "Выключение",IDC_SHUTDOWN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,183,59,10
+    CONTROL         "Включение Internet'a",IDC_INETON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,87,147,85,10
+    CONTROL         "Выключение Internet'a",IDC_INETOFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,87,159,90,10
+    LTEXT           "Создатель",IDC_STATIC,7,204,37,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_CREATOR,109,204,142,14,ES_AUTOHSCROLL | WS_DISABLED
+    DEFPUSHBUTTON   "OK",IDOK,67,223,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,139,223,50,14
+END
+
+IDD_HOLIDAYS DIALOGEX 0, 0, 296, 145
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Праздничные дни"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,83,124,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,161,124,50,14
+    CONTROL         "MonthCalendar2",IDC_CALENDAR,"SysMonthCal32",WS_TABSTOP,7,7,127,94
+    CONTROL         "List1",IDC_HOLIDAYS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SORTASCENDING | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_TABSTOP,137,7,152,94,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DATE,28,105,58,14,ES_AUTOHSCROLL
+    LTEXT           "Дата",IDC_STATIC,7,105,18,14,SS_CENTERIMAGE
+    LTEXT           "Коментарий",IDC_STATIC,91,105,42,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_REM,137,105,111,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "del",IDC_DEL,271,105,18,14,BS_ICON | BS_FLAT
+    PUSHBUTTON      "ins",IDC_INS,251,105,18,14,BS_ICON | BS_FLAT
+END
+
+IDD_MANAGE DIALOG  0, 0, 176, 135
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Управление станциями"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List2",IDC_COMP,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,7,162,87
+    COMBOBOX        IDC_OPERATION,7,96,162,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Все станции",IDC_ALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,114,55,14
+    DEFPUSHBUTTON   "&OK",IDOK,65,114,50,14
+    PUSHBUTTON      "О&тмена",IDCANCEL,119,114,50,14
+END
+
+IDD_TARIF DIALOGEX 0, 0, 578, 282
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Тарифы на дополнительные услуги"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Добавить",IDC_BUTADD,7,261,50,14
+    PUSHBUTTON      "Удалить",IDC_BUTDELETE,137,261,50,14
+    CONTROL         "List2",IDC_TARIF,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,7,564,247,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    PUSHBUTTON      "Изменить",IDC_BUTEDIT,72,261,50,14
+    PUSHBUTTON      "Выход",IDOK,521,261,50,14
+    PUSHBUTTON      "Обновить РФ",IDC_BTNRFSH,202,261,50,14,WS_DISABLED
+END
+
+IDD_TARIF_EDIT DIALOGEX 0, 0, 329, 106
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Тариф на дополнительную услугу Интернет"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_NAME,91,7,173,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TAR,91,22,87,14,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_TARTYPE,171,37,40,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_RFCODE,132,52,56,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_RFNAME,132,67,99,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_RFRATE,132,82,40,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,272,7,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,272,24,50,14
+    LTEXT           "Наименование тарифа",IDC_STATIC,7,13,79,8
+    RTEXT           "Тариф",IDC_STATIC,7,27,79,8
+    LTEXT           "Код товара в РФ-2160",IDC_STATIC,45,57,79,8
+    LTEXT           "Наименование товара в РФ-2160",IDC_STATIC,7,70,115,8
+    LTEXT           "Код ставки налога РФ-2160",IDC_STATIC,28,86,96,8
+    LTEXT           "Тип тарифа (1- без НДС, 2-со всеми налогами)",IDC_STATIC,7,40,160,8
+END
+
+IDD_CHEK DIALOGEX 0, 0, 191, 186
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+CAPTION "Продажа дополнительной услуги ПКПИ"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_DOPUSL,6,18,178,65,CBS_DROPDOWN | CBS_SORT | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "0.0000",IDC_TAR,99,37,38,8,SS_NOTIFY | SS_CENTERIMAGE,WS_EX_RIGHT
+    EDITTEXT        IDC_DOPKOL,99,52,52,14,ES_AUTOHSCROLL | ES_NUMBER
+    RTEXT           "                   0",IDC_DOPSUMM,99,71,85,17
+    EDITTEXT        IDC_PRIEM,99,112,52,14,ES_AUTOHSCROLL
+    RTEXT           "                   0",IDC_SDACHA,99,130,85,17
+    DEFPUSHBUTTON   "OK",IDOK,25,165,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,116,165,50,14
+    LTEXT           "Наименование услуги",IDC_STATIC1,6,7,178,8
+    RTEXT           "Количество услуг:",IDC_STATIC,6,58,85,8
+    LTEXT           "            ",IDC_ED,49,53,25,8
+    RTEXT           "Сумма к оплате, грн.:",IDC_TEXT,6,80,85,8
+    RTEXT           "Тариф без НДС, грн.:",IDC_STATIC8,6,37,85,8
+    RTEXT           "Принято денег, грн.:",IDC_STATIC,6,118,85,8
+    RTEXT           "Сдача:  ",IDC_STATIC,6,139,85,8
+    CONTROL         "Оплата карточкой",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,99,98,77,10
+END
+
+IDD_VNESENIE DIALOGEX 0, 0, 157, 50
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_VNESS,93,7,57,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,7,29,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,100,29,50,14
+    LTEXT           "Укажите сумму в коп.:",IDC_STATIC,12,11,78,8
+END
+
+IDD_SETSEANS DIALOGEX 0, 0, 191, 137
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Новый сеанс"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_ZALOG,126,63,40,14
+    EDITTEXT        IDC_PRIEM,126,79,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Новый сеанс",ID_NEWSEANS,7,116,119,14,WS_DISABLED
+    PUSHBUTTON      "Отказ",IDCANCEL,134,116,50,14
+    COMBOBOX        IDC_TARNAME,73,18,111,83,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_HOUR,10,83,16,14,WS_DISABLED
+    CONTROL         "Spin1",IDC_CHENGHOUR,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_DISABLED,25,83,11,14,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MIN,39,83,16,14,WS_DISABLED
+    CONTROL         "Spin1",IDC_CHENGMIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_DISABLED,55,83,11,14,WS_EX_STATICEDGE
+    LTEXT           "Станция №: ",IDC_STATIC,7,7,42,8
+    LTEXT           "",IDC_COLCOMP,50,7,18,8
+    LTEXT           "Выберите тариф",IDC_STATIC,7,20,57,8
+    GROUPBOX        "Вид расчёта",IDC_STATIC,7,32,62,40,BS_CENTER | WS_GROUP | WS_TABSTOP
+    GROUPBOX        "Время час. мин..",IDC_CAPDATA,7,74,62,28,BS_CENTER | BS_NOTIFY
+    GROUPBOX        "Расчёт",IDC_RASCH,75,32,109,78,BS_CENTER
+    LTEXT           "Тариф, грн/сек.:",IDC_STATIC,81,47,58,8
+    LTEXT           "0.0000",IDC_RASHTYPE,143,47,31,8,SS_NOTIFY | SS_CENTERIMAGE
+    RTEXT           "Залог, грн.:  ",IDC_STATIC,81,65,44,8
+    LTEXT           "0",IDC_SDACHA,126,94,40,8,SS_NOTIFY | SS_CENTERIMAGE
+    RTEXT           "Сдача:  ",IDC_STATIC11,81,95,45,8
+    RTEXT           "Принято:  ",IDC_STATIC12,81,82,45,8
+    CONTROL         "Наличные",IDC_NAL,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,41,50,10
+    CONTROL         "Время",IDC_TIME,"Button",BS_AUTORADIOBUTTON,13,51,38,10
+    CONTROL         "Изъятие",IDC_IZ,"Button",BS_AUTORADIOBUTTON,13,61,45,10
+END
+
+IDD_STUDENT DIALOGEX 0, 0, 181, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Студент или ученик"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,74,10,100,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,74,28,100,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,50,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,124,50,50,14
+    LTEXT           "Фамилия И.О.: ",IDC_STATIC,21,16,53,8
+    LTEXT           "Номер документа:",IDC_STATIC,7,34,65,8
+END
+
+IDD_REPLOG DIALOGEX 0, 0, 424, 391
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Отчет"
+FONT 10, "Courier", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "Выход",IDOK,367,7,50,14
+    EDITTEXT        IDC_EDREPLOG,7,7,353,377,ES_MULTILINE | ES_AUTOHSCROLL | ES_OEMCONVERT | ES_READONLY | WS_VSCROLL,WS_EX_CLIENTEDGE
+END
+
+IDD_DELREP DIALOGEX 0, 0, 240, 294
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_THICKFRAME
+CAPTION "Удаление отчетов по платежам и оказанным услугам"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Выход",IDOK,175,274,60,16
+    CONTROL         "List1",IDC_GRID,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,5,3,230,258,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    PUSHBUTTON      "Удалить",IDC_DEL,5,274,58,16
+    LTEXT           "(Доступен множественный выбор - Shift+левая кнопка мыши)",IDC_STATIC,13,262,212,8
+END
+
+IDD_SVREP DIALOGEX 0, 0, 288, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Сводный отчет по платежам за период"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Выход",IDOK,219,34,62,14
+    PUSHBUTTON      "Показать отчет",IDC_SVSHOW,7,34,62,14
+    PUSHBUTTON      "Экспорт Excel",IDC_SVEXCEL,113,34,62,14
+    LTEXT           "Формировать с",IDC_STATIC,7,11,52,8
+    LTEXT           "по",IDC_STATIC,168,11,9,8
+    CONTROL         "",IDC_DTFROM,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,61,7,100,15
+    CONTROL         "",IDC_DTTO,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,181,7,100,15
+END
+
+IDD_SESSMOVE DIALOGEX 0, 0, 138, 294
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_THICKFRAME
+CAPTION "Перенос сеанса"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Отмена",IDCANCEL,73,274,60,16
+    CONTROL         "List1",IDC_GRID,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,5,12,128,258,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    PUSHBUTTON      "Перенести",IDOK,5,274,58,16
+    LTEXT           "Выберите новый компьютер из списка:",IDC_STATIC,5,3,128,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_INETTARIF_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 370
+        VERTGUIDE, 33
+        VERTGUIDE, 208
+        VERTGUIDE, 224
+        VERTGUIDE, 277
+        VERTGUIDE, 284
+        VERTGUIDE, 341
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+        HORZGUIDE, 14
+    END
+
+    IDD_TIP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_PSWDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 148
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_SETUPDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        VERTGUIDE, 13
+        VERTGUIDE, 109
+        VERTGUIDE, 230
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 314
+        HORZGUIDE, 184
+        HORZGUIDE, 294
+    END
+
+    IDD_TARIFDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 247
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_REPORTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 212
+        HORZGUIDE, 212
+    END
+
+    IDD_RASCHDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 135
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_NAMECOMPUTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 111
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_CHANGEPAS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 130
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_ADMIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_USER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 251
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_HOLIDAYS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_MANAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_TARIF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 571
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_TARIF_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 322
+        VERTGUIDE, 86
+        VERTGUIDE, 91
+        VERTGUIDE, 124
+        VERTGUIDE, 132
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_CHEK, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 184
+        VERTGUIDE, 91
+        VERTGUIDE, 99
+        VERTGUIDE, 151
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+        HORZGUIDE, 30
+        HORZGUIDE, 45
+        HORZGUIDE, 66
+        HORZGUIDE, 88
+        HORZGUIDE, 108
+        HORZGUIDE, 129
+    END
+
+    IDD_VNESENIE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_SETSEANS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        VERTGUIDE, 13
+        VERTGUIDE, 81
+        VERTGUIDE, 126
+        VERTGUIDE, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+        HORZGUIDE, 55
+    END
+
+    IDD_STUDENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+        HORZGUIDE, 24
+        HORZGUIDE, 42
+    END
+
+    IDD_REPLOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 417
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 384
+    END
+
+    IDD_DELREP, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 235
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 290
+        HORZGUIDE, 270
+    END
+
+    IDD_SVREP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SESSMOVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 133
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 290
+        HORZGUIDE, 270
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "К&оманды"
+    BEGIN
+        MENUITEM "&Смена пользователя",         ID_SMENA
+        MENUITEM "&Приостановка работы",        ID_LOGOFF
+        MENUITEM "Продажа дополнительной услуги", ID_CHEK
+        POPUP "Операции с РФ2160"
+        BEGIN
+            POPUP "Х - Отчёт"
+            BEGIN
+                MENUITEM "По продажам",                 ID_XOTCHET
+                MENUITEM "По товарам",                  ID_XOTCHET_T
+            END
+            POPUP "Z - Отчёт"
+            BEGIN
+                MENUITEM "По продажам",                 ID_ZOTCHET
+                MENUITEM "По товарам",                  ID_ZOTCHET_T
+            END
+            MENUITEM "Месячный отчет",              ID_MOTCHET
+            MENUITEM "Открыть ящик",                ID_OTKR
+            MENUITEM "Служебное внесение",          ID_VNESENIE
+            MENUITEM "Служебное изъятие",           ID_IZYATIE
+            MENUITEM "Печать чека ""Работа в интернете""", ID_INTERNET
+        END
+        MENUITEM "&Выход",                      ID_EXIT
+    END
+    POPUP "&Компьютеры"
+    BEGIN
+        MENUITEM "&Отчет по станциям",          ID_DAYOFF
+        MENUITEM "Отчет по платежам",           ID_PAYMENT
+        MENUITEM "Сводный отчет по платежам",   IDD_SVPAYREP
+        MENUITEM SEPARATOR
+        MENUITEM "&Управление станциями",       ID_MANAGE
+        MENUITEM "Удаление отчетов",            ID_DELREP
+    END
+    POPUP "&Настройки"
+    BEGIN
+        MENUITEM "С&мена пароля",               ID_CHANGEPASS
+        MENUITEM "Убрать индикатор работы станций", ID_REMOVEPSSBR
+        MENUITEM SEPARATOR
+        MENUITEM "&Праздничные дни",            ID_HOLIDAYS
+        MENUITEM "&Тарифы Интернет",            ID_TARIF
+        MENUITEM "Тарифы &Дополнительных услуг", ID_SETTARIF
+        MENUITEM "&Настройка параметров",       ID_COM
+        MENUITEM "&Администрирование пользователей", ID_ADMIN
+    END
+    POPUP "&Помощь"
+    BEGIN
+        MENUITEM "Совет &дня",                  ID_TIP
+        MENUITEM "&О программе...",             ID_ABOUT
+    END
+END
+
+IDR_LISTMNU MENU 
+BEGIN
+    POPUP "items"
+    BEGIN
+        MENUITEM "Залог",                       PUSK
+        MENUITEM "Расчёт",                      RASCH
+        MENUITEM "Остановить",                  OSTANOV
+        MENUITEM "Продлить сеанс",              PROLONG
+        MENUITEM "Перенос сеанса",              MOVE
+        POPUP "Управление"
+        BEGIN
+            MENUITEM "Недоступная",                 BREAKST
+            MENUITEM "Рабочая",                     WORKST
+            MENUITEM "Перезагрузка",                RESET
+            MENUITEM "Выключение",                  SHUTDOWN
+        END
+        MENUITEM "Расчет карточкой",            RASCH_CARD
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LIGHTBULB           BITMAP                  "res\\litebulb.bmp"
+IDB_MYLOGO              BITMAP                  "res\\logo.BMP"
+IDB_LOGO                BITMAP                  "res\\U_logo.bmp"
+IDB_UKRTELECOM          BITMAP                  "res\\UKRTELECOM.BMP"
+IDB_BITMAP3             BITMAP                  "res\\emblem.bmp"
+IDB_BITMAP4             BITMAP                  "res\\bitmap4.bmp"
+IDB_BITMAP8             BITMAP                  "res\\utelecom.BMP"
+IDB_BITMAP1             BITMAP                  "res\\_emblem.BMP"
+IDB_GROUP               BITMAP                  "res\\bitmap2.bmp"
+IDB_USER                BITMAP                  "res\\bmp00001.bmp"
+IDB_BADUSER             BITMAP                  "res\\bmp00002.bmp"
+IDB_LOGOM               BITMAP                  "res\\mariners2.bmp"
+IDB_HTML                BITMAP                  "res\\HTML.bmp"
+IDB_TLCLOGO             BITMAP                  "res\\_EMBLEM copy(64).bmp"
+IDB_BITMAP2             BITMAP                  "res\\UKRTELECOM2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MANAGE DLGINIT
+BEGIN
+    IDC_OPERATION, 0x403, 14, 0
+0xe0d0, 0xe1e7, 0xeeeb, 0xe8ea, 0xeef0, 0xeae2, 0x00e0, 
+    IDC_OPERATION, 0x403, 11, 0
+0xebc1, 0xeaee, 0xf0e8, 0xe2ee, 0xe0ea, "\000" 
+    IDC_OPERATION, 0x403, 11, 0
+0xe5cf, 0xe5f0, 0xf0e3, 0xe7f3, 0xe0ea, "\000" 
+    IDC_OPERATION, 0x403, 11, 0
+0xfbc2, 0xebea, 0xf7fe, 0xede5, 0xe5e8, "\000" 
+    IDC_OPERATION, 0x403, 21, 0
+0xeac2, 0xfeeb, 0xe5f7, 0xe8ed, 0x20e5, 0x6e49, 0x6574, 0x6e72, 0x7465, 
+0x6127, "\000" 
+    IDC_OPERATION, 0x403, 22, 0
+0xfbc2, 0xebea, 0xf7fe, 0xede5, 0xe5e8, 0x4920, 0x746e, 0x7265, 0x656e, 
+0x2774, 0x0061, 
+    IDC_OPERATION, 0x403, 18, 0
+0xf1ce, 0xe0f2, 0xeeed, 0xeae2, 0x20e0, 0xebea, 0xe5e8, 0xf2ed, 0x00e0, 
+
+    0
+END
+
+IDD_SETSEANS DLGINIT
+BEGIN
+    IDC_TARNAME, 0x403, 22, 0
+0xedc8, 0xe5f2, 0xedf0, 0xf2e5, 0x2220, 0xebc3, 0xe1ee, 0xebe0, 0xedfc, 
+0xe9fb, 0x0022, 
+    IDC_TARNAME, 0x403, 23, 0
+0x6f20, 0x6666, 0x6c2d, 0x6e69, 0x2065, 0xc322, 0xeeeb, 0xe0e1, 0xfceb, 
+0xfbed, 0x22e9, "\000" 
+    IDC_TARNAME, 0x403, 19, 0
+0xedc8, 0xe5f2, 0xedf0, 0xf2e5, 0x2220, 0xf2d1, 0xe4f3, 0xede5, 0x22f2, 
+"\000" 
+    IDC_TARNAME, 0x403, 20, 0
+0x6f20, 0x6666, 0x6c2d, 0x6e69, 0x2065, 0xd122, 0xf3f2, 0xe5e4, 0xf2ed, 
+0x0022, 
+    0
+END
+
+IDD_NAMECOMPUTER DLGINIT
+BEGIN
+    IDC_STATCOMBO, 0x403, 6, 0
+0xead1, 0xfbf0, 0x00f2, 
+    IDC_STATCOMBO, 0x403, 9, 0
+0xeac0, 0xe8f2, 0xede2, 0xe9fb, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\hierwiz.ico"
+IDI_GROUP               ICON                    "res\\icon1.ico"
+IDI_USER                ICON                    "res\\ico00001.ico"
+IDI_BADUSER             ICON                    "res\\icon3.ico"
+IDI_PLUS                ICON                    "res\\Misc05.ico"
+IDI_MINUS               ICON                    "res\\Misc06.ico"
+IDI_ADMIN               ICON                    "res\\Trffc09.ico"
+IDI_COMP                ICON                    "res\\ico00002.ico"
+IDI_COMP1               ICON                    "res\\ico00003.ico"
+IDI_HTML                ICON                    "res\\ico00004.ico"
+IDI_KEY                 ICON                    "res\\Secur08.ico"
+IDI_STATUS              ICON                    "res\\ico00005.ico"
+IDI_STATUS_ERROR        ICON                    "res\\ico00006.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,8,2275
+ PRODUCTVERSION 2,1,2,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "Серверная часть для учета и управления предоставляемыми ПКПИ услугами"
+            VALUE "CompanyName", "ХФ Укртелеком, ЦИТТО"
+            VALUE "FileDescription", "InetTarif MFC Application"
+            VALUE "FileVersion", "2, 0, 8, 2275"
+            VALUE "InternalName", "InetTarif"
+            VALUE "LegalCopyright", "Copyright © ЦИТТО 2000-2009"
+            VALUE "OriginalFilename", "InetTarif.exe"
+            VALUE "ProductName", "InetTarif"
+            VALUE "ProductVersion", "2, 1, 2, 1"
+            VALUE "SpecialBuild", "RF2160"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    CG_IDS_TIPOFTHEDAY      "Displays a Tip of the Day."
+    CG_IDS_TIPOFTHEDAYMENU  "Ti&p of the Day..."
+    CG_IDS_DIDYOUKNOW       "А Вы знаете что..."
+    CG_IDS_FILE_ABSENT      "Tips file does not exist in the prescribed directory"
+    CG_IDP_FILE_CORRUPT     "Невозможно прочитать файл советов"
+    CG_IDS_TIPOFTHEDAYHELP  "&Help"
+    CG_IDS_PHYSICAL_MEM     "%lu KB"
+    CG_IDS_DISK_SPACE       "%lu KB Free on %c:"
+    CG_IDS_DISK_SPACE_UNAVAIL "Unavailable"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_LOGOFF               "Приостановка работы пользователя с сохранением блокировки рабочих станций"
+    ID_SMENA                "Смена пользователя без завершения работы станций"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DELREP               "Удаление данных по платежам и сеансам Интернет"
+END
+
+#endif    // русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// украинский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_UKR)
+#ifdef _WIN32
+LANGUAGE LANG_UKRAINIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG2 DIALOGEX 0, 0, 295, 53
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Кассовый отчет за перид"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,180,32,50,14
+    PUSHBUTTON      "Отмена",IDCANCEL,238,32,50,14
+    CONTROL         "",IDC_DTFROM,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,61,7,100,15
+    CONTROL         "",IDC_DTTO,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,181,7,100,15
+    LTEXT           "Формировать с",IDC_STATIC,7,11,52,8
+    LTEXT           "по",IDC_STATIC,168,11,9,8
+    CONTROL         "ПОЛНЫЙ отчет",IDC_CASSACHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,29,67,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_DIALOG2        HTML                    "Dialog2.htm"
+#endif    // украинский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// английский (США) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About..."
+    IDS_PROPSHT_CAPTION     "Property Sheet"
+END
+
+#endif    // английский (США) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\InetTarif.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

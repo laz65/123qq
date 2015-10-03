@@ -1,0 +1,19 @@
+		# Отправка уведомления Админу по почте
+include('Mail.php');
+
+ $from = "zayavky@ukrtelecom.ua";
+ $to = "olazebnyk@ukrtelecom.ua";
+ $subject = "Создана заявка на автомобиль";
+ $body = "\nЗаявка на автомобиль\n\n";
+
+ $host = "send.ukrtelecom.net";
+ $username = "zayavky";
+ $password = "P@ssw0rd";
+
+ $headers = array ('From' => $from,
+   'To' => $to,
+   'Subject' => $subject);
+ $smtp = Mail::factory('smtp',array ('host' => $host, 'auth' => true,'username' => $username,'password' => $password));
+ $mail = $smtp->send($to, $headers, $body);
+
+

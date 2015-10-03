@@ -1,0 +1,78 @@
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+inettarif.hpj
+    HC3037: Warning: d:\MyProjects\Visual Studio Projects\Internet_tarificator\Server\hlp\InetTarif.hm : 
+	The map value for "HID_CHANGEPASS" is the same as the map value for "HID_MENUITEM32793".
+    HC3037: Warning: d:\MyProjects\Visual Studio Projects\Internet_tarificator\Server\hlp\InetTarif.hm : 
+	The map value for "HIDD_STUDENT" is the same as the map value for "HIDD_DIALOG1".
+    HC1002: Note: 
+	Using existing phrase table: InetTarif.ph.
+    HC1010: Note: 
+	The following mapped Topic IDs were not used in any topic:
+	HIDD_ADMIN
+	HID_MANIP
+	HID_PAYMENT
+	HID_SMENA
+	HID_TARIF
+	HIDD_TARIF
+	HID_XOTCHET_T
+	HIDD_NEW_EDIT
+	HID_HOLIDAYS
+	HIDD_PROPPAGE1
+	HIDD_PROPPAGE2
+	HIDD_RASCHDIALOG
+	HID_COM
+	HID_TIP
+	HID_ZOTCHET
+	HIDD_IZYATIE
+	HID_LOGOFF
+	HID_MENUITEM32793
+	HIDR_LISTMNU
+	HIDD_CHEK
+	HIDD_STAT
+	HIDD_USER
+	HID_MENUITEMBLOCK
+	HIDD_DIALOG1
+	HID_MANAGE
+	HID_XOTCHET
+	HIDM_ABOUTBOX
+	HIDD_SETSEANS
+	HID_CHEK
+	HID_EXIT
+	HID_Menu
+	HID_OTKR
+	HIDD_TIP
+	HID_VNESENIE
+	HIDD_MENAGE
+	HID_NEWSEANS
+	HID_IZYATIE
+	HIDD_REPORTDLG
+	HIDD_REPLOG
+	HIDD_SETUSL
+	HIDD_HOLIDAYS
+	HIDD_SETUPDIALOG
+	HIDR_ACCELERATOR
+	HIDD_TARIFDLG
+	HIDD_CHANGEPAS
+	HID_ZOTCHET_T
+	HIDD_PSWDIALOG
+	HID_SETTARIF
+	HIDR_MAINMENU
+	HIDD_NAMECOMPUTER
+	HIDD_BUTTONBLOCK
+	HID_DAYOFF
+	HIDR_MAINFRAME
+	HIDD_VNESENIE
+	HID_ABOUT
+	HID_ADMIN
+2	Topics
+0	Jumps
+0	Keywords
+0	Bitmaps
+
+
+Created d:\MyProjects\Visual Studio Projects\Internet_tarificator\Server\hlp\InetTarif.HLP, 6,230 bytes
+Phrase+Zeck compression decreased help file by 74 bytes.
+Compile time: 0 minutes, 0 seconds
+2 notes, 2 warnings

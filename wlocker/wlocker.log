@@ -1,0 +1,4360 @@
+11: 4: 6. Proccess with string - sta1k DK,SW
+11: 4: 6. Disable Keyboard.
+11: 4: 7. Show Window.
+11: 4:18. Proccess with string - sta1k EK,HW
+11: 4:18. Enable Keyboard.
+11: 4:19. Hide Window.
+11: 4:37. Proccess with string - sta1k DK,SW,DM
+11: 4:37. Disable Keyboard.
+11: 4:37. Show Window.
+11: 4:40. Disable Mouse.
+11: 6:25. Proccess with string - sta1k EK,HW,EM
+11: 6:25. Enable Keyboard.
+11: 6:25. Hide Window.
+11: 6:25. Enable Mouse.
+11:13: 6. Proccess with string - sta1k DK,SW,DM
+11:13: 6. Disable Keyboard.
+11:13: 6. Show Window.
+11:13: 9. Disable Mouse.
+11:14:24. Proccess with string - sta1k EK,HW,EM
+11:14:24. Enable Keyboard.
+11:14:25. Hide Window.
+11:14:25. Enable Mouse.
+11:16: 6. Proccess with string - sta1k DK,SW,DM
+11:16: 6. Disable Keyboard.
+11:16: 6. Show Window.
+11:16: 9. Disable Mouse.
+11:20:23. Proccess with string - sta1k EK,HW,EM
+11:20:23. Enable Keyboard.
+11:20:23. Hide Window.
+11:20:23. Enable Mouse.
+ 7:38:27. Proccess with string - sta1k SZ SimpeTarif 121
+ 7:38:59. Show Tarif Window.
+ 7:39:44. Proccess with string -  SZ SimpeTarif 121
+ 7:39:46. Show Tarif Window.
+ 7:40:13. Proccess with string -  SZ SimpeTarif 121
+ 7:40:15. Show Tarif Window.
+ 7:44:57. Proccess with string -  SZ SimpeTarif 121
+ 7:44:59. Show Tarif Window.
+ 7:49:33. Proccess with string -  SZ SimpeTarif 121
+ 7:49:33. Show Tarif Window.
+ 7:49:51. Proccess with string -  HZ SimpeTarif 121
+ 7:49:52. Hide Tarif Window.
+ 7:51:35. Proccess with string -  SZ SimpeTarif 121
+ 7:51:35. Show Tarif Window.
+ 7:52: 0. Proccess with string -  SZ SimpeTarif 121
+ 7:52: 0. Show Tarif Window.
+ 7:52: 8. Proccess with string -  HZ SimpeTarif 121
+ 7:52:11. Hide Tarif Window.
+ 7:52:48. Proccess with string -  SZ SimpeTarif 121
+ 7:52:48. Show Tarif Window.
+ 7:53: 2. Proccess with string -  HZ SimpeTarif 121
+ 7:53: 2. Hide Tarif Window.
+ 7:54: 7. Proccess with string -  SZ SimpeTarif 121
+ 7:54: 7. Show Tarif Window.
+ 7:54:15. Proccess with string -  HZ SimpeTarif 121
+ 7:54:15. Hide Tarif Window.
+ 7:55: 9. Proccess with string -  HZ SimpeTarif 121
+ 7:55: 9. Hide Tarif Window.
+ 7:55:11. Proccess with string -  SZ SimpeTarif 121
+ 7:55:11. Show Tarif Window.
+ 7:58:37. Proccess with string -  SZ SimpeTarif 121
+ 7:58:37. Show Tarif Window.
+ 8: 3:18. Proccess with string -  SZ SimpeTarif 121
+ 8: 3:18. Show Tarif Window.
+ 8:11:48. Proccess with string -  SZ SimpeTarif 121
+ 8:11:48. Show Tarif Window.
+ 8:14: 1. Proccess with string -  SZ SimpeTarif 121
+ 8:14: 1. Show Tarif Window.
+ 8:16:30. Proccess with string -  SZ SimpeTarif 121
+ 8:16:30. Show Tarif Window.
+ 8:24:49. Proccess with string -  SZ SimpeTarif 121
+ 8:24:49. Show Tarif Window.
+ 8:27:46. Proccess with string -  SZ SimpeTarif 121
+ 8:27:46. Show Tarif Window.
+ 8:28:26. Proccess with string -  SZ SimpeTarif 121
+ 8:28:26. Show Tarif Window.
+ 8:32:15. Proccess with string -  SZ SimpeTarif 121
+ 8:32:15. Show Tarif Window.
+ 8:36:21. Proccess with string -  SZ SimpeTarif 121
+ 8:36:21. Show Tarif Window.
+ 8:54:21. Proccess with string -  SZ SimpeTarif 121
+ 8:54:21. Show Tarif Window.
+ 8:54:55. Proccess with string -  HZ SimpeTarif 121
+ 8:54:55. Hide Tarif Window.
+ 8:54:57. Proccess with string -  SZ SimpeTarif 121
+ 8:54:57. Show Tarif Window.
+ 8:55:22. Proccess with string -  HZ SimpeTarif 121
+ 8:55:22. Hide Tarif Window.
+ 8:57:50. Proccess with string -  SZ SimpeTarif 121
+ 8:57:50. Show Tarif Window.
+ 8:59: 5. Proccess with string -  SZ SimpeTarif 121
+ 8:59: 5. Show Tarif Window.
+ 8:59:18. Proccess with string -  HZ SimpeTarif 121
+ 8:59:18. Hide Tarif Window.
+ 9: 0:41. Proccess with string -  SZ SimpeTarif 121
+ 9: 0:41. Show Tarif Window.
+ 9: 2: 7. Proccess with string -  SZ SimpeTarif 121
+ 9: 2: 7. Show Tarif Window.
+ 9: 3: 6. Proccess with string -  SZ SimpeTarif 121
+ 9: 3: 6. Show Tarif Window.
+ 9: 3:38. Proccess with string -  HZ SimpeTarif 121
+ 9: 3:38. Hide Tarif Window.
+ 9: 4:57. Proccess with string -  SZ SimpeTarif 121
+ 9: 4:57. Show Tarif Window.
+ 9: 5:50. Proccess with string -  SZ SimpeTarif 121
+ 9: 5:50. Show Tarif Window.
+ 9: 6:21. Proccess with string -  SZ SimpeTarif 121
+ 9: 6:21. Show Tarif Window.
+ 9: 7:27. Proccess with string -  SZ SimpeTarif 121
+ 9: 7:27. Show Tarif Window.
+ 9: 8: 1. Proccess with string -  SZ SimpeTarif 121
+ 9: 8: 1. Show Tarif Window.
+ 9: 8:38. Proccess with string -  SZ SimpeTarif 121
+ 9: 8:38. Show Tarif Window.
+ 9:19:45. Proccess with string -  SZ Simpe P Tarif-121
+ 9:19:45. Show Tarif Window.
+ 9:20:21. Proccess with string -  SZ Simpe P Tarif-121
+ 9:20:21. Show Tarif Window.
+ 9:22:19. Proccess with string -  SZ Simpe P Tarif-121
+ 9:22:19. Show Tarif Window.
+ 9:22:43. Proccess with string -  HZ SimpeTarif 121
+ 9:22:43. Hide Tarif Window.
+ 9:22:54. Proccess with string -  SZ Simpe P Tarif  -  121
+ 9:22:54. Show Tarif Window.
+ 9:23:43. Proccess with string -  SZ Simpe P Tarif  -  121
+ 9:23:43. Show Tarif Window.
+ 9:47:34. Proccess with string -  HZ,DK
+ 9:47:54. Hide Tarif Window.
+ 9:47:59. Disable Keyboard.
+ 9:48:23. Proccess with string -  SZИнтернет-0,EK
+ 9:48:23. Enable Keyboard.
+ 9:48:23. Proccess with string -  SZИнтернет-0,EK
+ 9:48:23. Enable Keyboard.
+ 9:49: 1. Proccess with string -  HZ,DW
+ 9:49: 1. Hide Tarif Window.
+ 9:49: 1. Disable Windows.
+ 9:49: 7. Proccess with string -  SZИнтернет-0,EW
+ 9:49: 7. Enable Windows.
+ 9:49: 7. Proccess with string -  SZИнтернет-0,EW
+ 9:49: 7. Enable Windows.
+ 9:49:25. Proccess with string -  HZ,DW
+ 9:49:28. Hide Tarif Window.
+ 9:49:28. Disable Windows.
+ 9:49:29. Proccess with string -  HZ,DW
+ 9:49:30. Hide Tarif Window.
+ 9:49:31. Disable Windows.
+ 9:49:39. Proccess with string -  SZИнтернет-0,EW
+ 9:50:23. Enable Windows.
+ 9:50:23. Proccess with string -  SZИнтернет-0,EW
+ 9:50:23. Enable Windows.
+ 9:50:23. Proccess with string -  HZ,DW
+ 9:50:24. Hide Tarif Window.
+ 9:50:24. Disable Windows.
+ 9:50:24. Proccess with string -  HZ,DW
+ 9:50:24. Hide Tarif Window.
+ 9:50:24. Disable Windows.
+ 9:50:24. Proccess with string -  SZИнтернет-0,EW
+ 9:50:24. Enable Windows.
+ 9:50:24. Proccess with string -  SZИнтернет-0,EW
+ 9:50:24. Enable Windows.
+ 9:50:53. Proccess with string -  HZ,DW
+ 9:50:57. Hide Tarif Window.
+ 9:50:58. Disable Windows.
+ 9:51: 4. Proccess with string -  SZ Интернет-0,EW
+ 9:51: 8. Show Tarif Window.
+ 9:52: 3. Proccess with string -  SZ Интернет-0,EW
+ 9:52: 7. Show Tarif Window.
+ 9:52:32. Enable Windows.
+ 9:52:33. Proccess with string -  SZ Интернет-0,EW
+ 9:52:34. Show Tarif Window.
+ 9:52:40. Enable Windows.
+ 9:52:40. Proccess with string -  HZ,DW
+ 9:52:40. Hide Tarif Window.
+ 9:52:40. Disable Windows.
+ 9:52:40. Proccess with string -  HZ,DW
+ 9:52:40. Hide Tarif Window.
+ 9:52:40. Disable Windows.
+ 9:52:44. Proccess with string -  SZ Интернет-1,EW
+ 9:52:44. Show Tarif Window.
+ 9:52:47. Enable Windows.
+ 9:52:47. Proccess with string -  SZ Интернет-1,EW
+ 9:52:47. Show Tarif Window.
+ 9:52:51. Enable Windows.
+ 9:52:51. Proccess with string -  HZ,DW
+ 9:52:51. Hide Tarif Window.
+ 9:52:51. Disable Windows.
+ 9:52:51. Proccess with string -  HZ,DW
+ 9:52:51. Hide Tarif Window.
+ 9:52:51. Disable Windows.
+ 9:52:57. Proccess with string -  SZ Интернет-0,EW
+ 9:52:57. Show Tarif Window.
+ 9:53: 0. Enable Windows.
+ 9:53: 0. Proccess with string -  SZ Интернет-0,EW
+ 9:53: 0. Show Tarif Window.
+ 9:53: 3. Enable Windows.
+ 9:56:48. Proccess with string -  HZ,DW
+ 9:56:48. Hide Tarif Window.
+ 9:56:48. Disable Windows.
+ 9:56:58. Proccess with string -  SZ Интернет-0,EW
+ 9:56:58. Show Tarif Window.
+ 9:56:58. Enable Windows.
+ 9:56:58. Proccess with string -  SZ Интернет-0,EW
+ 9:56:58. Show Tarif Window.
+ 9:56:58. Enable Windows.
+ 9:57: 9. Proccess with string -  HZ,DW
+ 9:57: 9. Hide Tarif Window.
+ 9:57: 9. Disable Windows.
+ 9:57: 9. Proccess with string -  HZ,DW
+ 9:57: 9. Hide Tarif Window.
+ 9:57: 9. Disable Windows.
+10: 2:39. Proccess with string -  SZ Интернет-149,EW
+10: 2:39. Show Tarif Window.
+10: 2:39. Enable Windows.
+10: 2:39. Proccess with string -  HZ,DW
+10: 2:39. Hide Tarif Window.
+10: 2:39. Disable Windows.
+10: 3:28. Proccess with string -  SZ Интернет-149,EW
+10: 3:28. Show Tarif Window.
+10: 3:28. Enable Windows.
+10: 3:28. Proccess with string -  SZ Интернет-149,EW
+10: 3:28. Show Tarif Window.
+10: 3:28. Enable Windows.
+10: 7:12. Proccess with string -  HZ,DW
+10: 7:12. Hide Tarif Window.
+10: 7:12. Disable Windows.
+10: 7:23. Proccess with string -  HZ,DW
+10: 7:23. Hide Tarif Window.
+10: 7:23. Disable Windows.
+10: 7:23. Proccess with string -  SZ Интернет-150,EW
+10: 7:23. Show Tarif Window.
+10: 7:23. Enable Windows.
+10:11:17. Proccess with string -  HZ,DW
+10:11:17. Hide Tarif Window.
+10:11:17. Disable Windows.
+10:11:17. Proccess with string -  HZ,DW
+10:11:17. Hide Tarif Window.
+10:11:17. Disable Windows.
+10:11:19. Proccess with string -  HZ,DW
+10:11:19. Hide Tarif Window.
+10:11:19. Disable Windows.
+10:11:19. Proccess with string -  SZ Интернет-146,EW
+10:11:19. Show Tarif Window.
+10:11:19. Enable Windows.
+10:11:21. Proccess with string -  HZ,DW
+10:11:21. Hide Tarif Window.
+10:11:21. Disable Windows.
+10:11:21. Proccess with string -  HZ,DW
+10:11:21. Hide Tarif Window.
+10:11:21. Disable Windows.
+10:11:22. Proccess with string -  HZ,DW
+10:11:22. Hide Tarif Window.
+10:11:22. Disable Windows.
+10:11:22. Proccess with string -  SZ Интернет-146,EW
+10:11:22. Show Tarif Window.
+10:11:22. Enable Windows.
+10:11:22. Proccess with string -  HZ,DW
+10:11:22. Hide Tarif Window.
+10:11:22. Disable Windows.
+10:11:22. Proccess with string -  HZ,DW
+10:11:22. Hide Tarif Window.
+10:11:22. Disable Windows.
+10:11:23. Proccess with string -  HZ,DW
+10:11:23. Hide Tarif Window.
+10:11:23. Disable Windows.
+10:11:23. Proccess with string -  SZ Интернет-146,EW
+10:11:23. Show Tarif Window.
+10:11:23. Enable Windows.
+10:11:24. Proccess with string -  HZ,DW
+10:11:24. Hide Tarif Window.
+10:11:24. Disable Windows.
+10:11:24. Proccess with string -  HZ,DW
+10:11:24. Hide Tarif Window.
+10:11:24. Disable Windows.
+10:11:39. Proccess with string -  SZ Интернет-0,EW
+10:11:39. Show Tarif Window.
+10:11:39. Enable Windows.
+10:11:39. Proccess with string -  SZ Интернет-0,EW
+10:11:39. Show Tarif Window.
+10:11:39. Enable Windows.
+10:34:26. Proccess with string -  HZ,DW
+10:34:26. Hide Tarif Window.
+10:34:26. Disable Windows.
+10:34:33. Proccess with string -  SZ Интернет-0,EW
+10:34:33. Show Tarif Window.
+10:34:33. Enable Windows.
+10:34:39. Proccess with string -  HZ,DW
+10:34:39. Hide Tarif Window.
+10:34:39. Disable Windows.
+10:34:47. Proccess with string -  HZ,DW
+10:34:47. Hide Tarif Window.
+10:34:47. Disable Windows.
+10:34:47. Proccess with string -  SZ Интернет-12,EW
+10:34:47. Show Tarif Window.
+10:34:47. Enable Windows.
+10:35: 4. Proccess with string -  HZ,DW
+10:35: 4. Hide Tarif Window.
+10:35: 4. Disable Windows.
+10:35: 4. Proccess with string -  HZ,DW
+10:35: 4. Hide Tarif Window.
+10:35: 4. Disable Windows.
+10:35: 7. Proccess with string -  HZ,DW
+10:35: 7. Hide Tarif Window.
+10:35: 7. Disable Windows.
+10:35: 7. Proccess with string -  SZ Интернет-12,EW
+10:35: 7. Show Tarif Window.
+10:35: 7. Enable Windows.
+10:35:10. Proccess with string -  HZ,DW
+10:35:10. Hide Tarif Window.
+10:35:10. Disable Windows.
+10:35:10. Proccess with string -  HZ,DW
+10:35:10. Hide Tarif Window.
+10:35:10. Disable Windows.
+10:35:10. Proccess with string -  HZ,DW
+10:35:10. Hide Tarif Window.
+10:35:10. Disable Windows.
+10:35:10. Proccess with string -  SZ Интернет-12,EW
+10:35:10. Show Tarif Window.
+10:35:10. Enable Windows.
+10:35:11. Proccess with string -  HZ,DW
+10:35:11. Hide Tarif Window.
+10:35:11. Disable Windows.
+10:35:11. Proccess with string -  HZ,DW
+10:35:11. Hide Tarif Window.
+10:35:11. Disable Windows.
+10:35:12. Proccess with string -  HZ,DW
+10:35:12. Hide Tarif Window.
+10:35:12. Disable Windows.
+10:35:12. Proccess with string -  SZ Интернет-12,EW
+10:35:12. Show Tarif Window.
+10:35:12. Enable Windows.
+10:35:13. Proccess with string -  HZ,DW
+10:35:13. Hide Tarif Window.
+10:35:13. Disable Windows.
+10:35:13. Proccess with string -  HZ,DW
+10:35:13. Hide Tarif Window.
+10:35:13. Disable Windows.
+10:35:20. Proccess with string -  SZ Интернет-0,EW
+10:35:20. Show Tarif Window.
+10:35:20. Enable Windows.
+10:35:22. Proccess with string -  HZ,DW
+10:35:22. Hide Tarif Window.
+10:35:22. Disable Windows.
+10:35:24. Proccess with string -  HZ,DW
+10:35:24. Hide Tarif Window.
+10:35:24. Disable Windows.
+10:35:25. Proccess with string -  SZ Интернет-9,EW
+10:35:25. Show Tarif Window.
+10:35:25. Enable Windows.
+10:35:35. Proccess with string -  HZ,DW
+10:35:35. Hide Tarif Window.
+10:35:35. Disable Windows.
+10:35:35. Proccess with string -  HZ,DW
+10:35:35. Hide Tarif Window.
+10:35:35. Disable Windows.
+10:35:36. Proccess with string -  HZ,DW
+10:35:36. Hide Tarif Window.
+10:35:36. Disable Windows.
+10:35:36. Proccess with string -  SZ Интернет-9,EW
+10:35:36. Show Tarif Window.
+10:35:36. Enable Windows.
+10:35:42. Proccess with string -  HZ,DW
+10:35:42. Hide Tarif Window.
+10:35:42. Disable Windows.
+10:35:42. Proccess with string -  HZ,DW
+10:35:42. Hide Tarif Window.
+10:35:42. Disable Windows.
+10:35:54. Proccess with string -  SZ Интернет-0,EW
+10:35:54. Show Tarif Window.
+10:35:54. Enable Windows.
+10:35:56. Proccess with string -  HZ,DW
+10:35:56. Hide Tarif Window.
+10:35:56. Disable Windows.
+10:35:58. Proccess with string -  HZ,DW
+10:35:58. Hide Tarif Window.
+10:35:58. Disable Windows.
+10:35:58. Proccess with string -  SZ Интернет-12,EW
+10:35:58. Show Tarif Window.
+10:35:58. Enable Windows.
+10:36: 6. Proccess with string -  HZ,DW
+10:36: 6. Hide Tarif Window.
+10:36: 6. Disable Windows.
+10:36: 6. Proccess with string -  HZ,DW
+10:36: 6. Hide Tarif Window.
+10:36: 6. Disable Windows.
+10:36:20. Proccess with string -  HZ,DW
+10:36:20. Hide Tarif Window.
+10:36:20. Disable Windows.
+10:36:21. Proccess with string -  SZ Интернет-12,EW
+10:36:21. Show Tarif Window.
+10:36:21. Enable Windows.
+10:36:23. Proccess with string -  HZ,DW
+10:36:23. Hide Tarif Window.
+10:36:23. Disable Windows.
+10:36:23. Proccess with string -  HZ,DW
+10:36:23. Hide Tarif Window.
+10:36:23. Disable Windows.
+10:36:33. Proccess with string -  HZ,DW
+10:36:33. Hide Tarif Window.
+10:36:33. Disable Windows.
+10:36:33. Proccess with string -  SZ Интернет-1,EW
+10:36:33. Show Tarif Window.
+10:36:33. Enable Windows.
+10:38:24. Proccess with string -  HZ,DW
+10:38:24. Hide Tarif Window.
+10:38:24. Disable Windows.
+10:38:48. Proccess with string -  HZ,DW
+10:38:48. Hide Tarif Window.
+10:38:48. Disable Windows.
+10:38:48. Proccess with string -  SZ Интернет-6,EW
+10:38:48. Show Tarif Window.
+10:38:48. Enable Windows.
+10:42:22. Proccess with string -  HZ,DW
+10:42:22. Hide Tarif Window.
+10:42:22. Disable Windows.
+10:42:22. Proccess with string -  HZ,DW
+10:42:22. Hide Tarif Window.
+10:42:22. Disable Windows.
+10:42:24. Proccess with string -  HZ,DW
+10:42:24. Hide Tarif Window.
+10:42:24. Disable Windows.
+10:42:24. Proccess with string -  SZ Интернет-2,EW
+10:42:24. Show Tarif Window.
+10:42:24. Enable Windows.
+10:45:19. Proccess with string -  SZ Интернет-149,EW
+10:45:19. Show Tarif Window.
+10:45:19. Enable Windows.
+10:45:33. Proccess with string -  HZ,DW
+10:45:33. Hide Tarif Window.
+10:45:33. Disable Windows.
+10:45:33. Proccess with string -  HZ,DW
+10:45:33. Hide Tarif Window.
+10:45:33. Disable Windows.
+10:45:36. Proccess with string -  SZ Интернет-0,EW
+10:45:36. Show Tarif Window.
+10:45:36. Enable Windows.
+10:45:36. Proccess with string -  SZ Интернет-0,EW
+10:45:36. Show Tarif Window.
+10:45:36. Enable Windows.
+ 7:50: 0. Proccess with string -  SZ
+ 7:50: 0. Show Tarif Window.
+ 7:51: 0. Proccess with string -  SZ
+ 7:51: 1. Show Tarif Window.
+ 7:51:40. Proccess with string -  SZ Super Puper-10
+ 7:51:42. Show Tarif Window.
+ 7:51:51. Proccess with string -  SZ Super Puper-10
+ 7:51:52. Show Tarif Window.
+ 7:54: 6. Proccess with string -  SZ Super Puper-10
+ 7:54: 7. Show Tarif Window.
+ 7:58:36. Proccess with string -  SZ Super Puper-10
+ 7:58:40. Show Tarif Window.
+ 7:59:19. Proccess with string -  SZ Super Puper-10
+ 7:59:19. Show Tarif Window.
+ 7:59:21. Proccess with string -  SZ Super Puper-10
+ 7:59:21. Show Tarif Window.
+ 8: 0: 4. Proccess with string -  SZ Super Puper-10
+ 8: 0: 4. Show Tarif Window.
+ 8: 0:38. Proccess with string -  SZ Super Puper-10
+ 8: 0:38. Show Tarif Window.
+ 8: 3:42. Proccess with string -  SZ Super Puper-10
+ 8: 3:42. Show Tarif Window.
+ 8: 3:59. Proccess with string -  SZ Super Puper-10
+ 8: 3:59. Show Tarif Window.
+ 8: 6:30. Proccess with string -  SZ Super Puper-10
+ 8: 6:30. Show Tarif Window.
+ 8: 6:40. Proccess with string -  HZ Super Puper-10
+ 8: 6:40. Hide Tarif Window.
+ 8: 6:44. Proccess with string -  SZ Super Puper-10
+ 8: 6:44. Show Tarif Window.
+ 8:13:21. Proccess with string -  HZ Super Puper-10
+ 8:13:21. Hide Tarif Window.
+ 7:35:48. Proccess with string -  SZ Интернет-9,EM
+ 7:35:48. Show Tarif Window.
+ 7:35:48. Enable Mouse.
+ 7:35:52. Proccess with string -  HZ,DM
+ 7:35:52. Hide Tarif Window.
+ 7:35:52. Disable Mouse.
+ 7:35:52. Proccess with string -  HZ,DM
+ 7:35:52. Hide Tarif Window.
+ 7:35:52. Disable Mouse.
+ 7:35:52. Proccess with string -  SZ Интернет-9,EM
+ 7:35:52. Show Tarif Window.
+ 7:35:52. Enable Mouse.
+ 7:35:52. Proccess with string -  HZ,DM
+ 7:35:52. Hide Tarif Window.
+ 7:35:52. Disable Mouse.
+07:49:58. Proccess with string -  HZ,DM
+07:49:58. Hide Tarif Window.
+07:50:06. Disable Mouse.
+07:53:32. Proccess with string -  HZ,DM
+07:53:32. Hide Tarif Window.
+07:53:32. Disable Mouse.
+07:53:41. Proccess with string -  HZ,DM
+07:53:41. Hide Tarif Window.
+07:53:41. Disable Mouse.
+07:54:01. Proccess with string -  SZ Интернет-9,EM
+07:54:01. Show Tarif Window.
+07:54:01. Enable Mouse.
+07:54:06. Proccess with string -  HZ,DM
+07:54:06. Hide Tarif Window.
+07:54:06. Disable Mouse.
+07:54:07. Proccess with string -  SZ Интернет-0,EM
+07:54:07. Show Tarif Window.
+07:54:07. Enable Mouse.
+07:54:08. Proccess with string -  SZ Интернет-0,EM
+07:54:08. Show Tarif Window.
+07:54:08. Enable Mouse.
+08:01:47. Proccess with string -  HZ,DM
+08:01:47. Hide Tarif Window.
+08:01:47. Disable Mouse.
+08:09:14. Proccess with string -  HZ,DM
+08:09:14. Hide Tarif Window.
+08:09:14. Disable Mouse.
+08:11:29. Proccess with string -  HZ,DM
+08:11:29. Hide Tarif Window.
+08:11:29. Disable Mouse.
+08:12:54. Proccess with string -  HZ,DM
+08:12:54. Hide Tarif Window.
+08:12:54. Disable Mouse.
+08:12:55. Proccess with string -  HZ,DM
+08:12:55. Hide Tarif Window.
+08:12:55. Disable Mouse.
+08:12:55. Proccess with string -  HZ,DM
+08:12:55. Hide Tarif Window.
+08:12:55. Disable Mouse.
+08:12:56. Proccess with string -  HZ,DM
+08:12:56. Hide Tarif Window.
+08:12:56. Disable Mouse.
+08:12:56. Proccess with string -  HZ,DM
+08:12:56. Hide Tarif Window.
+08:12:56. Disable Mouse.
+08:12:57. Proccess with string -  HZ,DM
+08:12:57. Hide Tarif Window.
+08:12:57. Disable Mouse.
+11:18:14. Proccess with string -  HZ,DM
+11:18:14. Hide Tarif Window.
+11:18:14. Disable Mouse.
+11:19:40. Proccess with string -  HZ,DM
+11:19:40. Hide Tarif Window.
+11:19:40. Disable Mouse.
+11:19:41. Proccess with string -  HZ,DM
+11:19:41. Hide Tarif Window.
+11:19:41. Disable Mouse.
+11:19:41. Proccess with string -  SZ Интернет-9,EM
+11:19:41. Show Tarif Window.
+11:19:41. Enable Mouse.
+11:19:44. Proccess with string -  HZ,DM
+11:19:44. Hide Tarif Window.
+11:19:44. Disable Mouse.
+11:19:45. Proccess with string -  HZ,DM
+11:19:45. Hide Tarif Window.
+11:19:45. Disable Mouse.
+11:19:45. Proccess with string -  SZ Интернет-9,EM
+11:19:45. Show Tarif Window.
+11:19:45. Enable Mouse.
+12:17:08. Proccess with string -  HZ,DM
+12:17:15. Hide Tarif Window.
+12:17:19. Disable Mouse.
+12:19:18. Proccess with string -  HZ,DM
+12:19:18. Hide Tarif Window.
+12:19:18. Disable Mouse.
+12:19:18. Proccess with string -  HZ,DM
+12:19:18. Hide Tarif Window.
+12:19:18. Disable Mouse.
+12:19:19. Proccess with string -  SZ Интернет-9,EM
+12:19:19. Show Tarif Window.
+12:19:19. Enable Mouse.
+12:19:21. Proccess with string -  HZ,DM
+12:19:21. Hide Tarif Window.
+12:19:21. Disable Mouse.
+12:19:21. Proccess with string -  HZ,DM
+12:19:21. Hide Tarif Window.
+12:19:21. Disable Mouse.
+12:19:22. Proccess with string -  SZ Интернет-9,EM
+12:19:22. Show Tarif Window.
+12:19:22. Enable Mouse.
+12:20:32. Proccess with string -  HZ,DM
+12:20:32. Hide Tarif Window.
+12:20:32. Disable Mouse.
+12:32:15. Proccess with string -  HZ,DW
+12:32:15. Hide Tarif Window.
+12:32:15. Disable Windows.
+12:33:22. Proccess with string -  HZ,DW
+12:33:22. Hide Tarif Window.
+12:33:22. Disable Windows.
+12:33:22. Proccess with string -  HZ,DW
+12:33:22. Hide Tarif Window.
+12:33:22. Disable Windows.
+12:33:23. Proccess with string -  SZ Интернет-9,EW
+12:33:23. Show Tarif Window.
+12:33:23. Enable Windows.
+12:33:23. Proccess with string -  HZ,DW
+12:33:23. Hide Tarif Window.
+12:33:23. Disable Windows.
+12:33:24. Proccess with string -  SZ Интернет-0,EW
+12:33:24. Show Tarif Window.
+12:33:24. Enable Windows.
+12:33:24. Proccess with string -  SZ Интернет-0,EW
+12:33:24. Show Tarif Window.
+12:33:24. Enable Windows.
+12:45:05. Proccess with string -  HZ,DW
+12:45:05. Hide Tarif Window.
+12:45:05. Disable Windows.
+12:45:28. Proccess with string -  HZ,DM
+12:45:28. Hide Tarif Window.
+12:45:28. Disable Mouse.
+12:45:37. Proccess with string -  SZ Интернет-9,EM
+12:45:37. Show Tarif Window.
+12:45:37. Enable Mouse.
+12:45:49. Proccess with string -  HZ,DM
+12:45:49. Hide Tarif Window.
+12:45:49. Disable Mouse.
+12:45:53. Proccess with string -  SZ Интернет-9,EM
+12:45:53. Show Tarif Window.
+12:45:53. Enable Mouse.
+12:45:57. Proccess with string -  HZ,DM
+12:45:57. Hide Tarif Window.
+12:45:57. Disable Mouse.
+12:47:01. Proccess with string -  SZ Интернет-0,EM
+12:47:01. Show Tarif Window.
+12:47:01. Enable Mouse.
+12:47:09. Proccess with string -  HZ,DM,DW
+12:47:09. Hide Tarif Window.
+12:47:09. Disable Mouse.
+12:47:09. Disable Windows.
+12:47:15. Proccess with string -  SZ Интернет-9,EM,EW
+12:47:15. Show Tarif Window.
+12:47:15. Enable Mouse.
+12:47:15. Enable Windows.
+12:47:19. Proccess with string -  HZ,DM,DW
+12:47:19. Hide Tarif Window.
+12:47:19. Disable Mouse.
+12:47:19. Disable Windows.
+12:47:21. Proccess with string -  SZ Интернет-9,EM,EW
+12:47:21. Show Tarif Window.
+12:47:21. Enable Mouse.
+12:47:21. Enable Windows.
+12:47:24. Proccess with string -  HZ,DM,DW
+12:47:24. Hide Tarif Window.
+12:47:24. Disable Mouse.
+12:47:24. Disable Windows.
+12:47:27. Proccess with string -  SZ Интернет-0,EM,EW
+12:47:27. Show Tarif Window.
+12:47:27. Enable Mouse.
+12:47:27. Enable Windows.
+12:47:28. Proccess with string -  HZ,DW
+12:47:28. Hide Tarif Window.
+12:47:28. Disable Windows.
+12:47:32. Proccess with string -  SZ Интернет-0,EW
+12:47:32. Show Tarif Window.
+12:47:32. Enable Windows.
+12:47:45. Proccess with string -  HZ,DM,DW
+12:47:45. Hide Tarif Window.
+12:47:45. Disable Mouse.
+12:47:45. Disable Windows.
+12:47:50. Proccess with string -  SZ Интернет-9,EM,EW
+12:47:50. Show Tarif Window.
+12:47:50. Enable Mouse.
+12:47:50. Enable Windows.
+12:47:52. Proccess with string -  HZ,DM,DW
+12:47:52. Hide Tarif Window.
+12:47:52. Disable Mouse.
+12:47:52. Disable Windows.
+12:48:26. Proccess with string -  SZ Интернет-0,EM,EW
+12:48:26. Show Tarif Window.
+12:48:26. Enable Mouse.
+12:48:26. Enable Windows.
+12:56:50. Proccess with string -  HZ,DM,DW
+12:56:50. Hide Tarif Window.
+12:56:50. Disable Mouse.
+12:56:50. Disable Windows.
+12:57:02. Proccess with string -  HZ,DW
+12:57:02. Hide Tarif Window.
+12:57:02. Disable Windows.
+12:57:15. Proccess with string -  HZ,DW
+12:57:15. Hide Tarif Window.
+12:57:15. Disable Windows.
+12:57:51. Proccess with string -  SZ Интернет-9,EW
+12:57:51. Show Tarif Window.
+12:57:51. Enable Windows.
+12:57:56. Proccess with string -  HZ,DW
+12:57:56. Hide Tarif Window.
+12:57:56. Disable Windows.
+12:57:57. Proccess with string -  HZ,DW
+12:57:57. Hide Tarif Window.
+12:57:57. Disable Windows.
+12:58:13. Proccess with string -  SZ Интернет-0,EW
+12:58:13. Show Tarif Window.
+12:58:13. Enable Windows.
+12:58:43. Proccess with string -  HZ,DW
+12:58:43. Hide Tarif Window.
+12:58:43. Disable Windows.
+12:58:54. Proccess with string -  SZ Интернет-0,EM,EW
+12:58:54. Show Tarif Window.
+12:58:54. Enable Mouse.
+12:58:54. Enable Windows.
+12:59:08. Proccess with string -  HZ,DW
+12:59:08. Hide Tarif Window.
+12:59:08. Disable Windows.
+12:59:13. Proccess with string -  SZ Интернет-9,EW,EM
+12:59:13. Show Tarif Window.
+12:59:13. Enable Windows.
+12:59:13. Enable Mouse.
+12:59:21. Proccess with string -  HZ,DW
+12:59:21. Hide Tarif Window.
+12:59:21. Disable Windows.
+12:59:21. Proccess with string -  HZ,DW
+12:59:21. Hide Tarif Window.
+12:59:21. Disable Windows.
+12:59:22. Proccess with string -  HZ,DW
+12:59:22. Hide Tarif Window.
+12:59:22. Disable Windows.
+12:59:22. Proccess with string -  SZ Интернет-9,EW,EM
+12:59:22. Show Tarif Window.
+12:59:22. Enable Windows.
+12:59:22. Enable Mouse.
+12:59:23. Proccess with string -  HZ,DW
+12:59:23. Hide Tarif Window.
+12:59:23. Disable Windows.
+12:59:23. Proccess with string -  HZ,DW
+12:59:23. Hide Tarif Window.
+12:59:23. Disable Windows.
+12:59:24. Proccess with string -  HZ,DW
+12:59:24. Hide Tarif Window.
+12:59:24. Disable Windows.
+12:59:24. Proccess with string -  SZ Интернет-9,EW,EM
+12:59:24. Show Tarif Window.
+12:59:24. Enable Windows.
+12:59:24. Enable Mouse.
+12:59:24. Proccess with string -  HZ,DW
+12:59:24. Hide Tarif Window.
+12:59:24. Disable Windows.
+12:59:24. Proccess with string -  HZ,DW
+12:59:24. Hide Tarif Window.
+12:59:24. Disable Windows.
+12:59:39. Proccess with string -  SZ Интернет-0,EW,EM
+12:59:39. Show Tarif Window.
+12:59:39. Enable Windows.
+12:59:39. Enable Mouse.
+12:59:48. Proccess with string -  HZ,DW
+12:59:48. Hide Tarif Window.
+12:59:48. Disable Windows.
+12:59:53. Proccess with string -  HZ,DW
+12:59:53. Hide Tarif Window.
+12:59:53. Disable Windows.
+12:59:53. Proccess with string -  SZ Интернет-9,EW
+12:59:53. Show Tarif Window.
+12:59:53. Enable Windows.
+12:59:55. Proccess with string -  HZ,DW
+12:59:55. Hide Tarif Window.
+12:59:55. Disable Windows.
+12:59:55. Proccess with string -  HZ,DW
+12:59:55. Hide Tarif Window.
+12:59:55. Disable Windows.
+12:59:59. Proccess with string -  SZ Интернет-0,EW
+12:59:59. Show Tarif Window.
+12:59:59. Enable Windows.
+12:59:59. Proccess with string -  SZ Интернет-0,EW
+12:59:59. Show Tarif Window.
+12:59:59. Enable Windows.
+13:17:43. Proccess with string -  HZ,DM,DW
+13:17:43. Hide Tarif Window.
+13:17:43. Disable Mouse.
+13:17:43. Disable Windows.
+13:17:50. Proccess with string -  SZ Интернет-9,EM,EW
+13:17:50. Show Tarif Window.
+13:17:50. Enable Mouse.
+13:17:50. Enable Windows.
+13:17:55. Proccess with string -  HZ,DM,DW
+13:17:55. Hide Tarif Window.
+13:17:55. Disable Mouse.
+13:17:55. Disable Windows.
+13:18:01. Proccess with string -  SZ Интернет-0,EM,EW
+13:18:01. Show Tarif Window.
+13:18:01. Enable Mouse.
+13:18:01. Enable Windows.
+13:18:06. Proccess with string -  HZ,DM,DW
+13:18:06. Hide Tarif Window.
+13:18:06. Disable Mouse.
+13:18:06. Disable Windows.
+13:18:10. Proccess with string -  HZ,DM,DW
+13:18:10. Hide Tarif Window.
+13:18:10. Disable Mouse.
+13:18:10. Disable Windows.
+13:18:10. Proccess with string -  SZ Интернет-9,EM,EW
+13:18:10. Show Tarif Window.
+13:18:10. Enable Mouse.
+13:18:10. Enable Windows.
+13:18:12. Proccess with string -  HZ,DM,DW
+13:18:12. Hide Tarif Window.
+13:18:12. Disable Mouse.
+13:18:12. Disable Windows.
+13:18:14. Proccess with string -  SZ Интернет-0,EM,EW
+13:18:14. Show Tarif Window.
+13:18:14. Enable Mouse.
+13:18:14. Enable Windows.
+13:18:14. Proccess with string -  SZ Интернет-0,EM,EW
+13:18:14. Show Tarif Window.
+13:18:14. Enable Mouse.
+13:18:14. Enable Windows.
+12:32:29. Proccess with string -  AG
+12:32:29. Add GateWay.
+14:44:17. Proccess with string -  SW
+14:44:17. Show Window.
+16:06:32. Proccess with string -  SW
+16:06:32. Show Window.
+14:39:35. Proccess with string -  SW
+14:39:35. Show Window.
+21:58:56. Proccess with string -  SW,DG
+21:58:56. Show Window.
+21:58:56. Disable GateWay. Message:Отказано в доступе.
+
+22:21:09. Proccess with string -  SW,DG
+22:21:09. Show Window.
+22:21:09. Disable GateWay. Message:Отказано в доступе.
+
+22:36:26. Proccess with string -  SW,DG
+22:36:26. Show Window.
+22:36:26. Disable GateWay. Message:Отказано в доступе.
+
+22:43:29. Proccess with string -  HZ,DG,SW
+22:43:29. Hide Tarif Window.
+22:43:29. Disable GateWay. Message:Отказано в доступе.
+
+22:43:29. Show Window.
+22:54:51. Proccess with string -  SW,DG
+22:54:51. Show Window.
+22:54:51. Disable GateWay. Message:Отказано в доступе.
+
+22:55:28. Proccess with string -  EE
+22:55:48. Proccess with string -  SZ Интернет (тариф: 0.00067)-228,AG 192.168.0.1,HW
+22:55:48. Show Tarif Window.
+22:55:48. Add GateWay. Message:Отказано в доступе.
+
+22:55:48. Hide Window.
+22:57:31. Proccess with string -  SZ Интернет (тариф: 0.00067)-226,AG 192.168.0.1,HW
+22:57:31. Show Tarif Window.
+22:57:31. Add GateWay. Message:Отказано в доступе.
+
+22:57:31. Hide Window.
+23:02:20. Proccess with string -  HZ,DG,SW
+23:02:20. Hide Tarif Window.
+23:02:20. Disable GateWay. Message:Отказано в доступе.
+
+23:02:20. Show Window.
+23:02:46. Proccess with string -  HZ,DG,SW
+23:02:46. Hide Tarif Window.
+23:02:46. Disable GateWay. Message:Отказано в доступе.
+
+23:02:46. Show Window.
+23:03:10. Proccess with string -  EE
+23:03:12. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:03:12. Show Tarif Window.
+23:03:12. Add GateWay. Message:Отказано в доступе.
+
+23:03:12. Hide Window.
+23:05:44. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:05:44. Show Tarif Window.
+23:05:44. Add GateWay. Message:Отказано в доступе.
+
+23:05:44. Hide Window.
+23:07:04. Proccess with string -  HZ,DG,SW
+23:07:04. Hide Tarif Window.
+23:07:04. Disable GateWay. Message:Отказано в доступе.
+
+23:07:04. Show Window.
+23:07:11. Proccess with string -  HZ,DG,SW
+23:07:11. Hide Tarif Window.
+23:07:11. Disable GateWay. Message:Отказано в доступе.
+
+23:07:11. Show Window.
+23:07:49. Proccess with string -  EE
+23:07:51. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:07:51. Show Tarif Window.
+23:07:51. Add GateWay. Message:Отказано в доступе.
+
+23:07:51. Hide Window.
+23:08:42. Proccess with string -  HZ,DG,SW
+23:08:42. Hide Tarif Window.
+23:08:42. Disable GateWay. Message:Отказано в доступе.
+
+23:08:42. Show Window.
+23:08:42. Proccess with string -  HZ,DG,SW
+23:08:42. Hide Tarif Window.
+23:08:42. Disable GateWay. Message:Отказано в доступе.
+
+23:08:42. Show Window.
+23:08:51. Proccess with string -  EE
+23:08:51. Proccess with string -  SZ Интернет (тариф: 0.00067)-849,AG 192.168.0.1,HW
+23:08:51. Show Tarif Window.
+23:08:51. Add GateWay. Message:Отказано в доступе.
+
+23:08:51. Hide Window.
+23:09:13. Proccess with string -  HZ,DG,SW
+23:09:13. Hide Tarif Window.
+23:09:13. Disable GateWay. Message:Отказано в доступе.
+
+23:09:13. Show Window.
+23:09:48. Proccess with string -  HZ,DG,SW
+23:09:48. Hide Tarif Window.
+23:09:48. Disable GateWay. Message:Отказано в доступе.
+
+23:09:48. Show Window.
+23:09:58. Proccess with string -  HZ,DG,SW
+23:09:58. Hide Tarif Window.
+23:09:58. Disable GateWay. Message:Отказано в доступе.
+
+23:09:58. Show Window.
+23:10:00. Proccess with string -  EE
+23:10:02. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:10:02. Show Tarif Window.
+23:10:02. Add GateWay. Message:Отказано в доступе.
+
+23:10:02. Hide Window.
+23:10:06. Proccess with string -  HZ,DG,SW
+23:10:06. Hide Tarif Window.
+23:10:06. Disable GateWay. Message:Отказано в доступе.
+
+23:10:06. Show Window.
+23:10:23. Proccess with string -  EE
+23:10:39. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:10:39. Show Tarif Window.
+23:10:39. Add GateWay. Message:Отказано в доступе.
+
+23:10:39. Hide Window.
+23:10:41. Proccess with string -  HZ,DG,SW
+23:10:41. Hide Tarif Window.
+23:10:41. Disable GateWay. Message:Отказано в доступе.
+
+23:10:41. Show Window.
+23:10:43. Proccess with string -  HZ,DG,SW
+23:10:43. Hide Tarif Window.
+23:10:43. Disable GateWay. Message:Отказано в доступе.
+
+23:10:43. Show Window.
+23:10:50. Proccess with string -  EE
+23:11:21. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:11:21. Show Tarif Window.
+23:11:21. Add GateWay. Message:Отказано в доступе.
+
+23:11:21. Hide Window.
+23:12:41. Proccess with string -  HZ,DG,SW
+23:12:41. Hide Tarif Window.
+23:12:41. Disable GateWay. Message:Отказано в доступе.
+
+23:12:41. Show Window.
+23:12:43. Proccess with string -  HZ,DG,SW
+23:12:43. Hide Tarif Window.
+23:12:43. Disable GateWay. Message:Отказано в доступе.
+
+23:12:43. Show Window.
+23:12:44. Proccess with string -  EE
+23:12:46. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:12:46. Show Tarif Window.
+23:12:46. Add GateWay. Message:Отказано в доступе.
+
+23:12:46. Hide Window.
+23:14:33. Proccess with string -  HZ,DG,SW
+23:14:33. Hide Tarif Window.
+23:14:33. Disable GateWay. Message:Отказано в доступе.
+
+23:14:33. Show Window.
+23:14:34. Proccess with string -  HZ,DG,SW
+23:14:34. Hide Tarif Window.
+23:14:34. Disable GateWay. Message:Отказано в доступе.
+
+23:14:34. Show Window.
+23:14:50. Proccess with string -  EE
+23:14:51. Proccess with string -  SZ Интернет (тариф: 0.00067)-41,AG 192.168.0.1,HW
+23:14:51. Show Tarif Window.
+23:14:51. Add GateWay. Message:Отказано в доступе.
+
+23:14:51. Hide Window.
+23:15:54. Proccess with string -  HZ,DG,SW
+23:15:54. Hide Tarif Window.
+23:15:54. Disable GateWay. Message:Отказано в доступе.
+
+23:15:54. Show Window.
+23:15:55. Proccess with string -  HZ,DG,SW
+23:15:55. Hide Tarif Window.
+23:15:55. Disable GateWay. Message:Отказано в доступе.
+
+23:15:55. Show Window.
+23:16:03. Proccess with string -  EE
+23:16:04. Proccess with string -  SZ Интернет (тариф: 0.00067)-61,AG 192.168.0.1,HW
+23:16:04. Show Tarif Window.
+23:16:04. Add GateWay. Message:Отказано в доступе.
+
+23:16:04. Hide Window.
+23:17:07. Proccess with string -  HZ,DG,SW
+23:17:07. Hide Tarif Window.
+23:17:07. Disable GateWay. Message:Отказано в доступе.
+
+23:17:07. Show Window.
+23:18:16. Proccess with string -  EE
+23:18:34. Proccess with string -  SZ Интернет (тариф: 0.00067)-911,AG 192.168.0.1,HW
+23:18:34. Show Tarif Window.
+23:18:34. Add GateWay. Message:Отказано в доступе.
+
+23:18:34. Hide Window.
+23:19:44. Proccess with string -  HZ,DG,SW
+23:19:44. Hide Tarif Window.
+23:19:44. Disable GateWay. Message:Отказано в доступе.
+
+23:19:44. Show Window.
+23:20:03. Proccess with string -  HZ,DG,SW
+23:20:03. Hide Tarif Window.
+23:20:03. Disable GateWay. Message:Отказано в доступе.
+
+23:20:03. Show Window.
+23:20:33. Proccess with string -  EE
+23:20:44. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:20:44. Show Tarif Window.
+23:20:44. Add GateWay. Message:Отказано в доступе.
+
+23:20:44. Hide Window.
+23:21:11. Proccess with string -  HZ,DG,SW
+23:21:11. Hide Tarif Window.
+23:21:11. Disable GateWay. Message:Отказано в доступе.
+
+23:21:11. Show Window.
+23:21:25. Proccess with string -  HZ,DG,SW
+23:21:25. Hide Tarif Window.
+23:21:25. Disable GateWay. Message:Отказано в доступе.
+
+23:21:25. Show Window.
+23:21:39. Proccess with string -  HZ,DG,SW
+23:21:39. Hide Tarif Window.
+23:21:39. Disable GateWay. Message:Отказано в доступе.
+
+23:21:39. Show Window.
+23:22:08. Proccess with string -  EE
+23:23:25. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:23:25. Show Tarif Window.
+23:23:25. Add GateWay. Message:Отказано в доступе.
+
+23:23:25. Hide Window.
+23:23:53. Proccess with string -  HZ,DG,SW
+23:23:53. Hide Tarif Window.
+23:23:53. Disable GateWay. Message:Отказано в доступе.
+
+23:23:53. Show Window.
+23:24:18. Proccess with string -  HZ,DG,SW
+23:24:18. Hide Tarif Window.
+23:24:18. Disable GateWay. Message:Отказано в доступе.
+
+23:24:18. Show Window.
+23:24:42. Proccess with string -  EE
+23:24:53. Proccess with string -  SZ Интернет (тариф: 0.00067)-41,AG 192.168.0.1,HW
+23:24:53. Show Tarif Window.
+23:24:53. Add GateWay. Message:Отказано в доступе.
+
+23:24:53. Hide Window.
+23:25:10. Proccess with string -  HZ,DG,SW
+23:25:10. Hide Tarif Window.
+23:25:10. Disable GateWay. Message:Отказано в доступе.
+
+23:25:10. Show Window.
+23:26:52. Proccess with string -  HZ,DG,SW
+23:26:52. Hide Tarif Window.
+23:26:52. Disable GateWay. Message:Отказано в доступе.
+
+23:26:52. Show Window.
+23:27:33. Proccess with string -  EE
+23:27:55. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:27:55. Show Tarif Window.
+23:27:55. Add GateWay. Message:Отказано в доступе.
+
+23:27:55. Hide Window.
+23:28:08. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:28:08. Show Tarif Window.
+23:28:08. Add GateWay. Message:Отказано в доступе.
+
+23:28:08. Hide Window.
+23:28:12. Proccess with string -  HZ,DG,SW
+23:28:12. Hide Tarif Window.
+23:28:12. Disable GateWay. Message:Отказано в доступе.
+
+23:28:12. Show Window.
+23:28:32. Proccess with string -  HZ,DG,SW
+23:28:32. Hide Tarif Window.
+23:28:32. Disable GateWay. Message:Отказано в доступе.
+
+23:28:32. Show Window.
+23:28:58. Proccess with string -  EE
+23:29:05. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+23:29:05. Show Tarif Window.
+23:29:05. Add GateWay. Message:Отказано в доступе.
+
+23:29:05. Hide Window.
+00:20:38. Proccess with string -  SW,DG
+00:20:38. Show Window.
+00:20:38. Disable GateWay. Message:Отказано в доступе.
+
+00:20:48. Proccess with string -  EE
+00:20:48. Proccess with string -  SZ Интернет (тариф: 0.00067)-228,AG 192.168.0.1,HW
+00:20:48. Show Tarif Window.
+00:20:48. Add GateWay. Message:Отказано в доступе.
+
+00:20:48. Hide Window.
+00:21:30. Proccess with string -  SZ Интернет (тариф: 0.00067)-227,AG 192.168.0.1,HW
+00:21:30. Show Tarif Window.
+00:21:30. Add GateWay. Message:Отказано в доступе.
+
+00:21:30. Hide Window.
+00:24:20. Proccess with string -  SW,DG
+00:24:20. Show Window.
+00:24:20. Disable GateWay. Message:Отказано в доступе.
+
+00:24:23. Proccess with string -  HZ,DG,SW
+00:24:23. Hide Tarif Window.
+00:24:23. Disable GateWay. Message:Отказано в доступе.
+
+00:24:23. Show Window.
+00:24:23. Proccess with string -  HZ,DG,SW
+00:24:24. Hide Tarif Window.
+00:24:24. Disable GateWay. Message:Отказано в доступе.
+
+00:24:24. Show Window.
+00:24:29. Proccess with string -  EE
+00:24:29. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+00:24:29. Show Tarif Window.
+00:24:29. Add GateWay. Message:Отказано в доступе.
+
+00:24:29. Hide Window.
+00:25:21. Proccess with string -  SW,DG
+00:25:21. Show Window.
+00:25:21. Disable GateWay. Message:Отказано в доступе.
+
+00:25:25. Proccess with string -  HZ,DG,SW
+00:25:25. Hide Tarif Window.
+00:25:25. Disable GateWay. Message:Отказано в доступе.
+
+00:25:25. Show Window.
+00:25:25. Proccess with string -  HZ,DG,SW
+00:25:25. Hide Tarif Window.
+00:25:25. Disable GateWay. Message:Отказано в доступе.
+
+00:25:25. Show Window.
+00:25:30. Proccess with string -  EE
+00:25:30. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+00:25:30. Show Tarif Window.
+00:25:30. Add GateWay. Message:Отказано в доступе.
+
+00:25:30. Hide Window.
+08:46:41. Proccess with string -  SW,DG
+08:46:41. Show Window.
+08:46:41. Disable GateWay. Message:Отказано в доступе.
+
+08:50:34. Proccess with string -  HZ,DG,SW
+08:50:34. Hide Tarif Window.
+08:50:34. Disable GateWay. Message:Отказано в доступе.
+
+08:50:34. Show Window.
+08:50:34. Proccess with string -  EE
+08:50:44. Proccess with string -  EE
+08:50:44. Proccess with string -  SZ Интернет (тариф: 0.00067)-228,AG 192.168.0.1,HW
+08:50:44. Show Tarif Window.
+08:50:44. Add GateWay. Message:Отказано в доступе.
+
+08:50:44. Hide Window.
+10:01:42. Proccess with string -  SW,DG
+10:01:42. Show Window.
+10:01:42. Disable GateWay. Message:Отказано в доступе.
+
+10:02:00. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 192.168.0.1,HW
+10:02:00. Show Tarif Window.
+10:02:00. Add GateWay. Message:Отказано в доступе.
+
+10:02:00. Hide Window.
+10:02:01. Proccess with string -  EE
+10:02:53. Proccess with string -  HZ,DG,SW
+10:02:53. Hide Tarif Window.
+10:02:53. Disable GateWay. Message:Отказано в доступе.
+
+10:02:53. Show Window.
+10:03:06. Proccess with string -  EE
+10:03:07. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 192.168.0.1,HW
+10:03:07. Show Tarif Window.
+10:03:07. Add GateWay. Message:Отказано в доступе.
+
+10:03:07. Hide Window.
+10:03:10. Proccess with string -  EE
+10:11:10. Proccess with string -  SW,DG
+10:11:10. Show Window.
+10:11:10. Disable GateWay. Message:Отказано в доступе.
+
+10:11:31. Proccess with string -  EE
+10:11:32. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+10:11:32. Show Tarif Window.
+10:11:32. Add GateWay. Message:Отказано в доступе.
+
+10:11:32. Hide Window.
+10:12:00. Proccess with string -  SW,DG
+10:12:00. Show Window.
+10:12:00. Disable GateWay. Message:Отказано в доступе.
+
+10:12:16. Proccess with string -  HZ,DG,SW
+10:12:16. Hide Tarif Window.
+10:12:16. Disable GateWay. Message:Отказано в доступе.
+
+10:12:16. Show Window.
+10:12:17. Proccess with string -  EE
+10:12:26. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 192.168.0.1,HW
+10:12:26. Show Tarif Window.
+10:12:26. Add GateWay. Message:Отказано в доступе.
+
+10:12:26. Hide Window.
+10:14:12. Proccess with string -  AS,DG,SW
+10:18:01. Proccess with string -  HZ,DG,SW
+10:18:01. Hide Tarif Window.
+10:18:01. Disable GateWay. Message:Отказано в доступе.
+
+10:18:01. Show Window.
+10:18:15. Proccess with string -  EE
+10:18:18. Proccess with string -  EE
+10:18:20. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+10:18:20. Show Tarif Window.
+10:18:20. Add GateWay. Message:Отказано в доступе.
+
+10:18:20. Hide Window.
+10:19:13. Proccess with string -  AS Интернет (тариф: 0.00067)-20,AG 192.168.0.1,HW
+16:35:24. Proccess with string -  SW,DG
+16:35:25. Show Window.
+16:35:25. Disable GateWay. Message:Отказано в доступе.
+
+10:58:22. Proccess with string -  AS,
+10:58:22. Proccess with string -  EE
+10:58:38. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+10:58:38. Show Tarif Window.
+10:58:39. Add GateWay. Message:Отказано в доступе.
+
+10:58:39. Hide Window.
+10:59:07. Proccess with string -  HZ,DG,SW
+10:59:07. Hide Tarif Window.
+10:59:07. Disable GateWay. Message:Отказано в доступе.
+
+10:59:07. Show Window.
+10:59:16. Proccess with string -  AS,
+10:59:16. Proccess with string -  EE
+10:59:18. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+10:59:18. Show Tarif Window.
+10:59:19. Add GateWay. Message:Отказано в доступе.
+
+10:59:19. Hide Window.
+10:59:27. Proccess with string -  HZ,DG,SW
+10:59:27. Hide Tarif Window.
+10:59:27. Disable GateWay. Message:Отказано в доступе.
+
+10:59:27. Show Window.
+10:59:27. Proccess with string -  AS,
+10:59:27. Proccess with string -  EE
+10:59:33. Proccess with string -  EE
+10:59:33. Proccess with string -  SZ Интернет (тариф: 0.02000)-69,AG 10.80.15.1,HW
+10:59:33. Show Tarif Window.
+10:59:33. Add GateWay. Message:Отказано в доступе.
+
+10:59:33. Hide Window.
+11:00:40. Proccess with string -  HZ,DG,SW
+11:00:40. Hide Tarif Window.
+11:00:40. Disable GateWay. Message:Отказано в доступе.
+
+11:00:40. Show Window.
+11:00:40. Proccess with string -  HZ,DG,SW
+11:00:40. Hide Tarif Window.
+11:00:40. Disable GateWay. Message:Отказано в доступе.
+
+11:00:40. Show Window.
+11:00:48. Proccess with string -  EE
+11:00:48. Proccess with string -  SZ Интернет (тариф: 0.02000)-69,AG 10.80.15.1,HW
+11:00:48. Show Tarif Window.
+11:00:48. Add GateWay. Message:Отказано в доступе.
+
+11:00:48. Hide Window.
+11:04:48. Proccess with string -  SZ Интернет (тариф: 0.02000)-65,AG 10.80.15.1,HW
+11:04:48. Show Tarif Window.
+11:04:48. Add GateWay. Message:Отказано в доступе.
+
+11:04:48. Hide Window.
+11:10:11. Proccess with string -  HZ,DG,SW
+11:10:11. Hide Tarif Window.
+11:10:11. Disable GateWay. Message:Отказано в доступе.
+
+11:10:11. Show Window.
+11:10:13. Proccess with string -  HZ,DG,SW
+11:10:13. Hide Tarif Window.
+11:10:13. Disable GateWay. Message:Отказано в доступе.
+
+11:10:13. Show Window.
+11:10:17. Proccess with string -  EE
+11:10:20. Proccess with string -  SZ Интернет (тариф: 0.02000)-69,AG 10.80.15.1,HW
+11:10:20. Show Tarif Window.
+11:10:20. Add GateWay. Message:Отказано в доступе.
+
+11:10:20. Hide Window.
+11:10:30. Proccess with string -  HZ,DG,SW
+11:10:30. Hide Tarif Window.
+11:10:30. Disable GateWay. Message:Отказано в доступе.
+
+11:10:30. Show Window.
+11:10:32. Proccess with string -  HZ,DG,SW
+11:10:32. Hide Tarif Window.
+11:10:32. Disable GateWay. Message:Отказано в доступе.
+
+11:10:32. Show Window.
+11:10:56. Proccess with string -  EE
+11:11:39. Proccess with string -  SZ Интернет (тариф: 0.02000)-6,AG 10.80.15.1,HW
+11:11:39. Show Tarif Window.
+11:11:39. Add GateWay. Message:Отказано в доступе.
+
+11:11:39. Hide Window.
+11:11:42. Proccess with string -  SZ Интернет (тариф: 0.02000)-6,AG 10.80.15.1,HW
+11:11:42. Show Tarif Window.
+11:11:42. Add GateWay. Message:Отказано в доступе.
+
+11:11:42. Hide Window.
+11:14:33. Proccess with string -  SZ
+11:14:33. Show Tarif Window.
+11:16:37. Proccess with string -  EE
+11:16:37. Proccess with string -  SZ
+11:16:37. Show Tarif Window.
+11:17:47. Proccess with string -  EE
+11:17:47. Proccess with string -  HZ,DG,SW
+11:19:02. Hide Tarif Window.
+11:19:23. Proccess with string -  SZ
+11:19:23. Hide Tarif Window.
+11:22:28. Proccess with string -  SW,DG
+11:22:28. Show Window.
+11:22:28. Disable GateWay. Message:Отказано в доступе.
+
+11:22:35. Proccess with string -  EE
+11:22:36. Proccess with string -  SZ
+11:22:36. Show Tarif Window.
+11:23:33. Proccess with string -  SW,DG
+11:23:33. Show Window.
+11:23:33. Disable GateWay. Message:Отказано в доступе.
+
+11:24:27. Proccess with string -  SW,DG
+11:24:27. Show Window.
+11:24:27. Disable GateWay. Message:Отказано в доступе.
+
+11:24:46. Proccess with string -  EE
+11:25:49. Proccess with string -  SZ Интернет (тариф: 0.02000)-6,AG 10.80.15.1,HW
+11:25:49. Show Tarif Window.
+11:25:49. Add GateWay. Message:Отказано в доступе.
+
+11:25:49. Hide Window.
+11:27:10. Proccess with string -  SW,DG
+11:27:10. Show Window.
+11:27:10. Disable GateWay. Message:Отказано в доступе.
+
+11:27:13. Proccess with string -  EE
+11:27:15. Proccess with string -  SZ,HW
+11:27:15. Show Tarif Window.
+11:27:54. Proccess with string -  SW,DG
+11:27:54. Show Window.
+11:27:54. Disable GateWay. Message:Отказано в доступе.
+
+11:27:56. Proccess with string -  EE
+11:27:57. Proccess with string -  HW
+11:27:57. Hide Window.
+11:39:18. Proccess with string -  SW,DG
+11:39:18. Show Window.
+11:39:18. Disable GateWay. Message:Отказано в доступе.
+
+11:40:32. Proccess with string -  SW,DG
+11:40:32. Show Window.
+11:40:32. Disable GateWay. Message:Отказано в доступе.
+
+11:40:45. Proccess with string -  EE
+11:40:53. Proccess with string -  SZ Интернет (тариф: 0.02000)
+11:40:53. Show Tarif Window.
+11:42:36. Proccess with string -  SW,DG
+11:42:36. Show Window.
+11:42:36. Disable GateWay. Message:Отказано в доступе.
+
+11:42:39. Proccess with string -  EE
+11:42:46. Proccess with string -  SZ Интернет (тариф: 0.02000) HW
+11:42:46. Show Tarif Window.
+11:46:03. Proccess with string -  SW
+11:46:03. Show Window.
+11:46:05. Proccess with string -  EE
+11:46:15. Proccess with string -  SZ Интернет (тариф: 0.02000) HW
+11:47:37. Proccess with string -  HZ,DG,SW
+11:47:55. Hide Tarif Window.
+11:48:20. Show Window.
+11:50:13. Proccess with string -  EE
+11:52:49. Proccess with string -  SZ Интернет (тариф: 0.02000)-138,AG 10.80.15.1,HW
+11:56:04. Proccess with string -  SW
+11:56:04. Show Window.
+11:56:07. Proccess with string -  EE
+11:56:11. Proccess with string -  SZ Интернет (тариф: 0.02000)-6, HW
+11:56:11. Show Tarif Window.
+11:56:11. Hide Window.
+11:56:36. Proccess with string -  SW
+11:56:36. Show Window.
+11:56:36. Proccess with string -  EE
+11:56:36. Proccess with string -  SZ Интернет (тариф: 0.02000)-6, HW
+11:56:36. Show Tarif Window.
+11:56:36. Hide Window.
+15:00:38. Proccess with string -  SW
+15:00:38. Show Window.
+15:00:38. Proccess with string -  EE
+15:00:38. Proccess with string -  SZ Интернет (тариф: 0.02000)-6, HW
+15:00:38. Show Tarif Window.
+15:00:38. Hide Window.
+15:01:07. Proccess with string -  SW
+15:01:07. Show Window.
+15:01:07. Proccess with string -  EE
+15:01:07. Proccess with string -  SZ Интернет (тариф: 0.02000)-6, HW
+15:01:07. Show Tarif Window.
+15:01:07. Hide Window.
+15:02:23. Proccess with string -  SW
+15:02:23. Show Window.
+15:02:23. Proccess with string -  EE
+15:02:23. Proccess with string -  SZ Интернет (тариф: 0.02000)-6, HW
+15:02:23. Show Tarif Window.
+15:02:23. Hide Window.
+15:03:48. Proccess with string -  SW
+15:03:48. Show Window.
+15:03:48. Proccess with string -  EE
+15:03:48. Proccess with string -  SZ Интернет (тариф: 0.02000)-6, HW
+15:03:48. Show Tarif Window.
+15:03:48. Hide Window.
+15:05:27. Proccess with string -  SW
+15:05:27. Show Window.
+15:05:27. Proccess with string -  EE
+15:05:27. Proccess with string -  SZ Интернет (тариф: 0.02000)-6, HW
+15:05:27. Show Tarif Window.
+15:05:27. Hide Window.
+15:06:43. Proccess with string -  SW
+15:06:43. Show Window.
+15:06:43. Proccess with string -  EE
+15:06:43. Proccess with string -  SZ Интернет (тариф: 0.02000)-5, HW
+15:06:43. Show Tarif Window.
+15:06:43. Hide Window.
+15:08:56. Proccess with string -  SW
+15:08:56. Show Window.
+15:08:56. Proccess with string -  EE
+15:08:56. Proccess with string -  SZ Интернет (тариф: 0.02000)-5, HW
+15:08:56. Show Tarif Window.
+15:08:57. Hide Window.
+15:09:33. Proccess with string -  SW
+15:09:33. Show Window.
+15:09:33. Proccess with string -  EE
+15:09:33. Proccess with string -  SZ Интернет (тариф: 0.02000)-5, HW
+15:09:33. Show Tarif Window.
+15:09:33. Hide Window.
+15:09:40. Proccess with string -  SW
+15:09:40. Show Window.
+15:09:40. Proccess with string -  EE
+15:09:40. Proccess with string -  SZ Интернет (тариф: 0.02000)-5, HW
+15:09:40. Show Tarif Window.
+15:09:41. Hide Window.
+15:13:18. Proccess with string -  SW
+15:13:18. Show Window.
+15:13:18. Proccess with string -  EE
+15:13:18. Proccess with string -  SZ Интернет (тариф: 0.02000)-2, HW
+15:13:18. Show Tarif Window.
+15:13:19. Hide Window.
+15:14:23. Proccess with string -  SW
+15:14:23. Show Window.
+15:14:23. Proccess with string -  EE
+15:14:23. Proccess with string -  SZ Интернет (тариф: 0.02000)-2, HW
+15:14:23. Show Tarif Window.
+15:14:24. Hide Window.
+15:18:30. Proccess with string -  SW
+15:18:30. Show Window.
+15:18:30. Proccess with string -  EE
+15:18:30. Proccess with string -  SZ Интернет (тариф: 0.02000)-1, HW
+15:18:30. Show Tarif Window.
+15:18:31. Hide Window.
+15:22:20. Proccess with string -  SW
+15:22:20. Show Window.
+15:22:30. Proccess with string -  EE
+15:22:30. Proccess with string -  SZ Интернет (тариф: 0.02000)-6,AG 10.80.15.1,HW
+15:22:30. Show Tarif Window.
+15:22:30. Add GateWay. Message:Отказано в доступе.
+
+15:22:30. Hide Window.
+15:22:34. Proccess with string -  HZ,DG,SW
+15:22:34. Hide Tarif Window.
+15:22:34. Disable GateWay. Message:Отказано в доступе.
+
+15:22:34. Show Window.
+15:22:34. Proccess with string -  HZ,DG,SW
+15:22:34. Hide Tarif Window.
+15:22:34. Disable GateWay. Message:Отказано в доступе.
+
+15:22:34. Show Window.
+15:22:40. Proccess with string -  EE
+15:22:40. Proccess with string -  SZ Интернет (тариф: 0.02000)-5,AG 10.80.15.1,HW
+15:22:40. Show Tarif Window.
+15:22:40. Add GateWay. Message:Отказано в доступе.
+
+15:22:40. Hide Window.
+15:22:56. Proccess with string -  HZ,DG,SW
+15:22:56. Hide Tarif Window.
+15:22:56. Disable GateWay. Message:Отказано в доступе.
+
+15:22:56. Show Window.
+15:22:56. Proccess with string -  HZ,DG,SW
+15:22:56. Hide Tarif Window.
+15:22:56. Disable GateWay. Message:Отказано в доступе.
+
+15:22:56. Show Window.
+15:23:06. Proccess with string -  EE
+15:23:06. Proccess with string -  SZ Интернет (тариф: 0.02000)-4,AG 10.80.15.1,HW
+15:23:06. Show Tarif Window.
+15:23:07. Add GateWay. Message:Отказано в доступе.
+
+15:23:07. Hide Window.
+15:26:50. Proccess with string -  SW
+15:26:50. Show Window.
+15:26:50. Proccess with string -  EE
+15:26:50. Proccess with string -  SZ Интернет (тариф: 0.02000)-1, HW
+15:26:50. Show Tarif Window.
+15:26:51. Hide Window.
+15:28:10. Proccess with string -  SW
+15:28:10. Show Window.
+15:28:10. Proccess with string -  EE
+15:28:10. Proccess with string -  SZ Интернет (тариф: 0.02000)-1, HW
+15:28:10. Show Tarif Window.
+15:28:34. Proccess with string -  SW
+15:28:34. Show Window.
+15:28:34. Proccess with string -  EE
+15:28:34. Proccess with string -  SZ Интернет (тариф: 0.02000)-1, HW
+15:28:34. Show Tarif Window.
+15:28:57. Proccess with string -  SW
+15:28:57. Show Window.
+15:28:57. Proccess with string -  EE
+15:28:57. Proccess with string -  SZ Интернет (тариф: 0.02000)-1, HW
+15:28:57. Show Tarif Window.
+15:30:05. Proccess with string -  SW
+15:30:05. Show Window.
+15:30:05. Proccess with string -  EE
+15:30:05. Proccess with string -  SZ Интернет (тариф: 0.02000)-1, HW
+15:30:05. Show Tarif Window.
+15:33:24. Proccess with string -  SW
+15:33:24. Show Window.
+15:33:24. Proccess with string -  EE
+15:33:24. Proccess with string -  SZ Интернет (тариф: 0.02000)-1, HW
+15:33:24. Show Tarif Window.
+15:33:25. Hide Window.
+15:33:37. Proccess with string -  SW
+15:33:37. Show Window.
+15:33:37. Proccess with string -  EE
+15:33:37. Proccess with string -  SZ Интернет (тариф: 0.02000)-1, HW
+15:33:37. Show Tarif Window.
+15:33:38. Hide Window.
+15:35:13. Proccess with string -  SW
+15:35:13. Show Window.
+15:35:13. Proccess with string -  EE
+15:35:13. Proccess with string -  SZ Интернет (тариф: 0.02000)-1, HW
+15:35:13. Show Tarif Window.
+15:35:14. Hide Window.
+15:35:43. Proccess with string -  EE
+15:35:43. Proccess with string -  SZ Интернет (тариф: 0.02000)-4,AG 10.80.15.1,HW
+15:35:43. Show Tarif Window.
+15:35:43. Add GateWay. Message:Отказано в доступе.
+
+15:35:43. Hide Window.
+15:35:51. Proccess with string -  HZ,DG,SW
+15:35:51. Hide Tarif Window.
+15:35:51. Disable GateWay. Message:Отказано в доступе.
+
+15:35:51. Show Window.
+15:35:51. Proccess with string -  HZ,DG,SW
+15:35:51. Hide Tarif Window.
+15:35:51. Disable GateWay. Message:Отказано в доступе.
+
+15:35:51. Show Window.
+15:36:07. Proccess with string -  EE
+15:36:07. Proccess with string -  SZ Интернет (тариф: 0.02000)-5,AG 10.80.15.1,HW
+15:36:07. Show Tarif Window.
+15:36:07. Add GateWay. Message:Отказано в доступе.
+
+15:36:07. Hide Window.
+15:36:11. Proccess with string -  HZ,DG,SW
+15:36:11. Hide Tarif Window.
+15:36:11. Disable GateWay. Message:Отказано в доступе.
+
+15:36:11. Show Window.
+15:36:11. Proccess with string -  HZ,DG,SW
+15:36:11. Hide Tarif Window.
+15:36:11. Disable GateWay. Message:Отказано в доступе.
+
+15:36:11. Show Window.
+15:36:20. Proccess with string -  EE
+15:36:20. Proccess with string -  SZ Интернет (тариф: 0.02000)-6,AG 10.80.15.1,HW
+15:36:20. Show Tarif Window.
+15:36:20. Add GateWay. Message:Отказано в доступе.
+
+15:36:20. Hide Window.
+15:38:29. Proccess with string -  SW
+15:38:29. Show Window.
+15:38:29. Proccess with string -  EE
+15:38:29. Proccess with string -  SZ Интернет (тариф: 0.02000)-4, HW
+15:38:29. Show Tarif Window.
+15:38:29. Hide Window.
+16:11:58. Proccess with string -  SW
+16:11:58. Show Window.
+16:11:58. Proccess with string -  EE
+16:11:58. Proccess with string -  SZ Интернет (тариф: 0.02000)-4, HW
+16:11:58. Show Tarif Window.
+16:11:58. Hide Window.
+16:12:39. Proccess with string -  EE
+16:12:39. Proccess with string -  SZ Интернет (тариф: 0.02000)-1,AG 10.80.15.1,HW
+16:12:39. Show Tarif Window.
+16:12:39. Add GateWay. Message:Отказано в доступе.
+
+16:12:39. Hide Window.
+16:13:32. Proccess with string -  SW
+16:13:32. Show Window.
+16:13:32. Proccess with string -  EE
+16:13:32. Proccess with string -  SZ Интернет (тариф: 0.02000)-4, HW
+16:13:32. Show Tarif Window.
+16:13:32. Hide Window.
+16:13:47. Proccess with string -  HZ,DG,SW
+16:13:47. Hide Tarif Window.
+16:13:47. Disable GateWay. Message:Отказано в доступе.
+
+16:13:47. Show Window.
+16:13:47. Proccess with string -  HZ,DG,SW
+16:13:47. Hide Tarif Window.
+16:13:47. Disable GateWay. Message:Отказано в доступе.
+
+16:13:47. Show Window.
+16:21:07. Proccess with string -  SW
+16:21:07. Show Window.
+16:21:07. Proccess with string -  EE
+16:21:07. Proccess with string -  SZ Интернет (тариф: 0.02000)-4, HW
+16:21:07. Show Tarif Window.
+16:21:08. Hide Window.
+16:22:39. Proccess with string -  SW
+16:22:39. Show Window.
+16:22:39. Proccess with string -  EE
+16:22:39. Proccess with string -  SZ Интернет (тариф: 0.02000)-4, HW
+16:22:39. Show Tarif Window.
+16:22:39. Hide Window.
+16:25:25. Proccess with string -  SW
+16:25:25. Show Window.
+16:25:25. Proccess with string -  EE
+16:25:25. Proccess with string -  SZ Интернет (тариф: 0.02000)-4, HW
+16:25:25. Show Tarif Window.
+16:25:25. Hide Window.
+16:37:18. Proccess with string -  SW
+16:37:18. Show Window.
+16:37:18. Proccess with string -  EE
+16:37:18. Proccess with string -  SZ Интернет (тариф: 0.02000)-4, HW
+16:37:18. Show Tarif Window.
+16:37:18. Hide Window.
+16:37:55. Proccess with string -  EE
+16:37:55. Proccess with string -  SZ Интернет (тариф: 0.02000)-0,AG 10.80.15.1,HW
+16:37:55. Show Tarif Window.
+16:37:55. Add GateWay. Message:Отказано в доступе.
+
+16:37:55. Hide Window.
+16:38:36. Proccess with string -  HZ,DG,SW
+16:38:36. Hide Tarif Window.
+16:38:36. Disable GateWay. Message:Отказано в доступе.
+
+16:38:36. Show Window.
+16:39:25. Proccess with string -  HZ,DG,SW
+16:39:25. Hide Tarif Window.
+16:39:25. Disable GateWay. Message:Отказано в доступе.
+
+16:39:25. Show Window.
+16:44:09. Proccess with string -  SW
+16:44:09. Show Window.
+16:44:47. Proccess with string -  EE
+16:44:47. Proccess with string -  SZ Интернет (тариф: 0.02000)-0,AG 10.80.15.1,HW
+16:44:47. Show Tarif Window.
+16:44:49. Add GateWay. Message:Отказано в доступе.
+
+16:44:49. Hide Window.
+16:45:26. Proccess with string -  SZ Интернет (тариф: 0.02000)-0,AG 10.80.15.1,HW
+16:45:26. Show Tarif Window.
+16:45:26. Add GateWay. Message:Отказано в доступе.
+
+16:45:26. Hide Window.
+16:45:29. Proccess with string -  HZ,DG,SW
+16:45:29. Hide Tarif Window.
+16:45:29. Disable GateWay. Message:Отказано в доступе.
+
+16:45:29. Show Window.
+15:17:16. Proccess with string -  SW
+15:17:16. Show Window.
+15:18:24. Proccess with string -  HZ,DG,SW
+15:18:24. Hide Tarif Window.
+15:18:24. Disable GateWay. Message:Отказано в доступе.
+
+15:18:24. Show Window.
+15:18:25. Proccess with string -  EE
+15:18:27. Proccess with string -  HZ,DG,SW
+15:18:27. Hide Tarif Window.
+15:18:27. Disable GateWay. Message:Отказано в доступе.
+
+15:18:27. Show Window.
+15:18:29. Proccess with string -  EE
+15:18:31. Proccess with string -  HZ,DG,SW
+15:18:31. Hide Tarif Window.
+15:18:31. Disable GateWay. Message:Отказано в доступе.
+
+15:18:31. Show Window.
+15:18:32. Proccess with string -  EE
+15:18:34. Proccess with string -  HZ,DG,SW
+15:18:34. Hide Tarif Window.
+15:18:34. Disable GateWay. Message:Отказано в доступе.
+
+15:18:34. Show Window.
+15:18:35. Proccess with string -  EE
+15:18:37. Proccess with string -  HZ,DG,SW
+15:18:37. Hide Tarif Window.
+15:18:37. Disable GateWay. Message:Отказано в доступе.
+
+15:18:37. Show Window.
+15:18:38. Proccess with string -  EE
+15:18:40. Proccess with string -  HZ,DG,SW
+15:18:40. Hide Tarif Window.
+15:18:40. Disable GateWay. Message:Отказано в доступе.
+
+15:18:40. Show Window.
+15:18:41. Proccess with string -  EE
+15:18:43. Proccess with string -  HZ,DG,SW
+15:18:43. Hide Tarif Window.
+15:18:43. Disable GateWay. Message:Отказано в доступе.
+
+15:18:43. Show Window.
+15:18:44. Proccess with string -  EE
+15:18:46. Proccess with string -  HZ,DG,SW
+15:18:46. Hide Tarif Window.
+15:18:46. Disable GateWay. Message:Отказано в доступе.
+
+15:18:46. Show Window.
+15:18:47. Proccess with string -  EE
+15:18:49. Proccess with string -  HZ,DG,SW
+15:18:49. Hide Tarif Window.
+15:18:49. Disable GateWay. Message:Отказано в доступе.
+
+15:18:49. Show Window.
+15:18:50. Proccess with string -  EE
+15:18:52. Proccess with string -  HZ,DG,SW
+15:18:52. Hide Tarif Window.
+15:18:52. Disable GateWay. Message:Отказано в доступе.
+
+15:18:52. Show Window.
+15:18:53. Proccess with string -  EE
+15:18:55. Proccess with string -  HZ,DG,SW
+15:18:55. Hide Tarif Window.
+15:18:55. Disable GateWay. Message:Отказано в доступе.
+
+15:18:55. Show Window.
+15:18:56. Proccess with string -  EE
+15:18:58. Proccess with string -  HZ,DG,SW
+15:18:58. Hide Tarif Window.
+15:18:58. Disable GateWay. Message:Отказано в доступе.
+
+15:18:58. Show Window.
+15:18:59. Proccess with string -  EE
+15:19:01. Proccess with string -  HZ,DG,SW
+15:19:01. Hide Tarif Window.
+15:19:01. Disable GateWay. Message:Отказано в доступе.
+
+15:19:01. Show Window.
+15:19:03. Proccess with string -  EE
+15:19:05. Proccess with string -  HZ,DG,SW
+15:19:05. Hide Tarif Window.
+15:19:05. Disable GateWay. Message:Отказано в доступе.
+
+15:19:05. Show Window.
+15:19:06. Proccess with string -  EE
+15:19:08. Proccess with string -  HZ,DG,SW
+15:19:08. Hide Tarif Window.
+15:19:08. Disable GateWay. Message:Отказано в доступе.
+
+15:19:08. Show Window.
+15:19:09. Proccess with string -  EE
+15:19:11. Proccess with string -  HZ,DG,SW
+15:19:11. Hide Tarif Window.
+15:19:11. Disable GateWay. Message:Отказано в доступе.
+
+15:19:11. Show Window.
+15:19:11. Proccess with string -  EE
+15:19:11. Proccess with string -  HZ,DG,SW
+15:19:11. Hide Tarif Window.
+15:19:11. Disable GateWay. Message:Отказано в доступе.
+
+15:19:11. Show Window.
+15:19:11. Proccess with string -  EE
+15:19:11. Proccess with string -  HZ,DG,SW
+15:19:11. Hide Tarif Window.
+15:19:11. Disable GateWay. Message:Отказано в доступе.
+
+15:19:11. Show Window.
+15:19:11. Proccess with string -  EE
+15:19:11. Proccess with string -  HZ,DG,SW
+15:19:11. Hide Tarif Window.
+15:19:11. Disable GateWay. Message:Отказано в доступе.
+
+15:19:11. Show Window.
+15:19:11. Proccess with string -  EE
+15:19:11. Proccess with string -  HZ,DG,SW
+15:19:11. Hide Tarif Window.
+15:19:11. Disable GateWay. Message:Отказано в доступе.
+
+15:19:11. Show Window.
+15:19:11. Proccess with string -  EE
+15:19:17. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:17. Show Tarif Window.
+15:19:19. Add GateWay. Message:Отказано в доступе.
+
+15:19:19. Hide Window.
+15:19:19. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:19. Show Tarif Window.
+15:19:21. Add GateWay. Message:Отказано в доступе.
+
+15:19:21. Hide Window.
+15:19:21. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:21. Show Tarif Window.
+15:19:23. Add GateWay. Message:Отказано в доступе.
+
+15:19:23. Hide Window.
+15:19:23. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:23. Show Tarif Window.
+15:19:25. Add GateWay. Message:Отказано в доступе.
+
+15:19:25. Hide Window.
+15:19:25. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:25. Show Tarif Window.
+15:19:27. Add GateWay. Message:Отказано в доступе.
+
+15:19:27. Hide Window.
+15:19:27. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:27. Show Tarif Window.
+15:19:28. Add GateWay. Message:Отказано в доступе.
+
+15:19:28. Hide Window.
+15:19:28. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:28. Show Tarif Window.
+15:19:30. Add GateWay. Message:Отказано в доступе.
+
+15:19:30. Hide Window.
+15:19:30. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:30. Show Tarif Window.
+15:19:32. Add GateWay. Message:Отказано в доступе.
+
+15:19:32. Hide Window.
+15:19:32. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:32. Show Tarif Window.
+15:19:34. Add GateWay. Message:Отказано в доступе.
+
+15:19:34. Hide Window.
+15:19:34. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:34. Show Tarif Window.
+15:19:36. Add GateWay. Message:Отказано в доступе.
+
+15:19:36. Hide Window.
+15:19:36. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:36. Show Tarif Window.
+15:19:37. Add GateWay. Message:Отказано в доступе.
+
+15:19:37. Hide Window.
+15:19:37. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:37. Show Tarif Window.
+15:19:39. Add GateWay. Message:Отказано в доступе.
+
+15:19:39. Hide Window.
+15:19:39. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+15:19:39. Show Tarif Window.
+15:19:41. Add GateWay. Message:Отказано в доступе.
+
+15:19:41. Hide Window.
+15:19:41. Proccess with string -  HZ,DG,SW
+15:19:41. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:43. Proccess with string -  HZ,DG,SW
+15:19:43. Hide Tarif Window.
+15:19:43. Disable GateWay. Message:Отказано в доступе.
+
+15:19:43. Show Window.
+15:19:44. Proccess with string -  HZ,DG,SW
+15:19:44. Hide Tarif Window.
+15:19:44. Disable GateWay. Message:Отказано в доступе.
+
+15:19:44. Show Window.
+15:19:44. Proccess with string -  HZ,DG,SW
+15:19:44. Hide Tarif Window.
+15:19:44. Disable GateWay. Message:Отказано в доступе.
+
+15:19:44. Show Window.
+15:19:44. Proccess with string -  HZ,DG,SW
+15:19:44. Hide Tarif Window.
+15:19:44. Disable GateWay. Message:Отказано в доступе.
+
+15:19:44. Show Window.
+15:19:44. Proccess with string -  HZ,DG,SW
+15:19:44. Hide Tarif Window.
+15:19:44. Disable GateWay. Message:Отказано в доступе.
+
+15:19:44. Show Window.
+15:19:44. Proccess with string -  EE
+15:19:48. Proccess with string -  EE
+15:19:48. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072,AG 10.80.15.1,HW
+15:19:48. Show Tarif Window.
+15:19:48. Add GateWay. Message:Отказано в доступе.
+
+15:19:48. Hide Window.
+15:24:04. Proccess with string -  SW
+15:24:04. Show Window.
+15:24:04. Proccess with string -  EE
+15:24:04. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+15:24:04. Show Tarif Window.
+15:24:04. Hide Window.
+15:35:34. Proccess with string -  SW
+15:35:34. Show Window.
+15:35:34. Proccess with string -  EE
+15:35:34. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+15:35:34. Show Tarif Window.
+15:35:34. Hide Window.
+15:36:21. Proccess with string -  SW
+15:36:21. Show Window.
+15:36:22. Proccess with string -  EE
+15:36:22. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+15:36:22. Show Tarif Window.
+15:36:22. Hide Window.
+15:41:07. Proccess with string -  SW
+15:41:07. Show Window.
+15:41:07. Proccess with string -  EE
+15:41:07. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+15:41:07. Show Tarif Window.
+15:41:07. Hide Window.
+15:43:35. Proccess with string -  SZ Интернет (тариф: 0.00067)-2049,AG 10.80.15.1,HW
+15:43:35. Show Tarif Window.
+15:43:35. Add GateWay. Message:Отказано в доступе.
+
+15:43:35. Hide Window.
+15:46:22. Proccess with string -  SW
+15:46:22. Show Window.
+15:46:22. Proccess with string -  EE
+15:46:22. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+15:46:22. Show Tarif Window.
+15:46:22. Hide Window.
+15:47:04. Proccess with string -  SW
+15:47:04. Show Window.
+15:47:04. Proccess with string -  EE
+15:47:04. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+15:47:04. Show Tarif Window.
+15:47:04. Hide Window.
+15:47:24. Proccess with string -  SW
+15:47:24. Show Window.
+15:47:24. Proccess with string -  EE
+15:47:24. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+15:47:24. Show Tarif Window.
+15:47:24. Hide Window.
+15:49:48. Proccess with string -  SW
+15:49:48. Show Window.
+15:49:48. Proccess with string -  EE
+15:49:48. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+15:49:48. Show Tarif Window.
+15:49:48. Hide Window.
+15:55:42. Proccess with string -  SW
+15:55:42. Show Window.
+15:55:43. Proccess with string -  EE
+15:55:43. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+15:55:43. Show Tarif Window.
+15:55:43. Hide Window.
+16:01:00. Proccess with string -  SW
+16:01:00. Show Window.
+16:01:00. Proccess with string -  EE
+16:01:00. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+16:01:00. Show Tarif Window.
+16:01:00. Hide Window.
+16:03:10. Proccess with string -  SW
+16:03:10. Show Window.
+16:03:10. Proccess with string -  EE
+16:03:10. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+16:03:10. Show Tarif Window.
+16:03:10. Hide Window.
+16:04:00. Proccess with string -  SW
+16:04:00. Show Window.
+16:04:00. Proccess with string -  EE
+16:04:00. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+16:04:00. Show Tarif Window.
+16:04:00. Hide Window.
+16:04:40. Proccess with string -  SW
+16:04:40. Show Window.
+16:04:40. Proccess with string -  EE
+16:04:40. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+16:04:40. Show Tarif Window.
+16:04:40. Hide Window.
+16:12:15. Proccess with string -  SW
+16:12:15. Show Window.
+16:12:15. Proccess with string -  EE
+16:12:15. Proccess with string -  SZ Интернет (тариф: 0.00067)-2047, HW
+16:12:15. Show Tarif Window.
+16:12:15. Hide Window.
+16:13:36. Proccess with string -  SZ Интернет (тариф: 0.00067)-2019,AG 10.80.15.1,HW
+16:13:36. Show Tarif Window.
+16:13:36. Add GateWay. Message:Отказано в доступе.
+
+16:13:36. Hide Window.
+16:14:37. Proccess with string -  SW
+16:14:37. Show Window.
+16:14:37. Proccess with string -  EE
+16:14:37. Proccess with string -  SZ Интернет (тариф: 0.00067)-2019, HW
+16:14:37. Show Tarif Window.
+16:14:37. Hide Window.
+16:15:07. Proccess with string -  SW
+16:15:07. Show Window.
+16:15:07. Proccess with string -  EE
+16:15:07. Proccess with string -  SZ Интернет (тариф: 0.00067)-2019, HW
+16:15:07. Show Tarif Window.
+16:15:07. Hide Window.
+16:30:16. Proccess with string -  SW
+16:30:16. Show Window.
+16:30:16. Proccess with string -  EE
+16:30:16. Proccess with string -  SZ Интернет (тариф: 0.00067)-2019, HW
+16:30:16. Show Tarif Window.
+16:30:16. Hide Window.
+16:31:01. Proccess with string -  SW
+16:31:01. Show Window.
+16:31:01. Proccess with string -  EE
+16:31:01. Proccess with string -  SZ Интернет (тариф: 0.00067)-2019, HW
+16:31:01. Show Tarif Window.
+16:31:01. Hide Window.
+16:32:28. Proccess with string -  SW
+16:32:28. Show Window.
+16:32:28. Proccess with string -  EE
+16:32:28. Proccess with string -  SZ Интернет (тариф: 0.00067)-2019, HW
+16:32:28. Show Tarif Window.
+16:32:28. Hide Window.
+16:33:27. Proccess with string -  SW
+16:33:27. Show Window.
+16:33:28. Proccess with string -  EE
+16:33:28. Proccess with string -  SZ Интернет (тариф: 0.00067)-2019, HW
+16:33:28. Show Tarif Window.
+16:33:28. Hide Window.
+16:35:10. Proccess with string -  SW
+16:35:10. Show Window.
+16:35:10. Proccess with string -  EE
+16:35:10. Proccess with string -  SZ Интернет (тариф: 0.00067)-2019, HW
+16:35:10. Show Tarif Window.
+16:35:10. Hide Window.
+16:38:17. Proccess with string -  SW
+16:38:17. Show Window.
+16:38:17. Proccess with string -  EE
+16:38:17. Proccess with string -  SZ Интернет (тариф: 0.00067)-2019, HW
+16:38:17. Show Tarif Window.
+16:38:17. Hide Window.
+16:44:03. Proccess with string -  SZ Интернет (тариф: 0.00067)-1989,AG 10.80.15.1,HW
+16:44:03. Show Tarif Window.
+16:44:12. Add GateWay. Message:Отказано в доступе.
+
+16:44:52. Hide Window.
+16:46:33. Proccess with string -  SW
+16:46:33. Show Window.
+16:46:33. Proccess with string -  EE
+16:46:33. Proccess with string -  SZ Интернет (тариф: 0.00067)-1987, HW
+16:46:33. Show Tarif Window.
+16:46:33. Hide Window.
+16:49:43. Proccess with string -  SW
+16:49:43. Show Window.
+16:49:43. Proccess with string -  EE
+16:49:43. Proccess with string -  SZ Интернет (тариф: 0.00067)-1987, HW
+16:49:43. Show Tarif Window.
+16:49:43. Hide Window.
+16:55:12. Proccess with string -  SW
+16:55:12. Show Window.
+16:55:12. Proccess with string -  EE
+16:55:12. Proccess with string -  SZ Интернет (тариф: 0.00067)-1987, HW
+16:55:12. Show Tarif Window.
+16:55:13. Hide Window.
+16:55:43. Proccess with string -  SZ Интернет (тариф: 0.00067)-1977,AG 10.80.15.1,HW
+16:55:43. Show Tarif Window.
+16:55:43. Add GateWay. Message:Отказано в доступе.
+
+16:55:43. Hide Window.
+16:56:20. Proccess with string -  SW
+16:56:20. Show Window.
+16:56:20. Proccess with string -  EE
+16:56:20. Proccess with string -  SZ Интернет (тариф: 0.00067)-1977, HW
+16:56:20. Show Tarif Window.
+16:56:20. Hide Window.
+16:58:41. Proccess with string -  SW
+16:58:41. Show Window.
+16:58:41. Proccess with string -  EE
+16:58:41. Proccess with string -  SZ Интернет (тариф: 0.00067)-1977, HW
+16:58:41. Show Tarif Window.
+16:58:41. Hide Window.
+16:59:45. Proccess with string -  SW
+16:59:45. Show Window.
+16:59:45. Proccess with string -  EE
+16:59:45. Proccess with string -  SZ Интернет (тариф: 0.00067)-1977, HW
+16:59:45. Show Tarif Window.
+16:59:45. Hide Window.
+17:01:44. Proccess with string -  SZ Интернет (тариф: 0.00067)-1971,AG 10.80.15.1,HW
+17:01:44. Show Tarif Window.
+17:01:50. Add GateWay. Message:Отказано в доступе.
+
+17:01:50. Hide Window.
+17:17:57. Proccess with string -  SW
+17:17:57. Show Window.
+17:17:57. Proccess with string -  EE
+17:17:57. Proccess with string -  SZ Интернет (тариф: 0.00067)-1970, HW
+17:17:57. Show Tarif Window.
+17:17:57. Hide Window.
+17:18:58. Proccess with string -  SW
+17:18:58. Show Window.
+17:18:58. Proccess with string -  EE
+17:18:58. Proccess with string -  SZ Интернет (тариф: 0.00067)-1970, HW
+17:18:58. Show Tarif Window.
+17:18:58. Hide Window.
+17:20:46. Proccess with string -  SW
+17:20:46. Show Window.
+17:20:46. Proccess with string -  EE
+17:20:46. Proccess with string -  SZ Интернет (тариф: 0.00067)-1970, HW
+17:20:46. Show Tarif Window.
+17:20:46. Hide Window.
+17:21:09. Proccess with string -  SW
+17:21:09. Show Window.
+17:21:09. Proccess with string -  EE
+17:21:09. Proccess with string -  SZ Интернет (тариф: 0.00067)-1970, HW
+17:21:09. Show Tarif Window.
+17:21:09. Hide Window.
+17:22:07. Proccess with string -  SW
+17:22:07. Show Window.
+17:22:07. Proccess with string -  EE
+17:22:07. Proccess with string -  SZ Интернет (тариф: 0.00067)-1970, HW
+17:22:07. Show Tarif Window.
+17:22:07. Hide Window.
+17:23:56. Proccess with string -  SW
+17:23:56. Show Window.
+17:23:56. Proccess with string -  EE
+17:23:56. Proccess with string -  SZ Интернет (тариф: 0.00067)-1970, HW
+17:23:56. Show Tarif Window.
+17:23:56. Hide Window.
+17:24:45. Proccess with string -  SW
+17:24:45. Show Window.
+17:24:45. Proccess with string -  EE
+17:24:45. Proccess with string -  SZ Интернет (тариф: 0.00067)-1970, HW
+17:24:45. Show Tarif Window.
+17:24:45. Hide Window.
+17:28:37. Proccess with string -  SW
+17:28:37. Show Window.
+17:28:37. Proccess with string -  EE
+17:28:37. Proccess with string -  SZ Интернет (тариф: 0.00067)-1969, HW
+17:28:37. Show Tarif Window.
+17:28:37. Hide Window.
+17:31:42. Proccess with string -  SW
+17:31:42. Show Window.
+17:31:42. Proccess with string -  EE
+17:31:42. Proccess with string -  SZ Интернет (тариф: 0.00067)-1969, HW
+17:31:42. Show Tarif Window.
+17:31:43. Hide Window.
+17:31:49. Proccess with string -  SZ Интернет (тариф: 0.00067)-1940,AG 10.80.15.1,HW
+17:31:49. Show Tarif Window.
+17:31:49. Add GateWay. Message:Отказано в доступе.
+
+17:31:49. Hide Window.
+17:32:50. Proccess with string -  SW
+17:32:50. Show Window.
+17:32:50. Proccess with string -  EE
+17:32:50. Proccess with string -  SZ Интернет (тариф: 0.00067)-1940, HW
+17:32:50. Show Tarif Window.
+17:32:50. Hide Window.
+17:34:17. Proccess with string -  SW
+17:34:17. Show Window.
+17:34:31. Proccess with string -  HZ,DG,SW
+17:34:31. Hide Tarif Window.
+17:34:31. Disable GateWay. Message:Отказано в доступе.
+
+17:34:31. Show Window.
+17:34:31. Proccess with string -  HZ,DG,SW
+17:34:31. Hide Tarif Window.
+17:34:31. Disable GateWay. Message:Отказано в доступе.
+
+17:34:31. Show Window.
+17:34:38. Proccess with string -  EE
+17:34:38. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072,AG 10.80.15.1,HW
+17:34:38. Show Tarif Window.
+17:34:38. Add GateWay. Message:Отказано в доступе.
+
+17:34:38. Hide Window.
+17:34:57. Proccess with string -  SW
+17:34:57. Show Window.
+17:34:57. Proccess with string -  EE
+17:34:57. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:34:57. Show Tarif Window.
+17:34:57. Hide Window.
+17:35:27. Proccess with string -  SW
+17:35:27. Show Window.
+17:35:28. Proccess with string -  EE
+17:35:28. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:35:28. Show Tarif Window.
+17:35:28. Hide Window.
+17:35:48. Proccess with string -  SW
+17:35:48. Show Window.
+17:35:48. Proccess with string -  EE
+17:35:48. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:35:48. Show Tarif Window.
+17:35:48. Hide Window.
+17:36:03. Proccess with string -  SW
+17:36:03. Show Window.
+17:36:03. Proccess with string -  EE
+17:36:03. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:36:03. Show Tarif Window.
+17:36:03. Hide Window.
+17:36:49. Proccess with string -  SW
+17:36:49. Show Window.
+17:36:49. Proccess with string -  EE
+17:36:49. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:36:49. Show Tarif Window.
+17:36:49. Hide Window.
+17:37:06. Proccess with string -  SW
+17:37:06. Show Window.
+17:37:06. Proccess with string -  EE
+17:37:06. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:37:06. Show Tarif Window.
+17:37:06. Hide Window.
+17:38:10. Proccess with string -  SW
+17:38:10. Show Window.
+17:38:10. Proccess with string -  EE
+17:38:10. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:38:10. Show Tarif Window.
+17:38:10. Hide Window.
+17:38:25. Proccess with string -  SW
+17:38:25. Show Window.
+17:38:25. Proccess with string -  EE
+17:38:25. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:38:25. Show Tarif Window.
+17:38:25. Hide Window.
+17:39:21. Proccess with string -  SW
+17:39:21. Show Window.
+17:39:21. Proccess with string -  EE
+17:39:21. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:39:21. Show Tarif Window.
+17:39:21. Hide Window.
+17:39:30. Proccess with string -  SW
+17:39:30. Show Window.
+17:39:31. Proccess with string -  EE
+17:39:31. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:39:31. Show Tarif Window.
+17:39:31. Hide Window.
+17:41:09. Proccess with string -  SW
+17:41:09. Show Window.
+17:41:09. Proccess with string -  EE
+17:41:09. Proccess with string -  SZ Интернет (тариф: 0.00067)-2072, HW
+17:41:09. Show Tarif Window.
+17:41:09. Hide Window.
+17:41:43. Proccess with string -  HZ,DG,SW
+17:41:43. Hide Tarif Window.
+17:41:43. Disable GateWay. Message:Отказано в доступе.
+
+17:41:43. Show Window.
+17:41:43. Proccess with string -  HZ,DG,SW
+17:41:43. Hide Tarif Window.
+17:41:43. Disable GateWay. Message:Отказано в доступе.
+
+17:41:43. Show Window.
+17:41:51. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+17:41:51. Show Tarif Window.
+17:41:53. Add GateWay. Message:Отказано в доступе.
+
+17:41:53. Hide Window.
+17:41:53. Proccess with string -  EE
+17:42:42. Proccess with string -  AS,
+17:42:42. Proccess with string -  EE
+17:42:49. Proccess with string -  EE
+17:42:49. Proccess with string -  SZ Интернет (тариф: 0.00067)-1036,AG 10.80.15.1,HW
+17:42:49. Show Tarif Window.
+17:42:49. Add GateWay. Message:Отказано в доступе.
+
+17:42:49. Hide Window.
+21:58:23. Proccess with string -  SW
+21:58:23. Show Window.
+22:01:53. Proccess with string -  AS,
+22:01:53. Proccess with string -  EE
+22:01:59. Proccess with string -  EE
+22:01:59. Proccess with string -  SZ Интернет (тариф: 0.00100)-138,AG 192.168.0.1,HW
+22:01:59. Show Tarif Window.
+22:01:59. Add GateWay. Message:Отказано в доступе.
+
+22:01:59. Hide Window.
+22:02:01. Proccess with string -  AS,
+22:02:01. Proccess with string -  EE
+22:02:12. Proccess with string -  AS,
+22:02:12. Proccess with string -  EE
+22:02:13. Proccess with string -  HZ,DG,SW
+22:02:13. Hide Tarif Window.
+22:02:13. Disable GateWay. Message:Отказано в доступе.
+
+22:02:13. Show Window.
+22:02:25. Proccess with string -  EE
+22:02:25. Proccess with string -  SZ Интернет (тариф: 0.00100)-13,AG 192.168.0.1,HW
+22:02:25. Show Tarif Window.
+22:02:25. Add GateWay. Message:Отказано в доступе.
+
+22:02:25. Hide Window.
+22:02:34. Proccess with string -  AS,
+22:02:34. Proccess with string -  EE
+22:02:35. Proccess with string -  HZ,DG,SW
+22:02:35. Hide Tarif Window.
+22:02:35. Disable GateWay. Message:Отказано в доступе.
+
+22:02:35. Show Window.
+22:07:58. Proccess with string -  SW
+22:07:58. Show Window.
+22:07:58. Proccess with string -  EE
+22:07:58. Proccess with string -  SZ Интернет (тариф: 0.00100)-13, HW
+22:07:58. Show Tarif Window.
+22:07:58. Hide Window.
+22:09:39. Proccess with string -  SW
+22:09:39. Show Window.
+22:09:39. Proccess with string -  EE
+22:09:39. Proccess with string -  SZ Интернет (тариф: 0.00100)-12, HW
+22:09:39. Show Tarif Window.
+22:09:39. Hide Window.
+22:14:24. Proccess with string -  SW
+22:14:24. Show Window.
+22:14:25. Proccess with string -  EE
+22:14:25. Proccess with string -  SZ Интернет (тариф: 0.00100)-12, HW
+22:14:25. Show Tarif Window.
+22:14:25. Hide Window.
+22:16:59. Proccess with string -  SW
+22:16:59. Show Window.
+22:16:59. Proccess with string -  EE
+22:16:59. Proccess with string -  SZ Интернет (тариф: 0.00100)-12, HW
+22:16:59. Show Tarif Window.
+22:16:59. Hide Window.
+22:18:01. Proccess with string -  SW
+22:18:01. Show Window.
+22:18:01. Proccess with string -  EE
+22:18:01. Proccess with string -  SZ Интернет (тариф: 0.00100)-12, HW
+22:18:01. Show Tarif Window.
+22:18:01. Hide Window.
+22:18:55. Proccess with string -  SW
+22:18:55. Show Window.
+22:18:56. Proccess with string -  EE
+22:18:56. Proccess with string -  SZ Интернет (тариф: 0.00100)-12, HW
+22:18:56. Show Tarif Window.
+22:18:56. Hide Window.
+22:20:04. Proccess with string -  SW
+22:20:04. Show Window.
+22:20:04. Proccess with string -  EE
+22:20:04. Proccess with string -  SZ Интернет (тариф: 0.00100)-12, HW
+22:20:04. Show Tarif Window.
+22:20:04. Hide Window.
+22:21:02. Proccess with string -  SW
+22:21:02. Show Window.
+22:21:02. Proccess with string -  EE
+22:21:02. Proccess with string -  SZ Интернет (тариф: 0.00100)-12, HW
+22:21:02. Show Tarif Window.
+22:21:02. Hide Window.
+22:21:38. Proccess with string -  SW
+22:21:38. Show Window.
+22:21:38. Proccess with string -  EE
+22:21:38. Proccess with string -  SZ Интернет (тариф: 0.00100)-12, HW
+22:21:38. Show Tarif Window.
+22:21:38. Hide Window.
+22:23:25. Proccess with string -  EE
+22:23:25. Proccess with string -  SZ Интернет (тариф: 0.00100)-27,AG 192.168.0.1,HW
+22:23:25. Show Tarif Window.
+22:23:25. Add GateWay. Message:Отказано в доступе.
+
+22:23:25. Hide Window.
+22:23:28. Proccess with string -  AS,
+22:23:28. Proccess with string -  EE
+22:23:29. Proccess with string -  HZ,DG,SW
+22:23:29. Hide Tarif Window.
+22:23:30. Disable GateWay. Message:Отказано в доступе.
+
+22:23:30. Show Window.
+22:23:38. Proccess with string -  EE
+22:23:38. Proccess with string -  SZ Интернет (тариф: 0.00100)-277,AG 192.168.0.1,HW
+22:23:38. Show Tarif Window.
+22:23:38. Add GateWay. Message:Отказано в доступе.
+
+22:23:38. Hide Window.
+22:23:39. Proccess with string -  AS,
+22:23:39. Proccess with string -  EE
+22:23:50. Proccess with string -  AS,
+22:23:50. Proccess with string -  EE
+22:23:51. Proccess with string -  HZ,DG,SW
+22:23:51. Hide Tarif Window.
+22:23:51. Disable GateWay. Message:Отказано в доступе.
+
+22:23:51. Show Window.
+22:24:56. Proccess with string -  SW
+22:24:56. Show Window.
+22:25:06. Proccess with string -  EE
+22:25:06. Proccess with string -  SZ Интернет (тариф: 0.00100)-138,AG 192.168.0.1,HW
+22:25:06. Show Tarif Window.
+22:25:06. Add GateWay. Message:Отказано в доступе.
+
+22:25:06. Hide Window.
+22:25:07. Proccess with string -  AS,
+22:25:07. Proccess with string -  EE
+22:25:18. Proccess with string -  AS,
+22:25:18. Proccess with string -  EE
+22:25:19. Proccess with string -  HZ,DG,SW
+22:25:19. Hide Tarif Window.
+22:25:19. Disable GateWay. Message:Отказано в доступе.
+
+22:25:19. Show Window.
+22:25:32. Proccess with string -  HZ,DG,SW
+22:25:32. Hide Tarif Window.
+22:25:32. Disable GateWay. Message:Отказано в доступе.
+
+22:25:32. Show Window.
+22:25:37. Proccess with string -  EE
+22:25:37. Proccess with string -  SZ Интернет (тариф: 0.00100)-1388,AG 192.168.0.1,HW
+22:25:37. Show Tarif Window.
+22:25:37. Add GateWay. Message:Отказано в доступе.
+
+22:25:37. Hide Window.
+22:25:40. Proccess with string -  AS,
+22:25:40. Proccess with string -  EE
+22:25:51. Proccess with string -  AS,
+22:25:51. Proccess with string -  EE
+22:26:02. Proccess with string -  AS,
+22:26:02. Proccess with string -  EE
+22:26:16. Proccess with string -  SW
+22:26:16. Show Window.
+22:26:16. Proccess with string -  EE
+22:26:16. Proccess with string -  SZ Интернет (тариф: 0.00100)-1388, HW
+22:26:16. Show Tarif Window.
+22:26:16. Hide Window.
+22:26:59. Proccess with string -  SW
+22:26:59. Show Window.
+22:26:59. Proccess with string -  EE
+22:26:59. Proccess with string -  SZ Интернет (тариф: 0.00100)-1388, HW
+22:26:59. Show Tarif Window.
+22:26:59. Hide Window.
+22:27:52. Proccess with string -  SW
+22:27:52. Show Window.
+22:28:01. Proccess with string -  HZ,DG,SW
+22:28:01. Hide Tarif Window.
+22:28:01. Disable GateWay. Message:Отказано в доступе.
+
+22:28:01. Show Window.
+22:28:01. Proccess with string -  HZ,DG,SW
+22:28:01. Hide Tarif Window.
+22:28:01. Disable GateWay. Message:Отказано в доступе.
+
+22:28:01. Show Window.
+22:28:29. Proccess with string -  SW
+22:28:29. Show Window.
+22:28:40. Proccess with string -  EE
+22:28:40. Proccess with string -  SZ Интернет (тариф: 0.00100)-138,AG 192.168.0.1,HW
+22:28:40. Show Tarif Window.
+22:28:40. Add GateWay. Message:Отказано в доступе.
+
+22:28:40. Hide Window.
+22:28:47. Proccess with string -  AS,
+22:28:47. Proccess with string -  EE
+22:28:48. Proccess with string -  HZ,DG,SW
+22:28:48. Hide Tarif Window.
+22:28:48. Disable GateWay. Message:Отказано в доступе.
+
+22:28:48. Show Window.
+22:29:00. Proccess with string -  EE
+22:29:00. Proccess with string -  SZ Интернет (тариф: 0.00100)-13,AG 192.168.0.1,HW
+22:29:00. Show Tarif Window.
+22:29:00. Add GateWay. Message:Отказано в доступе.
+
+22:29:00. Hide Window.
+22:29:09. Proccess with string -  AS,
+22:29:09. Proccess with string -  EE
+22:29:10. Proccess with string -  HZ,DG,SW
+22:29:10. Hide Tarif Window.
+22:29:10. Disable GateWay. Message:Отказано в доступе.
+
+22:29:10. Show Window.
+22:29:35. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 192.168.0.1,HW
+22:29:35. Show Tarif Window.
+22:29:37. Add GateWay. Message:Отказано в доступе.
+
+22:29:37. Hide Window.
+22:29:37. Proccess with string -  EE
+22:30:41. Proccess with string -  SW
+22:30:41. Show Window.
+22:30:55. Proccess with string -  AS,
+22:30:55. Proccess with string -  EE
+22:30:59. Proccess with string -  EE
+22:30:59. Proccess with string -  SZ Интернет (тариф: 0.00100)-138,AG 192.168.0.1,HW
+22:30:59. Show Tarif Window.
+22:30:59. Add GateWay. Message:Отказано в доступе.
+
+22:30:59. Hide Window.
+22:31:06. Proccess with string -  AS,
+22:31:06. Proccess with string -  EE
+22:31:24. Proccess with string -  SW
+22:31:24. Show Window.
+22:31:24. Proccess with string -  EE
+22:31:24. Proccess with string -  SZ Интернет (тариф: 0.00100)-138, HW
+22:31:24. Show Tarif Window.
+22:31:24. Hide Window.
+12:29:33. Proccess with string -  SW
+12:29:33. Show Window.
+12:29:33. Proccess with string -  EE
+12:29:33. Proccess with string -  SZ Интернет (тариф: 0.00100)-138, HW
+12:29:33. Show Tarif Window.
+12:29:33. Hide Window.
+13:33:25. Proccess with string -  EE
+13:33:25. Proccess with string -  SZ Интернет (тариф: 0.00100)-138,AG 10.80.15.1,HW
+13:33:25. Show Tarif Window.
+13:33:25. Add GateWay. Message:Отказано в доступе.
+
+13:33:25. Hide Window.
+13:33:32. Proccess with string -  HZ,DG,SW
+13:33:32. Hide Tarif Window.
+13:33:32. Disable GateWay. Message:Отказано в доступе.
+
+13:33:32. Show Window.
+13:33:32. Proccess with string -  HZ,DG,SW
+13:33:32. Hide Tarif Window.
+13:33:32. Disable GateWay. Message:Отказано в доступе.
+
+13:33:32. Show Window.
+13:33:51. Proccess with string -  SW
+13:33:51. Show Window.
+13:34:01. Proccess with string -  EE
+13:34:01. Proccess with string -  SZ Интернет (тариф: 0.00100)-1388,AG 10.80.15.1,HW
+13:34:01. Show Tarif Window.
+13:34:01. Add GateWay. Message:Отказано в доступе.
+
+13:34:01. Hide Window.
+13:34:06. Proccess with string -  AS,
+13:34:06. Proccess with string -  EE
+13:34:10. Proccess with string -  HZ,DG,SW
+13:34:10. Hide Tarif Window.
+13:34:10. Disable GateWay. Message:Отказано в доступе.
+
+13:34:10. Show Window.
+13:34:10. Proccess with string -  HZ,DG,SW
+13:34:10. Hide Tarif Window.
+13:34:10. Disable GateWay. Message:Отказано в доступе.
+
+13:34:10. Show Window.
+16:19:29. Proccess with string -  SW
+16:19:29. Show Window.
+16:19:43. Proccess with string -  EE
+16:19:43. Proccess with string -  SZ Интернет (тариф: 0.00100)-152,AG 10.80.15.1,HW
+16:19:43. Show Tarif Window.
+16:19:43. Add GateWay. Message:Параметр задан неверно.
+
+16:19:43. Hide Window.
+16:19:47. Proccess with string -  AS,
+16:19:47. Proccess with string -  EE
+16:19:50. Proccess with string -  HZ,DG,SW
+16:19:50. Hide Tarif Window.
+16:19:50. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:19:50. Show Window.
+16:19:51. Proccess with string -  HZ,DG,SW
+16:19:51. Hide Tarif Window.
+16:19:51. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:19:51. Show Window.
+16:19:57. Proccess with string -  EE
+16:19:57. Proccess with string -  SZ Интернет (тариф: 0.00100)-13,AG 10.80.15.1,HW
+16:19:57. Show Tarif Window.
+16:19:57. Add GateWay. Message:Параметр задан неверно.
+
+16:19:57. Hide Window.
+16:19:58. Proccess with string -  AS,
+16:19:58. Proccess with string -  EE
+16:20:00. Proccess with string -  HZ,DG,SW
+16:20:00. Hide Tarif Window.
+16:20:00. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:20:00. Show Window.
+16:20:00. Proccess with string -  HZ,DG,SW
+16:20:00. Hide Tarif Window.
+16:20:00. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:20:00. Show Window.
+16:20:11. Proccess with string -  EE
+16:20:11. Proccess with string -  SZ Интернет (тариф: 0.00100)-13,AG 10.80.15.1,HW
+16:20:11. Show Tarif Window.
+16:20:11. Add GateWay. Message:Параметр задан неверно.
+
+16:20:11. Hide Window.
+16:20:14. Proccess with string -  HZ,DG,SW
+16:20:14. Hide Tarif Window.
+16:20:14. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:20:14. Show Window.
+16:20:14. Proccess with string -  HZ,DG,SW
+16:20:14. Hide Tarif Window.
+16:20:14. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:20:14. Show Window.
+16:20:26. Proccess with string -  HZ,DG,SW
+16:20:26. Hide Tarif Window.
+16:20:26. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:20:26. Show Window.
+16:27:33. Proccess with string -  SW
+16:27:33. Show Window.
+16:27:45. Proccess with string -  EE
+16:27:45. Proccess with string -  SZ Интернет (тариф: 0.00100)-13,AG 10.80.15.1,HW
+16:27:45. Show Tarif Window.
+16:27:45. Add GateWay. Message:Параметр задан неверно.
+
+16:27:45. Hide Window.
+16:27:51. Proccess with string -  AS,
+16:27:51. Proccess with string -  EE
+16:27:56. Proccess with string -  HZ,DG,SW
+16:27:56. Hide Tarif Window.
+16:27:56. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:27:56. Show Window.
+16:27:56. Proccess with string -  HZ,DG,SW
+16:27:56. Hide Tarif Window.
+16:27:56. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:27:56. Show Window.
+16:28:03. Proccess with string -  EE
+16:28:03. Proccess with string -  SZ Интернет (тариф: 0.00100)-138,AG 10.80.15.1,HW
+16:28:03. Show Tarif Window.
+16:28:03. Add GateWay. Message:Параметр задан неверно.
+
+16:28:03. Hide Window.
+16:28:11. Proccess with string -  HZ,DG,SW
+16:28:11. Hide Tarif Window.
+16:28:11. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:28:11. Show Window.
+16:28:11. Proccess with string -  HZ,DG,SW
+16:28:11. Hide Tarif Window.
+16:28:11. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:28:11. Show Window.
+16:28:19. Proccess with string -  EE
+16:28:19. Proccess with string -  SZ Интернет (тариф: 0.00100)-13,AG 10.80.15.1,HW
+16:28:19. Show Tarif Window.
+16:28:19. Add GateWay. Message:Параметр задан неверно.
+
+16:28:19. Hide Window.
+16:28:22. Proccess with string -  HZ,DG,SW
+16:28:22. Hide Tarif Window.
+16:28:22. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:28:22. Show Window.
+16:28:22. Proccess with string -  HZ,DG,SW
+16:28:22. Hide Tarif Window.
+16:28:22. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:28:22. Show Window.
+16:28:51. Proccess with string -  EE
+16:28:51. Proccess with string -  SZ Интернет (тариф: 0.00100)-277,AG 10.80.15.1,HW
+16:28:51. Show Tarif Window.
+16:28:51. Add GateWay. Message:Параметр задан неверно.
+
+16:28:51. Hide Window.
+16:28:57. Proccess with string -  AS,
+16:28:57. Proccess with string -  EE
+16:28:58. Proccess with string -  HZ,DG,SW
+16:28:58. Hide Tarif Window.
+16:28:59. Disable GateWay. Message:Не удается найти указанный файл.
+
+16:28:59. Show Window.
+16:29:35. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+16:29:35. Show Tarif Window.
+16:29:37. Add GateWay. Message:Параметр задан неверно.
+
+16:29:37. Hide Window.
+16:29:37. Proccess with string -  EE
+19:13:34. Proccess with string -  SW
+19:13:34. Show Window.
+21:47:11. Proccess with string -  SW
+21:47:11. Show Window.
+22:33:00. Proccess with string -  SW
+22:33:00. Show Window.
+22:33:54. Proccess with string -  EE
+22:33:54. Proccess with string -  SZ Интернет (тариф: 0.00090)-15,AG 192.168.0.1,HW
+22:33:54. Show Tarif Window.
+22:33:54. Add GateWay. Message:Отказано в доступе.
+
+22:33:54. Hide Window.
+22:33:55. Proccess with string -  AS,
+22:33:55. Proccess with string -  EE
+22:34:04. Proccess with string -  SZ Интернет (тариф: 0.00090)-15,AG 192.168.0.1,HW
+22:34:04. Show Tarif Window.
+22:34:04. Add GateWay. Message:Отказано в доступе.
+
+22:34:04. Hide Window.
+22:34:06. Proccess with string -  AS,
+22:34:06. Proccess with string -  EE
+22:34:17. Proccess with string -  AS,
+22:34:17. Proccess with string -  EE
+22:34:28. Proccess with string -  AS,
+22:34:28. Proccess with string -  EE
+22:34:39. Proccess with string -  AS,
+22:34:39. Proccess with string -  EE
+22:34:50. Proccess with string -  AS,
+22:34:50. Proccess with string -  EE
+22:35:01. Proccess with string -  AS,
+22:35:01. Proccess with string -  EE
+22:35:12. Proccess with string -  AS,
+22:35:12. Proccess with string -  EE
+22:35:23. Proccess with string -  AS,
+22:35:23. Proccess with string -  EE
+22:35:34. Proccess with string -  AS,
+22:35:34. Proccess with string -  EE
+22:35:45. Proccess with string -  AS,
+22:35:45. Proccess with string -  EE
+22:35:56. Proccess with string -  AS,
+22:35:56. Proccess with string -  EE
+22:36:07. Proccess with string -  AS,
+22:36:07. Proccess with string -  EE
+22:36:18. Proccess with string -  AS,
+22:36:18. Proccess with string -  EE
+22:36:19. Proccess with string -  HZ,DG,SW
+22:36:19. Hide Tarif Window.
+22:36:19. Disable GateWay. Message:Отказано в доступе.
+
+22:36:19. Show Window.
+22:36:29. Proccess with string -  EE
+22:36:29. Proccess with string -  SZ Интернет (тариф: 0.00090)-15,AG 192.168.0.1,HW
+22:36:29. Show Tarif Window.
+22:36:30. Add GateWay. Message:Отказано в доступе.
+
+22:36:30. Hide Window.
+22:36:40. Proccess with string -  AS,
+22:36:40. Proccess with string -  EE
+22:36:41. Proccess with string -  HZ,DG,SW
+22:36:41. Hide Tarif Window.
+22:36:41. Disable GateWay. Message:Отказано в доступе.
+
+22:36:41. Show Window.
+22:36:51. Proccess with string -  EE
+22:36:51. Proccess with string -  SZ Интернет (тариф: 0.00090)-30,AG 192.168.0.1,HW
+22:36:51. Show Tarif Window.
+22:36:51. Add GateWay. Message:Отказано в доступе.
+
+22:36:51. Hide Window.
+22:36:51. Proccess with string -  AS,
+22:36:51. Proccess with string -  EE
+22:37:02. Proccess with string -  AS,
+22:37:02. Proccess with string -  EE
+22:37:03. Proccess with string -  HZ,DG,SW
+22:37:03. Hide Tarif Window.
+22:37:03. Disable GateWay. Message:Отказано в доступе.
+
+22:37:03. Show Window.
+22:38:19. Proccess with string -  SW
+22:38:19. Show Window.
+22:38:32. Proccess with string -  EE
+22:38:32. Proccess with string -  SZ Интернет (тариф: 0.00090)-15,AG 192.168.0.1,HW
+22:38:32. Show Tarif Window.
+22:38:32. Add GateWay. Message:Отказано в доступе.
+
+22:38:32. Hide Window.
+22:38:41. Proccess with string -  AS,
+22:38:41. Proccess with string -  EE
+22:38:42. Proccess with string -  HZ,DG,SW
+22:38:42. Hide Tarif Window.
+22:38:42. Disable GateWay. Message:Отказано в доступе.
+
+22:38:42. Show Window.
+22:39:07. Proccess with string -  EE
+22:39:07. Proccess with string -  SZ Интернет (тариф: 0.00090)-6,AG 192.168.0.1,HW
+22:39:07. Show Tarif Window.
+22:39:07. Add GateWay. Message:Отказано в доступе.
+
+22:39:07. Hide Window.
+22:39:14. Proccess with string -  AS,
+22:39:14. Proccess with string -  EE
+22:39:25. Proccess with string -  AS,
+22:39:25. Proccess with string -  EE
+22:39:36. Proccess with string -  AS,
+22:39:36. Proccess with string -  EE
+22:39:47. Proccess with string -  AS,
+22:39:47. Proccess with string -  EE
+22:39:58. Proccess with string -  AS,
+22:39:58. Proccess with string -  EE
+22:40:05. Proccess with string -  SZ Интернет (тариф: 0.00090)-5,AG 192.168.0.1,HW
+22:40:05. Show Tarif Window.
+22:40:05. Add GateWay. Message:Отказано в доступе.
+
+22:40:05. Hide Window.
+22:40:09. Proccess with string -  AS,
+22:40:09. Proccess with string -  EE
+22:40:20. Proccess with string -  AS,
+22:40:20. Proccess with string -  EE
+22:40:31. Proccess with string -  AS,
+22:40:31. Proccess with string -  EE
+22:40:42. Proccess with string -  AS,
+22:40:42. Proccess with string -  EE
+22:40:53. Proccess with string -  AS,
+22:40:53. Proccess with string -  EE
+22:41:04. Proccess with string -  AS,
+22:41:04. Proccess with string -  EE
+22:41:15. Proccess with string -  AS,
+22:41:15. Proccess with string -  EE
+22:41:26. Proccess with string -  AS,
+22:41:26. Proccess with string -  EE
+22:41:37. Proccess with string -  AS,
+22:41:37. Proccess with string -  EE
+22:41:48. Proccess with string -  AS,
+22:41:48. Proccess with string -  EE
+22:41:59. Proccess with string -  AS,
+22:41:59. Proccess with string -  EE
+22:42:10. Proccess with string -  AS,
+22:42:10. Proccess with string -  EE
+22:42:21. Proccess with string -  AS,
+22:42:21. Proccess with string -  EE
+22:42:32. Proccess with string -  AS,
+22:42:32. Proccess with string -  EE
+22:42:43. Proccess with string -  AS,
+22:42:43. Proccess with string -  EE
+22:42:54. Proccess with string -  AS,
+22:42:54. Proccess with string -  EE
+22:43:05. Proccess with string -  AS,
+22:43:05. Proccess with string -  EE
+22:43:16. Proccess with string -  AS,
+22:43:16. Proccess with string -  EE
+22:43:27. Proccess with string -  AS,
+22:43:27. Proccess with string -  EE
+22:43:38. Proccess with string -  AS,
+22:43:38. Proccess with string -  EE
+22:43:49. Proccess with string -  AS,
+22:43:49. Proccess with string -  EE
+22:44:00. Proccess with string -  AS,
+22:44:00. Proccess with string -  EE
+22:44:11. Proccess with string -  AS,
+22:44:11. Proccess with string -  EE
+22:44:22. Proccess with string -  AS,
+22:44:22. Proccess with string -  EE
+22:44:33. Proccess with string -  AS,
+22:44:33. Proccess with string -  EE
+22:44:44. Proccess with string -  AS,
+22:44:44. Proccess with string -  EE
+22:44:55. Proccess with string -  AS,
+22:44:55. Proccess with string -  EE
+22:45:06. Proccess with string -  AS,
+22:45:06. Proccess with string -  EE
+22:45:17. Proccess with string -  AS,
+22:45:17. Proccess with string -  EE
+22:45:18. Proccess with string -  HZ,DG,SW
+22:45:18. Hide Tarif Window.
+22:45:18. Disable GateWay. Message:Отказано в доступе.
+
+22:45:18. Show Window.
+22:46:06. Proccess with string -  HZ,DG,SW
+22:46:06. Hide Tarif Window.
+22:46:06. Disable GateWay. Message:Отказано в доступе.
+
+22:46:06. Show Window.
+10:27:52. Proccess with string -  SW
+10:27:52. Show Window.
+15:42:17. Proccess with string -  SW
+15:42:17. Show Window.
+15:42:32. Proccess with string -  EE
+15:42:32. Proccess with string -  SZ Интернет (тариф: 0.00067)-207,AG 10.80.15.1,HW
+15:42:32. Show Tarif Window.
+15:42:32. Add GateWay. Message:Операция успешно завершена.
+
+15:42:32. Hide Window.
+15:43:13. Proccess with string -  AS,
+15:43:14. Proccess with string -  HZ,DG,SW
+15:43:14. Hide Tarif Window.
+15:43:14. Disable GateWay. Message:Операция успешно завершена.
+
+15:43:14. Show Window.
+15:43:29. Proccess with string -  EE
+15:43:29. Proccess with string -  SZ Интернет (тариф: 0.00067)-2,AG 10.80.15.1,HW
+15:43:29. Show Tarif Window.
+15:43:30. Add GateWay. Message:Операция успешно завершена.
+
+15:43:30. Hide Window.
+15:47:58. Proccess with string -  SW
+15:47:58. Show Window.
+15:48:24. Proccess with string -  AS,
+15:48:24. Proccess with string -  EE
+15:48:25. Proccess with string -  SZ Интернет (тариф: 0.00067)-0,AG 10.80.15.1,HW
+15:48:25. Show Tarif Window.
+15:48:37. Add GateWay. Message:Операция успешно завершена.
+
+15:48:37. Hide Window.
+15:48:37. Proccess with string -  HZ,DG,SW
+15:48:37. Hide Tarif Window.
+15:48:39. Disable GateWay. Message:Операция успешно завершена.
+
+15:48:39. Show Window.
+15:49:09. Proccess with string -  EE
+15:49:09. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+15:49:09. Show Tarif Window.
+15:49:10. Add GateWay. Message:Операция успешно завершена.
+
+15:49:10. Hide Window.
+15:49:25. Proccess with string -  AS,
+16:01:06. Proccess with string -  SW
+16:01:06. Show Window.
+16:01:23. Proccess with string -  AS,
+16:01:23. Proccess with string -  EE
+16:01:23. Proccess with string -  SZ Интернет (тариф: 0.00067)-0,AG 10.80.15.1,HW
+16:01:23. Show Tarif Window.
+16:01:26. Add GateWay. Message:Операция успешно завершена.
+
+16:01:26. Hide Window.
+16:01:26. Proccess with string -  HZ,DG,SW
+16:01:26. Hide Tarif Window.
+16:01:27. Disable GateWay. Message:Операция успешно завершена.
+
+16:01:27. Show Window.
+16:01:37. Proccess with string -  EE
+16:01:37. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+16:01:37. Show Tarif Window.
+16:01:39. Add GateWay. Message:Операция успешно завершена.
+
+16:01:39. Hide Window.
+16:04:48. Proccess with string -  SW
+16:04:48. Show Window.
+16:06:07. Proccess with string -  SW
+16:06:07. Show Window.
+16:06:22. Proccess with string -  AS,
+16:06:22. Proccess with string -  EE
+16:06:23. Proccess with string -  SZ Интернет (тариф: 0.00067)-0,AG 10.80.15.1,HW
+16:06:23. Show Tarif Window.
+16:06:23. Add GateWay. Message:Операция успешно завершена.
+
+16:06:23. Hide Window.
+16:06:23. Proccess with string -  HZ,DG,SW
+16:06:23. Hide Tarif Window.
+16:06:24. Disable GateWay. Message:Операция успешно завершена.
+
+16:06:24. Show Window.
+16:06:36. Proccess with string -  EE
+16:06:36. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:06:36. Show Tarif Window.
+16:06:36. Add GateWay. Message:Операция успешно завершена.
+
+16:06:36. Hide Window.
+16:07:30. Proccess with string -  HZ,DG,SW
+16:07:30. Hide Tarif Window.
+16:07:30. Disable GateWay. Message:Операция успешно завершена.
+
+16:07:30. Show Window.
+16:07:39. Proccess with string -  HZ,DG,SW
+16:07:39. Hide Tarif Window.
+16:07:39. Disable GateWay. Message:Параметр задан неверно.
+
+16:07:39. Show Window.
+16:07:49. Proccess with string -  EE
+16:07:50. Proccess with string -  SZ Интернет (тариф: 0.00067)-0,AG 10.80.15.1,HW
+16:07:50. Show Tarif Window.
+16:07:51. Add GateWay. Message:Операция успешно завершена.
+
+16:07:51. Hide Window.
+16:08:44. Proccess with string -  SW
+16:08:44. Show Window.
+16:09:00. Proccess with string -  AS,
+16:09:00. Proccess with string -  EE
+16:09:01. Proccess with string -  SZ Интернет (тариф: 0.00067)-0,AG 10.80.15.1,HW
+16:09:01. Show Tarif Window.
+16:09:06. Add GateWay. Message:Операция успешно завершена.
+
+16:09:06. Hide Window.
+16:09:06. Proccess with string -  HZ,DG,SW
+16:09:06. Hide Tarif Window.
+16:09:08. Disable GateWay. Message:Операция успешно завершена.
+
+16:09:08. Show Window.
+16:09:18. Proccess with string -  EE
+16:09:18. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+16:09:18. Show Tarif Window.
+16:09:19. Add GateWay. Message:Операция успешно завершена.
+
+16:09:19. Hide Window.
+16:11:24. Proccess with string -  HZ,DG,SW
+16:11:24. Hide Tarif Window.
+16:11:24. Disable GateWay. Message:Операция успешно завершена.
+
+16:11:24. Show Window.
+14:31:23. Proccess with string -  SW
+14:31:23. Show Window.
+15:25:33. Proccess with string -  SW
+15:25:33. Show Window.
+15:42:43. Proccess with string -  SW
+15:42:43. Show Window.
+15:55:59. Proccess with string -  SW
+15:55:59. Show Window.
+15:57:00. Proccess with string -  SW
+15:57:00. Show Window.
+15:57:12. Proccess with string -  SW
+15:57:12. Show Window.
+15:59:24. Failed Bind.
+15:59:24. Proccess with string -  SW
+15:59:24. Show Window.
+15:59:51. Failed Bind.
+15:59:51. Proccess with string -  SW
+15:59:51. Show Window.
+16:03:25. Failed Bind.
+16:03:25. Proccess with string -  SW
+16:03:25. Show Window.
+16:06:42. Proccess with string -  SW
+16:06:42. Show Window.
+16:06:42. Proccess with string -  AS,
+16:06:43. Proccess with string -  HZ,DG,SW
+16:06:43. Hide Tarif Window.
+16:06:44. Disable GateWay. Message:Параметр задан неверно.
+
+16:06:44. Show Window.
+16:07:00. Proccess with string -  EE
+16:07:00. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:07:00. Show Tarif Window.
+16:07:01. Add GateWay. Message:Параметр задан неверно.
+
+16:07:01. Hide Window.
+16:07:04. Proccess with string -  AS,
+16:07:15. Proccess with string -  AS,
+16:07:36. Proccess with string -  SW
+16:07:36. Show Window.
+16:07:36. Proccess with string -  EE
+16:07:36. Proccess with string -  SZ Интернет (тариф: 0.00067)-20, HW
+16:07:36. Show Tarif Window.
+16:07:37. Proccess with string -  AS,
+16:07:38. Hide Window.
+16:07:38. Proccess with string -  HZ,DG,SW
+16:07:38. Hide Tarif Window.
+16:07:39. Disable GateWay. Message:Параметр задан неверно.
+
+16:07:39. Show Window.
+16:08:25. Proccess with string -  EE
+16:08:25. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:08:25. Show Tarif Window.
+16:08:27. Add GateWay. Message:Параметр задан неверно.
+
+16:08:27. Hide Window.
+16:08:32. Proccess with string -  AS,
+16:09:26. Proccess with string -  HZ,DG,SW
+16:09:26. Hide Tarif Window.
+16:09:27. Disable GateWay. Message:Параметр задан неверно.
+
+16:09:27. Show Window.
+16:09:54. Proccess with string -  AS,
+16:09:54. Proccess with string -  EE
+16:09:54. Proccess with string -  SZ Интернет (тариф: 0.00067)-19,AG 10.80.15.1,HW
+16:09:54. Show Tarif Window.
+16:09:56. Add GateWay. Message:Параметр задан неверно.
+
+16:09:56. Hide Window.
+16:10:05. Proccess with string -  AS,
+16:10:16. Proccess with string -  AS,
+16:10:26. Proccess with string -  HZ,DG,SW
+16:10:26. Hide Tarif Window.
+16:10:26. Disable GateWay. Message:Параметр задан неверно.
+
+16:10:26. Show Window.
+16:10:26. Proccess with string -  HZ,DG,SW
+16:10:26. Hide Tarif Window.
+16:10:26. Disable GateWay. Message:Параметр задан неверно.
+
+16:10:26. Show Window.
+16:10:34. Proccess with string -  EE
+16:10:34. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:10:34. Show Tarif Window.
+16:10:35. Add GateWay. Message:Параметр задан неверно.
+
+16:10:35. Hide Window.
+16:10:38. Proccess with string -  AS,
+16:23:52. Proccess with string -  SW
+16:23:52. Show Window.
+16:23:52. Proccess with string -  EE
+16:23:52. Proccess with string -  SZ Интернет (тариф: 0.00067)-20, HW
+16:23:52. Show Tarif Window.
+16:23:54. Hide Window.
+16:24:01. Proccess with string -  AS,
+16:24:23. Proccess with string -  AS,
+16:24:44. Proccess with string -  HZ,DG,SW
+16:24:44. Hide Tarif Window.
+16:24:44. Disable GateWay. Message:Параметр задан неверно.
+
+16:24:44. Show Window.
+16:25:07. Proccess with string -  HZ,DG,SW
+16:25:07. Hide Tarif Window.
+16:25:07. Disable GateWay. Message:Параметр задан неверно.
+
+16:25:07. Show Window.
+16:25:55. Proccess with string -  EE
+16:25:55. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:25:55. Show Tarif Window.
+16:26:23. Add GateWay. Message:Параметр задан неверно.
+
+16:26:23. Hide Window.
+16:26:23. Proccess with string -  AS,
+16:26:24. Proccess with string -  AS,
+16:26:35. Proccess with string -  AS,
+16:26:46. Proccess with string -  AS,
+16:26:57. Proccess with string -  AS,
+16:28:47. Proccess with string -  SW
+16:28:47. Show Window.
+16:28:47. Proccess with string -  EE
+16:28:47. Proccess with string -  SZ Интернет (тариф: 0.00067)-20, HW
+16:28:47. Show Tarif Window.
+16:29:03. Hide Window.
+16:29:35. Proccess with string -  EE
+16:29:38. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:29:38. Show Tarif Window.
+16:29:42. Add GateWay. Message:Параметр задан неверно.
+
+16:29:42. Hide Window.
+16:29:47. Proccess with string -  AS,
+16:29:52. Proccess with string -  HZ,DG,SW
+16:29:52. Hide Tarif Window.
+16:29:53. Disable GateWay. Message:Параметр задан неверно.
+
+16:29:53. Show Window.
+16:29:53. Proccess with string -  HZ,DG,SW
+16:29:53. Hide Tarif Window.
+16:29:53. Disable GateWay. Message:Параметр задан неверно.
+
+16:29:53. Show Window.
+16:30:16. Proccess with string -  EE
+16:30:17. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:30:17. Show Tarif Window.
+16:30:25. Add GateWay. Message:Параметр задан неверно.
+
+16:30:25. Hide Window.
+16:30:26. Proccess with string -  AS,
+16:30:34. Proccess with string -  HZ,DG,SW
+16:30:34. Hide Tarif Window.
+16:30:34. Disable GateWay. Message:Параметр задан неверно.
+
+16:30:34. Show Window.
+16:30:34. Proccess with string -  HZ,DG,SW
+16:30:34. Hide Tarif Window.
+16:30:34. Disable GateWay. Message:Параметр задан неверно.
+
+16:30:34. Show Window.
+16:31:43. Proccess with string -  EE
+16:34:29. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:34:44. Show Tarif Window.
+16:34:45. Add GateWay. Message:Параметр задан неверно.
+
+16:35:32. Proccess with string -  SW
+16:35:37. Show Window.
+16:35:37. Proccess with string -  AS,
+16:35:44. Proccess with string -  EE
+16:35:44. Proccess with string -  SZ Интернет (тариф: 0.00067)-20, HW
+16:35:44. Show Tarif Window.
+16:35:45. Proccess with string -  HZ,DG,SW
+16:35:45. Hide Tarif Window.
+16:35:45. Hide Window.
+16:35:55. Proccess with string -  EE
+16:35:55. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:35:55. Show Tarif Window.
+16:35:55. Add GateWay. Message:Параметр задан неверно.
+
+16:35:55. Hide Window.
+16:35:56. Proccess with string -  AS,
+16:36:07. Proccess with string -  AS,
+16:36:08. Proccess with string -  HZ,DG,SW
+16:36:08. Hide Tarif Window.
+16:36:08. Disable GateWay. Message:Параметр задан неверно.
+
+16:36:08. Show Window.
+16:36:19. Proccess with string -  EE
+16:36:19. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:36:19. Show Tarif Window.
+16:36:19. Add GateWay. Message:Параметр задан неверно.
+
+16:36:19. Hide Window.
+16:36:27. Proccess with string -  SW
+16:36:27. Show Window.
+16:36:27. Proccess with string -  EE
+16:36:27. Proccess with string -  SZ Интернет (тариф: 0.00067)-20, HW
+16:36:27. Show Tarif Window.
+16:36:27. Hide Window.
+16:36:29. Proccess with string -  AS,
+16:36:40. Proccess with string -  AS,
+16:37:27. Proccess with string -  HZ,DG,SW
+16:37:27. Hide Tarif Window.
+16:37:27. Disable GateWay. Message:Параметр задан неверно.
+
+16:37:27. Show Window.
+16:37:37. Proccess with string -  AS,
+16:37:37. Proccess with string -  EE
+16:37:37. Proccess with string -  SZ Интернет (тариф: 0.00067)-19,AG 10.80.15.1,HW
+16:37:37. Show Tarif Window.
+16:37:38. Add GateWay. Message:Параметр задан неверно.
+
+16:37:38. Hide Window.
+16:37:48. Proccess with string -  AS,
+16:37:59. Proccess with string -  AS,
+16:38:00. Proccess with string -  HZ,DG,SW
+16:38:00. Hide Tarif Window.
+16:38:00. Disable GateWay. Message:Параметр задан неверно.
+
+16:38:00. Show Window.
+16:38:12. Proccess with string -  SW
+16:38:12. Show Window.
+16:38:12. Proccess with string -  EE
+16:38:12. Proccess with string -  SZ Интернет (тариф: 0.00067)-19, HW
+16:38:12. Show Tarif Window.
+16:38:13. Hide Window.
+16:40:47. Proccess with string -  SW
+16:40:47. Show Window.
+16:41:05. Proccess with string -  EE
+16:41:05. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:41:05. Show Tarif Window.
+16:41:05. Add GateWay. Message:Параметр задан неверно.
+
+16:41:05. Hide Window.
+16:41:06. Proccess with string -  AS,
+16:41:12. Proccess with string -  SW
+16:41:12. Show Window.
+16:41:17. Proccess with string -  AS,
+16:41:18. Proccess with string -  HZ,DG,SW
+16:41:18. Hide Tarif Window.
+16:41:18. Disable GateWay. Message:Параметр задан неверно.
+
+16:41:18. Show Window.
+16:41:41. Proccess with string -  EE
+16:41:41. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:41:41. Show Tarif Window.
+16:41:41. Add GateWay. Message:Параметр задан неверно.
+
+16:41:41. Hide Window.
+16:41:50. Proccess with string -  AS,
+16:42:01. Proccess with string -  AS,
+16:42:05. Proccess with string -  SW
+16:42:05. Show Window.
+16:42:53. Proccess with string -  SW
+16:42:53. Show Window.
+16:43:19. Proccess with string -  AS,
+16:43:20. Proccess with string -  HZ,DG,SW
+16:43:20. Hide Tarif Window.
+16:43:26. Disable GateWay. Message:Параметр задан неверно.
+
+16:43:26. Show Window.
+16:43:38. Proccess with string -  HZ,DG,SW
+16:43:38. Hide Tarif Window.
+16:43:58. Disable GateWay. Message:Параметр задан неверно.
+
+16:43:58. Show Window.
+16:43:58. Proccess with string -  EE
+16:43:58. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:43:58. Show Tarif Window.
+16:44:10. Add GateWay. Message:Параметр задан неверно.
+
+16:44:10. Hide Window.
+16:44:10. Proccess with string -  AS,
+16:44:13. Proccess with string -  AS,
+16:44:24. Proccess with string -  AS,
+16:44:35. Proccess with string -  AS,
+16:44:43. Proccess with string -  SW
+16:44:43. Show Window.
+16:45:26. Proccess with string -  AS,
+16:45:27. Proccess with string -  HZ,DG,SW
+16:45:27. Hide Tarif Window.
+16:45:53. Disable GateWay. Message:Параметр задан неверно.
+
+16:45:53. Show Window.
+16:46:05. Proccess with string -  EE
+16:46:05. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:46:05. Show Tarif Window.
+16:46:17. Add GateWay. Message:Параметр задан неверно.
+
+16:46:17. Hide Window.
+16:46:17. Proccess with string -  AS,
+16:46:25. Proccess with string -  AS,
+16:47:26. Proccess with string -  AS,
+16:47:26. Proccess with string -  AS,
+16:47:26. Show Window.
+16:48:10. Proccess with string -  AS,
+16:48:10. Proccess with string -  HZ,DG,SW
+16:48:10. Hide Tarif Window.
+16:48:15. Disable GateWay. Message:Параметр задан неверно.
+
+16:48:15. Show Window.
+16:48:35. Proccess with string -  SW
+16:48:35. Show Window.
+16:48:45. Proccess with string -  EE
+16:48:45. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:48:45. Show Tarif Window.
+16:48:49. Add GateWay. Message:Параметр задан неверно.
+
+16:48:49. Hide Window.
+16:48:49. Proccess with string -  AS,
+16:49:00. Proccess with string -  SW
+16:49:00. Show Window.
+16:49:00. Proccess with string -  EE
+16:49:00. Proccess with string -  SZ Интернет (тариф: 0.00067)-20, HW
+16:49:00. Show Tarif Window.
+16:49:01. Hide Window.
+16:49:10. Proccess with string -  AS,
+16:49:11. Proccess with string -  HZ,DG,SW
+16:49:11. Hide Tarif Window.
+16:49:11. Disable GateWay. Message:Параметр задан неверно.
+
+16:49:11. Show Window.
+16:49:24. Proccess with string -  SW
+16:49:24. Show Window.
+16:49:34. Proccess with string -  EE
+16:49:34. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:49:34. Show Tarif Window.
+16:49:34. Add GateWay. Message:Параметр задан неверно.
+
+16:49:34. Hide Window.
+16:49:39. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:49:39. Show Tarif Window.
+16:49:39. Add GateWay. Message:Параметр задан неверно.
+
+16:49:39. Hide Window.
+16:50:09. Proccess with string -  AS,
+16:50:09. Proccess with string -  EE
+16:50:09. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:50:09. Show Tarif Window.
+16:50:10. Add GateWay. Message:Параметр задан неверно.
+
+16:50:10. Hide Window.
+16:50:20. Proccess with string -  AS,
+16:51:09. Proccess with string -  HZ,DG,SW
+16:51:09. Hide Tarif Window.
+16:51:10. Disable GateWay. Message:Параметр задан неверно.
+
+16:51:10. Show Window.
+16:51:41. Proccess with string -  AS,
+16:51:41. Proccess with string -  EE
+16:51:41. Proccess with string -  SZ Интернет (тариф: 0.00067)-19,AG 10.80.15.1,HW
+16:51:41. Show Tarif Window.
+16:51:42. Add GateWay. Message:Параметр задан неверно.
+
+16:51:42. Hide Window.
+16:51:52. Proccess with string -  AS,
+16:52:03. Proccess with string -  AS,
+16:52:14. Proccess with string -  AS,
+16:52:25. Proccess with string -  AS,
+16:52:36. Proccess with string -  AS,
+16:52:47. Proccess with string -  AS,
+16:52:58. Proccess with string -  AS,
+16:53:09. Proccess with string -  AS,
+16:53:40. Proccess with string -  AS,
+16:53:42. Proccess with string -  AS,
+16:53:53. Proccess with string -  AS,
+16:54:04. Proccess with string -  AS,
+16:54:16. Proccess with string -  AS,
+16:54:30. Proccess with string -  AS,
+16:54:31. Proccess with string -  HZ,DG,SW
+16:54:31. Hide Tarif Window.
+16:54:31. Disable GateWay. Message:Параметр задан неверно.
+
+16:54:31. Show Window.
+16:54:44. Proccess with string -  EE
+16:54:44. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:54:44. Show Tarif Window.
+16:54:44. Add GateWay. Message:Параметр задан неверно.
+
+16:54:44. Hide Window.
+16:54:50. Proccess with string -  AS,
+16:54:59. Proccess with string -  AS,
+16:55:00. Proccess with string -  HZ,DG,SW
+16:55:00. Hide Tarif Window.
+16:55:00. Disable GateWay. Message:Параметр задан неверно.
+
+16:55:00. Show Window.
+16:56:55. Proccess with string -  SW
+16:56:55. Show Window.
+16:57:03. Proccess with string -  EE
+16:57:03. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+16:57:03. Show Tarif Window.
+16:57:03. Add GateWay. Message:Параметр задан неверно.
+
+16:57:03. Hide Window.
+16:57:11. Proccess with string -  AS,
+16:57:12. Proccess with string -  HZ,DG,SW
+16:57:12. Hide Tarif Window.
+16:57:12. Disable GateWay. Message:Параметр задан неверно.
+
+16:57:12. Show Window.
+10:03:46. Proccess with string -  SW
+10:03:46. Show Window.
+10:05:01. Proccess with string -  AS,
+10:05:01. Proccess with string -  EE
+10:05:43. Proccess with string -  AS,
+10:05:43. Proccess with string -  EE
+10:06:12. Proccess with string -  AS,
+10:06:12. Proccess with string -  EE
+10:06:19. Proccess with string -  SZ Интернет (тариф: 0.00000)-20,AG 10.80.15.1,CW
+10:06:19. Show Tarif Window.
+10:06:19. Add GateWay. Message:Параметр задан неверно.
+
+10:06:56. Proccess with string -  HZ,DG,SW
+10:06:56. Hide Tarif Window.
+10:06:56. Disable GateWay. Message:Параметр задан неверно.
+
+10:06:56. Show Window.
+10:07:57. Proccess with string -  HZ,DG,SW
+10:07:57. Hide Tarif Window.
+10:07:57. Disable GateWay. Message:Параметр задан неверно.
+
+10:07:57. Show Window.
+10:08:37. Proccess with string -  AS,
+10:08:37. Proccess with string -  EE
+10:10:11. Proccess with string -  AS,
+10:10:11. Proccess with string -  EE
+10:10:18. Proccess with string -  EE
+10:10:18. Proccess with string -  SZ Интернет (тариф: 0.00067)-2,AG 10.80.15.1,HW
+10:10:18. Show Tarif Window.
+10:10:19. Add GateWay. Message:Параметр задан неверно.
+
+10:10:19. Hide Window.
+10:10:22. Proccess with string -  AS,
+10:10:33. Proccess with string -  AS,
+10:10:40. Proccess with string -  HZ,DG,SW
+10:10:40. Hide Tarif Window.
+10:10:41. Disable GateWay. Message:Параметр задан неверно.
+
+10:10:41. Show Window.
+10:10:41. Proccess with string -  HZ,DG,SW
+10:10:41. Hide Tarif Window.
+10:10:41. Disable GateWay. Message:Параметр задан неверно.
+
+10:10:41. Show Window.
+10:10:54. Proccess with string -  EE
+10:10:54. Proccess with string -  SZ Интернет (тариф: 0.00067)-3,AG 10.80.15.1,HW
+10:10:54. Show Tarif Window.
+10:10:55. Add GateWay. Message:Параметр задан неверно.
+
+10:10:55. Hide Window.
+10:10:55. Proccess with string -  AS,
+10:10:59. Proccess with string -  HZ,DG,SW
+10:10:59. Hide Tarif Window.
+10:10:59. Disable GateWay. Message:Параметр задан неверно.
+
+10:10:59. Show Window.
+10:10:59. Proccess with string -  HZ,DG,SW
+10:10:59. Hide Tarif Window.
+10:10:59. Disable GateWay. Message:Параметр задан неверно.
+
+10:10:59. Show Window.
+10:11:14. Proccess with string -  EE
+10:11:14. Proccess with string -  SZ Интернет (тариф: 0.00067)-2,AG 10.80.15.1,HW
+10:11:14. Show Tarif Window.
+10:11:15. Add GateWay. Message:Параметр задан неверно.
+
+10:11:15. Hide Window.
+10:11:17. Proccess with string -  AS,
+10:11:28. Proccess with string -  AS,
+10:11:39. Proccess with string -  AS,
+10:11:50. Proccess with string -  AS,
+10:12:01. Proccess with string -  AS,
+10:12:12. Proccess with string -  AS,
+10:12:23. Proccess with string -  AS,
+10:12:34. Proccess with string -  AS,
+10:12:45. Proccess with string -  AS,
+10:12:56. Proccess with string -  AS,
+10:13:07. Proccess with string -  AS,
+10:13:18. Proccess with string -  AS,
+10:13:19. Proccess with string -  HZ,DG,SW
+10:13:19. Hide Tarif Window.
+10:13:19. Disable GateWay. Message:Параметр задан неверно.
+
+10:13:19. Show Window.
+10:17:30. Proccess with string -  SW
+10:17:30. Show Window.
+10:17:48. Proccess with string -  EE
+10:17:48. Proccess with string -  SZ Интернет (тариф: 0.00067)-23,AG 10.80.15.1,HW
+10:17:48. Show Tarif Window.
+10:17:49. Add GateWay. Message:Параметр задан неверно.
+
+10:17:49. Hide Window.
+10:17:53. Proccess with string -  AS,
+10:17:55. Proccess with string -  HZ,DG,SW
+10:17:55. Hide Tarif Window.
+10:17:55. Disable GateWay. Message:Параметр задан неверно.
+
+10:17:55. Show Window.
+10:17:55. Proccess with string -  HZ,DG,SW
+10:17:55. Hide Tarif Window.
+10:17:55. Disable GateWay. Message:Параметр задан неверно.
+
+10:17:55. Show Window.
+10:18:05. Proccess with string -  EE
+10:18:05. Proccess with string -  SZ Интернет (тариф: 0.00067)-2,AG 10.80.15.1,HW
+10:18:05. Show Tarif Window.
+10:18:06. Add GateWay. Message:Параметр задан неверно.
+
+10:18:06. Hide Window.
+10:18:15. Proccess with string -  AS,
+10:18:26. Proccess with string -  AS,
+10:18:37. Proccess with string -  AS,
+10:18:48. Proccess with string -  AS,
+10:18:59. Proccess with string -  AS,
+10:19:10. Proccess with string -  AS,
+10:19:21. Proccess with string -  AS,
+10:19:32. Proccess with string -  AS,
+10:19:43. Proccess with string -  AS,
+10:19:54. Proccess with string -  AS,
+10:20:05. Proccess with string -  AS,
+10:20:16. Proccess with string -  AS,
+10:20:17. Proccess with string -  HZ,DG,SW
+10:20:17. Hide Tarif Window.
+10:20:17. Disable GateWay. Message:Параметр задан неверно.
+
+10:20:17. Show Window.
+10:22:13. Proccess with string -  HZ,DG,SW
+10:22:13. Hide Tarif Window.
+10:22:13. Disable GateWay. Message:Параметр задан неверно.
+
+10:22:13. Show Window.
+10:26:28. Proccess with string -  SW
+10:26:28. Show Window.
+10:26:38. Proccess with string -  EE
+10:26:38. Proccess with string -  SZ Интернет (тариф: 0.00067)-2,AG 10.80.15.1,HW
+10:26:38. Show Tarif Window.
+10:26:39. Add GateWay. Message:Параметр задан неверно.
+
+10:26:39. Hide Window.
+10:26:41. Proccess with string -  AS,
+10:26:52. Proccess with string -  AS,
+10:27:03. Proccess with string -  AS,
+10:27:14. Proccess with string -  AS,
+10:27:25. Proccess with string -  AS,
+10:27:36. Proccess with string -  AS,
+10:27:47. Proccess with string -  AS,
+10:27:58. Proccess with string -  AS,
+10:28:09. Proccess with string -  AS,
+10:28:14. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+10:28:14. Show Tarif Window.
+10:28:14. Add GateWay. Message:Параметр задан неверно.
+
+10:28:14. Hide Window.
+10:28:20. Proccess with string -  AS,
+10:28:31. Proccess with string -  AS,
+10:28:42. Proccess with string -  AS,
+10:28:53. Proccess with string -  AS,
+10:29:04. Proccess with string -  AS,
+10:29:15. Proccess with string -  AS,
+10:29:26. Proccess with string -  AS,
+10:29:30. Proccess with string -  HZ,DG,SW
+10:29:30. Hide Tarif Window.
+10:29:30. Disable GateWay. Message:Параметр задан неверно.
+
+10:29:30. Show Window.
+10:30:38. Proccess with string -  EE
+10:30:38. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+10:30:38. Show Tarif Window.
+10:30:39. Add GateWay. Message:Параметр задан неверно.
+
+10:30:39. Hide Window.
+10:30:43. Proccess with string -  AS,
+10:30:54. Proccess with string -  AS,
+10:31:05. Proccess with string -  AS,
+10:31:16. Proccess with string -  AS,
+10:31:27. Proccess with string -  AS,
+10:31:38. Proccess with string -  AS,
+10:31:49. Proccess with string -  AS,
+10:32:00. Proccess with string -  AS,
+10:32:11. Proccess with string -  AS,
+10:32:22. Proccess with string -  AS,
+10:32:28. Proccess with string -  HZ,DG,SW
+10:32:28. Hide Tarif Window.
+10:32:28. Disable GateWay. Message:Параметр задан неверно.
+
+10:32:28. Show Window.
+10:32:38. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+10:32:38. Show Tarif Window.
+10:32:40. Add GateWay. Message:Параметр задан неверно.
+
+10:32:40. Hide Window.
+10:32:40. Proccess with string -  EE
+11:05:33. Proccess with string -  SW
+11:05:33. Show Window.
+11:05:49. Proccess with string -  AS,
+11:05:49. Proccess with string -  EE
+11:05:53. Proccess with string -  EE
+11:05:53. Proccess with string -  SZ Интернет (тариф: 0.00067)-2,AG 10.80.15.1,HW
+11:05:53. Show Tarif Window.
+11:05:55. Add GateWay. Message:Операция успешно завершена.
+
+11:05:55. Hide Window.
+11:06:00. Proccess with string -  AS,
+11:06:11. Proccess with string -  AS,
+11:06:22. Proccess with string -  AS,
+11:06:44. Proccess with string -  SW
+11:06:44. Show Window.
+11:06:44. Proccess with string -  EE
+11:06:44. Proccess with string -  SZ Интернет (тариф: 0.00067)-2, HW
+11:06:44. Show Tarif Window.
+11:06:45. Hide Window.
+11:09:45. Proccess with string -  HZ,DG,SW
+11:09:45. Hide Tarif Window.
+11:09:45. Disable GateWay. Message:Операция успешно завершена.
+
+11:09:45. Show Window.
+11:10:20. Proccess with string -  AS,
+11:10:20. Proccess with string -  EE
+11:10:20. Proccess with string -  SZ Интернет (тариф: 0.00067)-0,AG 10.80.15.1,HW
+11:10:20. Show Tarif Window.
+11:10:22. Add GateWay. Message:Операция успешно завершена.
+
+11:10:22. Hide Window.
+11:10:22. Proccess with string -  HZ,DG,SW
+11:10:22. Hide Tarif Window.
+11:10:23. Disable GateWay. Message:Операция успешно завершена.
+
+11:10:23. Show Window.
+11:10:38. Proccess with string -  EE
+11:10:38. Proccess with string -  SZ Интернет (тариф: 0.00067)-2,AG 10.80.15.1,HW
+11:10:38. Show Tarif Window.
+11:10:39. Add GateWay. Message:Операция успешно завершена.
+
+11:10:39. Hide Window.
+11:10:42. Proccess with string -  AS,
+11:10:53. Proccess with string -  AS,
+11:11:04. Proccess with string -  AS,
+11:11:15. Proccess with string -  AS,
+11:11:26. Proccess with string -  AS,
+11:11:37. Proccess with string -  AS,
+11:11:48. Proccess with string -  AS,
+11:11:59. Proccess with string -  AS,
+11:12:10. Proccess with string -  AS,
+11:12:21. Proccess with string -  AS,
+11:12:32. Proccess with string -  AS,
+11:12:33. Proccess with string -  HZ,DG,SW
+11:12:33. Hide Tarif Window.
+11:12:33. Disable GateWay. Message:Операция успешно завершена.
+
+11:12:33. Show Window.
+11:12:53. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+11:12:53. Show Tarif Window.
+11:12:55. Add GateWay. Message:Операция успешно завершена.
+
+11:12:55. Hide Window.
+11:12:55. Proccess with string -  EE
+12:13:59. Proccess with string -  SW
+12:13:59. Show Window.
+12:14:05. Proccess with string -  AS,
+12:14:05. Proccess with string -  EE
+12:14:11. Proccess with string -  EE
+12:14:11. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+12:14:11. Show Tarif Window.
+12:14:13. Add GateWay. Message:Параметр задан неверно.
+
+12:14:13. Hide Window.
+12:14:16. Proccess with string -  AS,
+12:14:27. Proccess with string -  AS,
+12:14:38. Proccess with string -  AS,
+12:14:49. Proccess with string -  AS,
+12:15:00. Proccess with string -  AS,
+12:15:11. Proccess with string -  AS,
+12:15:22. Proccess with string -  AS,
+12:15:33. Proccess with string -  AS,
+12:15:44. Proccess with string -  AS,
+12:15:55. Proccess with string -  AS,
+12:16:06. Proccess with string -  AS,
+12:16:12. Proccess with string -  HZ,DG,SW
+12:16:12. Hide Tarif Window.
+12:16:12. Disable GateWay. Message:Параметр задан неверно.
+
+12:16:12. Show Window.
+12:16:24. Proccess with string -  EE
+12:16:24. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+12:16:24. Show Tarif Window.
+12:16:25. Add GateWay. Message:Параметр задан неверно.
+
+12:16:25. Hide Window.
+12:16:28. Proccess with string -  AS,
+12:16:39. Proccess with string -  AS,
+12:16:50. Proccess with string -  AS,
+12:17:01. Proccess with string -  AS,
+12:17:12. Proccess with string -  AS,
+12:17:23. Proccess with string -  AS,
+12:17:34. Proccess with string -  AS,
+12:17:45. Proccess with string -  AS,
+12:17:56. Proccess with string -  AS,
+12:18:07. Proccess with string -  AS,
+12:18:18. Proccess with string -  AS,
+12:18:19. Proccess with string -  HZ,DG,SW
+12:18:19. Hide Tarif Window.
+12:18:20. Disable GateWay. Message:Параметр задан неверно.
+
+12:18:20. Show Window.
+12:19:48. Proccess with string -  SW
+12:19:48. Show Window.
+12:20:00. Proccess with string -  EE
+12:20:00. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+12:20:00. Show Tarif Window.
+12:20:01. Add GateWay. Message:Параметр задан неверно.
+
+12:20:01. Hide Window.
+12:20:06. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+12:20:06. Show Tarif Window.
+12:20:06. Add GateWay. Message:Параметр задан неверно.
+
+12:20:06. Hide Window.
+12:20:08. Proccess with string -  AS,
+12:20:19. Proccess with string -  AS,
+12:20:30. Proccess with string -  AS,
+12:20:41. Proccess with string -  AS,
+12:20:52. Proccess with string -  AS,
+12:21:03. Proccess with string -  AS,
+12:21:14. Proccess with string -  AS,
+12:21:25. Proccess with string -  AS,
+12:21:36. Proccess with string -  AS,
+12:21:37. Proccess with string -  HZ,DG,SW
+12:21:37. Hide Tarif Window.
+12:21:37. Disable GateWay. Message:Параметр задан неверно.
+
+12:21:37. Show Window.
+12:21:49. Proccess with string -  EE
+12:21:49. Proccess with string -  SZ Интернет (тариф: 0.00067)-1,AG 10.80.15.1,HW
+12:21:49. Show Tarif Window.
+12:21:50. Add GateWay. Message:Параметр задан неверно.
+
+12:21:50. Hide Window.
+12:21:58. Proccess with string -  AS,
+12:22:09. Proccess with string -  AS,
+12:22:20. Proccess with string -  AS,
+12:22:31. Proccess with string -  AS,
+12:22:42. Proccess with string -  AS,
+12:22:53. Proccess with string -  AS,
+12:23:04. Proccess with string -  AS,
+12:23:15. Proccess with string -  AS,
+12:23:26. Proccess with string -  AS,
+12:23:37. Proccess with string -  AS,
+12:23:48. Proccess with string -  AS,
+12:23:49. Proccess with string -  HZ,DG,SW
+12:23:49. Hide Tarif Window.
+12:23:49. Disable GateWay. Message:Параметр задан неверно.
+
+12:23:49. Show Window.
+12:24:25. Proccess with string -  EE
+12:24:25. Proccess with string -  SZ Интернет (тариф: 0.00067)-20,AG 10.80.15.1,HW
+12:24:25. Show Tarif Window.
+12:24:26. Add GateWay. Message:Параметр задан неверно.
+
+12:24:26. Hide Window.
+12:24:32. Proccess with string -  AS,
+12:24:43. Proccess with string -  AS,
+12:24:56. Proccess with string -  SW
+12:24:56. Show Window.
+12:24:57. Proccess with string -  EE
+12:24:57. Proccess with string -  SZ Интернет (тариф: 0.00067)-20, HW
+12:24:57. Show Tarif Window.
+12:24:57. Hide Window.
+08:19:53. Proccess with string -  SW
+08:19:53. Show Window.
+08:19:53. Proccess with string -  EE
+08:19:53. Proccess with string -  SZ Интернет (тариф: 0.00067)-20, HW
+08:19:53. Show Tarif Window.
+08:19:54. Hide Window.
+08:20:14. Proccess with string -  AS,
+08:20:18. Proccess with string -  SZ Интернет (тариф: 0.00000)-20,AG 10.80.15.1,HW
+08:20:18. Show Tarif Window.
+08:20:18. Add GateWay. Message:Операция успешно завершена.
+
+08:20:18. Hide Window.
+08:20:19. Proccess with string -  HZ,DG,SW
+08:20:19. Hide Tarif Window.
+08:20:20. Disable GateWay. Message:Операция успешно завершена.
+
+08:20:20. Show Window.
+08:21:04. Proccess with string -  AS,
+08:21:27. Proccess with string -  AS,
+08:21:31. Proccess with string -  SZ Интернет (тариф: 0.00000)-20,AG 10.80.15.1,HW
+08:21:31. Show Tarif Window.
+08:21:31. Add GateWay. Message:Операция успешно завершена.
+
+08:21:31. Hide Window.
+08:21:46. Proccess with string -  HZ,DG,SW
+08:21:46. Hide Tarif Window.
+08:21:46. Disable GateWay. Message:Операция успешно завершена.
+
+08:21:46. Show Window.
+08:25:39. Proccess with string -  HZ,DG,SW
+08:25:39. Hide Tarif Window.
+08:25:39. Disable GateWay. Message:Параметр задан неверно.
+
+08:25:39. Show Window.
+08:28:38. Proccess with string -  SW
+08:28:38. Show Window.
+08:28:53. Proccess with string -  HZ,DG,SW
+08:28:53. Hide Tarif Window.
+08:28:53. Disable GateWay. Message:Параметр задан неверно.
+
+08:28:53. Show Window.
+08:29:09. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+08:29:09. Show Tarif Window.
+08:29:10. Add GateWay. Message:Параметр задан неверно.
+
+08:29:10. Hide Window.
+08:29:32. Proccess with string -  HZ,DG,SW
+08:29:33. Hide Tarif Window.
+08:29:33. Disable GateWay. Message:Параметр задан неверно.
+
+08:29:33. Show Window.
+08:31:03. Proccess with string -  HZ,DG,SW
+08:31:03. Hide Tarif Window.
+08:31:04. Disable GateWay. Message:Параметр задан неверно.
+
+08:31:04. Show Window.
+08:31:22. Proccess with string -  AS,
+08:31:51. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+08:31:51. Show Tarif Window.
+08:31:53. Add GateWay. Message:Параметр задан неверно.
+
+08:31:53. Hide Window.
+08:32:04. Proccess with string -  HZ,DG,SW
+08:32:04. Hide Tarif Window.
+08:32:05. Disable GateWay. Message:Параметр задан неверно.
+
+08:32:05. Show Window.
+08:33:13. Proccess with string -  HZ,DG,SW
+08:33:13. Hide Tarif Window.
+08:33:13. Disable GateWay. Message:Параметр задан неверно.
+
+08:33:13. Show Window.
+08:33:50. Proccess with string -  SW
+08:33:50. Show Window.
+08:34:08. Proccess with string -  AS,
+08:34:24. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+08:34:24. Show Tarif Window.
+08:34:26. Add GateWay. Message:Параметр задан неверно.
+
+08:34:26. Hide Window.
+08:34:39. Proccess with string -  HZ,DG,SW
+08:34:39. Hide Tarif Window.
+08:34:39. Disable GateWay. Message:Параметр задан неверно.
+
+08:34:39. Show Window.
+08:36:04. Proccess with string -  HZ,DG,SW
+08:36:04. Hide Tarif Window.
+08:36:04. Disable GateWay. Message:Параметр задан неверно.
+
+08:36:04. Show Window.
+08:36:32. Proccess with string -  AS,
+08:36:51. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+08:36:51. Show Tarif Window.
+08:36:52. Add GateWay. Message:Параметр задан неверно.
+
+08:36:52. Hide Window.
+08:37:22. Proccess with string -  HZ,DG,SW
+08:38:25. Hide Tarif Window.
+08:38:25. Disable GateWay. Message:Параметр задан неверно.
+
+08:38:25. Show Window.
+08:41:14. Proccess with string -  HZ,DG,SW
+08:41:22. Hide Tarif Window.
+08:41:23. Disable GateWay. Message:Параметр задан неверно.
+
+08:41:24. Show Window.
+08:41:52. Proccess with string -  AS,
+08:42:13. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+08:42:14. Show Tarif Window.
+08:42:19. Add GateWay. Message:Параметр задан неверно.
+
+08:42:20. Hide Window.
+08:42:30. Proccess with string -  HZ,DG,SW
+08:44:28. Hide Tarif Window.
+08:44:57. Disable GateWay. Message:Параметр задан неверно.
+
+08:45:35. Show Window.
+08:53:31. Proccess with string -  HZ,DG,SW
+08:53:35. Hide Tarif Window.
+08:53:38. Disable GateWay. Message:Параметр задан неверно.
+
+08:53:40. Show Window.
+08:54:02. Proccess with string -  AS,
+08:54:34. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+08:54:34. Show Tarif Window.
+08:55:11. Add GateWay. Message:Параметр задан неверно.
+
+08:55:11. Hide Window.
+08:55:28. Proccess with string -  HZ,DG,SW
+08:55:39. Hide Tarif Window.
+08:55:44. Disable GateWay. Message:Параметр задан неверно.
+
+08:55:53. Show Window.
+09:06:25. Proccess with string -  SW
+09:06:25. Show Window.
+09:07:19. Proccess with string -  AS,
+09:07:23. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+09:07:23. Show Tarif Window.
+09:07:24. Add GateWay. Message:Операция успешно завершена.
+
+09:07:24. Hide Window.
+09:07:25. Proccess with string -  HZ,DG,SW
+09:07:25. Hide Tarif Window.
+09:07:26. Disable GateWay. Message:Операция успешно завершена.
+
+09:07:26. Show Window.
+09:07:26. Proccess with string -  AS,
+09:09:01. Proccess with string -  SW
+09:09:01. Show Window.
+09:09:05. Proccess with string -  SZ Интернет (тариф: 0.00000)-0,AG 10.80.15.1,HW
+09:09:05. Show Tarif Window.
+09:09:07. Add GateWay. Message:Параметр задан неверно.
+
+09:09:07. Hide Window.
+09:09:07. Proccess with string -  HZ,DG,SW
+09:09:07. Hide Tarif Window.
+09:09:07. Disable GateWay. Message:Параметр задан неверно.
+
+09:09:07. Show Window.
+09:09:07. Proccess with string -  AS,
+16:27:03. Proccess with string -  SW
+16:27:03. Show Window.
+16:27:04. Proccess with string -  HZ,DG,SW
+16:27:04. Hide Tarif Window.
+16:27:04. Disable GateWay. Message:Операция успешно завершена.
+
+16:27:04. Show Window.
+16:27:38. Proccess with string -  EE
+16:27:38. Proccess with string -  SZ Интернет (тариф: 0.00080)-17,AG 10.80.15.1,HW
+16:27:38. Show Tarif Window.
+16:27:39. Add GateWay. Message:Операция успешно завершена.
+
+16:27:39. Hide Window.
+16:27:44. Proccess with string -  HZ,DG,SW
+16:27:44. Hide Tarif Window.
+16:27:44. Disable GateWay. Message:Операция успешно завершена.
+
+16:27:44. Show Window.
+16:27:44. Proccess with string -  HZ,DG,SW
+16:27:44. Hide Tarif Window.
+16:27:45. Disable GateWay. Message:Параметр задан неверно.
+
+16:27:45. Show Window.
+16:27:54. Proccess with string -  EE
+16:27:54. Proccess with string -  SZ Интернет (тариф: 0.00080)-34,AG 10.80.15.1,HW
+16:27:54. Show Tarif Window.
+16:27:55. Add GateWay. Message:Операция успешно завершена.
+
+16:27:55. Hide Window.
+16:27:57. Proccess with string -  HZ,DG,SW
+16:27:57. Hide Tarif Window.
+16:27:57. Disable GateWay. Message:Операция успешно завершена.
+
+16:27:57. Show Window.
+16:27:57. Proccess with string -  HZ,DG,SW
+16:27:57. Hide Tarif Window.
+16:27:57. Disable GateWay. Message:Параметр задан неверно.
+
+16:27:57. Show Window.
+16:28:58. Proccess with string -  SW
+16:28:58. Show Window.
+09:19:16. Proccess with string -  SW
+09:19:16. Show Window.
+09:19:29. Proccess with string -  HZ,DG,SW
+09:19:29. Hide Tarif Window.
+09:19:30. Disable GateWay. Message:Операция успешно завершена.
+
+09:19:30. Show Window.
+09:20:01. Proccess with string -  EE
+09:20:01. Proccess with string -  SZ Интернет (тариф: 0.00080)-17,AG 10.80.15.1,HW
+09:20:01. Show Tarif Window.
+09:20:01. Add GateWay. Message:Операция успешно завершена.
+
+09:20:01. Hide Window.
+09:20:07. Proccess with string -  HZ,DG,SW
+09:20:07. Hide Tarif Window.
+09:20:08. Disable GateWay. Message:Операция успешно завершена.
+
+09:20:08. Show Window.
+09:20:08. Proccess with string -  HZ,DG,SW
+09:20:08. Hide Tarif Window.
+09:20:08. Disable GateWay. Message:Параметр задан неверно.
+
+09:20:08. Show Window.
+09:20:20. Proccess with string -  EE
+09:20:20. Proccess with string -  SZ Интернет (тариф: 0.00080)-17,AG 10.80.15.1,HW
+09:20:20. Show Tarif Window.
+09:20:20. Add GateWay. Message:Операция успешно завершена.
+
+09:20:20. Hide Window.
+09:20:22. Proccess with string -  AS,
+16:00:41. Proccess with string -  SW
+16:00:41. Show Window.
+16:00:42. Proccess with string -  EE
+16:00:42. Proccess with string -  SZ Интернет (тариф: 0.00080)-17, HW
+16:00:42. Show Tarif Window.
+16:01:33. Proccess with string -  AS,
+16:01:33. Proccess with string -  SZ Интернет (тариф: 0.00080)-17,AG 10.80.15.1,HW
+16:01:33. Show Tarif Window.
+16:01:34. Hide Window.
+16:02:00. Hide Window.
+16:02:00. Proccess with string -  AS,
+16:02:11. Proccess with string -  AS,
+16:02:15. Proccess with string -  AS,
+16:02:25. Proccess with string -  AS,
+16:02:45. Proccess with string -  AS,
+16:02:46. Proccess with string -  AS,
+16:08:36. Proccess with string -  SW
+16:08:36. Proccess with string -  SW
+16:08:36. Proccess with string -  SZ Интернет (тариф: 0.00080)-0,AG 10.80.15.1,HW
+16:08:36. Show Tarif Window.
+16:08:37. Add GateWay. Message:Операция успешно завершена.
+
+16:08:37. Hide Window.
+16:08:37. Proccess with string -  HZ,DG,SW
+16:08:37. Hide Tarif Window.
+16:08:58. Disable GateWay. Message:Операция успешно завершена.
+
+16:08:58. Show Window.
+16:08:59. Proccess with string -  AS,
+16:09:00. Proccess with string -  AS,
+16:09:11. Proccess with string -  AS,
+16:09:15. Proccess with string -  HZ,DG,SW
+16:09:15. Hide Tarif Window.
+16:09:30. Disable GateWay. Message:Параметр задан неверно.
+
+16:09:30. Show Window.
+16:09:30. Proccess with string -  HZ,DG,SW
+16:09:30. Hide Tarif Window.
+16:09:44. Disable GateWay. Message:Параметр задан неверно.
+
+16:09:44. Show Window.
+16:10:06. Proccess with string -  EE
+16:10:06. Proccess with string -  SZ Интернет (тариф: 0.00080)-347,AG 10.80.15.1,HW
+16:10:06. Show Tarif Window.
+16:10:06. Add GateWay. Message:Операция успешно завершена.
+
+16:10:06. Hide Window.
+16:10:06. Proccess with string -  AS,
+16:10:17. Proccess with string -  AS,
+16:10:28. Proccess with string -  AS,
+16:10:39. Proccess with string -  AS,
+16:10:50. Proccess with string -  AS,
+16:11:01. Proccess with string -  AS,
+16:12:28. Proccess with string -  AS,
+16:13:18. Proccess with string -  SW
+16:13:18. Proccess with string -  SW
+16:13:18. Proccess with string -  EE
+16:13:18. Proccess with string -  SZ Интернет (тариф: 0.00080)-346, HW
+16:13:18. Show Tarif Window.
+16:13:48. Proccess with string -  AS,
+16:13:49. Hide Window.
+16:13:57. Proccess with string -  AS,
+16:14:05. Proccess with string -  HZ,DG,SW
+16:14:05. Hide Tarif Window.
+16:14:11. Disable GateWay. Message:Операция успешно завершена.
+
+16:14:11. Show Window.
+16:14:21. Proccess with string -  EE
+16:14:21. Proccess with string -  SZ Интернет (тариф: 0.00080)-347,AG 10.80.15.1,HW
+16:14:21. Show Tarif Window.
+16:14:31. Add GateWay. Message:Операция успешно завершена.
+
+16:14:31. Hide Window.
+16:14:31. Proccess with string -  AS,
+16:14:38. Proccess with string -  HZ,DG,SW
+16:14:38. Hide Tarif Window.
+16:15:10. Disable GateWay. Message:Операция успешно завершена.
+
+16:15:10. Show Window.
+16:15:24. Proccess with string -  EE
+16:15:24. Proccess with string -  SZ Интернет (тариф: 0.00080)-34,AG 10.80.15.1,HW
+16:15:24. Show Tarif Window.
+16:15:29. Add GateWay. Message:Операция успешно завершена.
+
+16:15:29. Hide Window.
+16:15:29. Proccess with string -  AS,
+16:15:29. Proccess with string -  AS,
+16:15:36. Proccess with string -  AS,
+16:15:47. Proccess with string -  AS,
+16:15:58. Proccess with string -  AS,
+16:16:10. Proccess with string -  AS,
+16:16:23. Proccess with string -  AS,
+16:16:23. Proccess with string -  AS,
+16:16:23. Proccess with string -  EE
+16:16:23. Proccess with string -  SZ Интернет (тариф: 0.00080)-34, HW
+16:16:23. Show Tarif Window.
+16:16:27. Hide Window.
+16:16:31. Proccess with string -  AS,
+15:48:40. Failed Bind.
+15:49:15. Proccess with string -  SW
+15:49:15. Show Window.
+15:49:15. Proccess with string -  EE
+15:49:15. Proccess with string -  SZ Интернет (тариф: 0.00080)-34, HW
+15:49:15. Show Tarif Window.
+15:49:16. Hide Window.
+15:49:41. Proccess with string -  AS,
+15:49:52. Proccess with string -  AS,
+15:50:03. Proccess with string -  AS,
+15:50:12. Proccess with string -  EE
+15:50:12. Proccess with string -  SZ Интернет (тариф: 0.00080)-35,AG 10.80.15.1,HW
+15:50:12. Show Tarif Window.
+15:50:12. Add GateWay. Message:Параметр задан неверно.
+
+15:50:12. Hide Window.
+15:50:14. Proccess with string -  AS,
+15:50:14. Proccess with string -  HZ,DG,SW
+15:50:14. Hide Tarif Window.
+15:50:20. Disable GateWay. Message:Параметр задан неверно.
+
+15:50:20. Show Window.
+15:50:25. Proccess with string -  AS,
+15:50:28. Proccess with string -  EE
+15:50:28. Proccess with string -  SZ Интернет (тариф: 0.00080)-35,AG 10.80.15.1,HW
+15:50:28. Show Tarif Window.
+15:50:28. Add GateWay. Message:Параметр задан неверно.
+
+15:50:28. Hide Window.
+15:50:36. Proccess with string -  AS,
+15:50:36. Proccess with string -  HZ,DG,SW
+15:50:36. Hide Tarif Window.
+15:50:36. Disable GateWay. Message:Параметр задан неверно.
+
+15:50:36. Show Window.
+15:50:47. Proccess with string -  AS,
+15:50:58. Proccess with string -  AS,
+15:51:00. Proccess with string -  EE
+15:51:00. Proccess with string -  SZ Интернет (тариф: 0.00080)-35,AG 10.80.15.1,HW
+15:51:00. Show Tarif Window.
+15:51:00. Add GateWay. Message:Параметр задан неверно.
+
+15:51:00. Hide Window.
+15:51:09. Proccess with string -  AS,
+15:52:00. Proccess with string -  HZ,DG,SW
+15:52:00. Hide Tarif Window.
+15:52:00. Disable GateWay. Message:Параметр задан неверно.
+
+15:52:00. Show Window.
+15:52:21. Proccess with string -  AS,
+15:52:26. Proccess with string -  EE
+15:52:26. Proccess with string -  SZ Интернет (тариф: 0.00080)-35,AG 10.80.15.1,HW
+15:52:26. Show Tarif Window.
+15:52:26. Add GateWay. Message:Параметр задан неверно.
+
+15:52:26. Hide Window.
+15:52:28. Proccess with string -  SZ Интернет (тариф: 0.00080)-35,AG 10.80.15.1,HW
+15:52:28. Show Tarif Window.
+15:52:28. Add GateWay. Message:Параметр задан неверно.
+
+15:52:28. Hide Window.
+15:52:32. Proccess with string -  AS,
+15:52:34. Proccess with string -  EE
+15:52:34. Proccess with string -  SZ Интернет (тариф: 0.00080)-0,AG 10.80.15.1,HW
+15:52:34. Show Tarif Window.
+15:52:34. Add GateWay. Message:Параметр задан неверно.
+
+15:52:34. Hide Window.
+15:52:43. Proccess with string -  AS,
+15:52:54. Proccess with string -  AS,
+15:53:34. Proccess with string -  HZ,DG,SW
+15:53:34. Hide Tarif Window.
+15:53:34. Disable GateWay. Message:Параметр задан неверно.
+
+15:53:34. Show Window.
+15:53:55. Proccess with string -  AS,
+15:54:03. Proccess with string -  EE
+15:54:03. Proccess with string -  SZ Интернет (тариф: 0.00080)-1,AG 10.80.15.1,HW
+15:54:03. Show Tarif Window.
+15:54:04. Add GateWay. Message:Параметр задан неверно.
+
+15:54:04. Hide Window.
+15:54:06. Proccess with string -  AS,
+15:54:17. Proccess with string -  AS,
+15:56:04. Proccess with string -  HZ,DG,SW
+15:56:04. Hide Tarif Window.
+15:56:04. Disable GateWay. Message:Параметр задан неверно.
+
+15:56:04. Show Window.
+17:25:15. Failed Bind.
+17:25:16. Proccess with string -  SW
+17:25:16. Show Window.
+17:26:13. Proccess with string -  SW
+17:26:13. Show Window.
+17:26:14. Proccess with string -  AS,
+17:26:14. Proccess with string -  HZ,DG,SW
+17:26:14. Hide Tarif Window.
+17:26:14. Disable GateWay. Message:Операция успешно завершена.
+
+17:26:14. Show Window.
+17:26:25. Proccess with string -  AS,
+17:26:27. Proccess with string -  EE
+17:26:27. Proccess with string -  SZ Интернет (тариф: 0.00080)-2,AG 10.80.15.1,HW
+17:26:27. Show Tarif Window.
+17:26:28. Add GateWay. Message:Операция успешно завершена.
+
+17:26:28. Hide Window.
+17:26:36. Proccess with string -  AS,
+17:26:47. Proccess with string -  AS,
+17:26:58. Proccess with string -  AS,
+17:27:09. Proccess with string -  AS,
+17:27:20. Proccess with string -  AS,
+17:27:31. Proccess with string -  AS,
+17:27:42. Proccess with string -  AS,
+17:27:53. Proccess with string -  AS,
+17:28:04. Proccess with string -  AS,
+17:28:15. Proccess with string -  AS,
+17:28:26. Proccess with string -  AS,
+17:28:37. Proccess with string -  AS,
+17:28:48. Proccess with string -  AS,
+17:28:53. Proccess with string -  HZ,DG,SW
+17:28:53. Hide Tarif Window.
+17:28:53. Disable GateWay. Message:Операция успешно завершена.
+
+17:28:53. Show Window.
+17:28:59. Proccess with string -  AS,
+17:31:52. Proccess with string -  SW
+17:31:52. Show Window.
+17:31:55. Proccess with string -  AS,
+17:32:06. Proccess with string -  AS,
+17:32:07. Proccess with string -  EE
+17:32:07. Proccess with string -  SZ Интернет (тариф: 0.00080)-1,AG 10.80.15.1,HW
+17:32:07. Show Tarif Window.
+17:32:08. Add GateWay. Message:Параметр задан неверно.
+
+17:32:08. Hide Window.
+17:32:20. Proccess with string -  AS,
+17:32:28. Proccess with string -  AS,
+17:32:39. Proccess with string -  AS,
+17:32:50. Proccess with string -  AS,
+17:33:01. Proccess with string -  AS,
+17:33:12. Proccess with string -  AS,
+17:33:23. Proccess with string -  AS,
+17:33:34. Proccess with string -  AS,
+17:33:45. Proccess with string -  AS,
+17:33:56. Proccess with string -  AS,
+17:34:02. Proccess with string -  HZ,DG,SW
+17:34:02. Hide Tarif Window.
+17:34:02. Disable GateWay. Message:Параметр задан неверно.
+
+17:34:02. Show Window.
+17:34:07. Proccess with string -  AS,
+17:37:54. Proccess with string -  SW
+17:37:54. Show Window.
+17:38:20. Proccess with string -  AS,
+17:38:25. Proccess with string -  AS,
+17:38:36. Proccess with string -  AS,
+17:38:39. Proccess with string -  EE
+17:38:39. Proccess with string -  SZ Интернет (тариф: 0.00080)-1,AG 10.80.15.1,HW
+17:38:39. Show Tarif Window.
+17:38:39. Add GateWay. Message:Параметр задан неверно.
+
+17:38:39. Hide Window.
+17:38:47. Proccess with string -  AS,
+17:38:47. Proccess with string -  SZ Интернет (тариф: 0.00080)-1,AG 10.80.15.1,HW
+17:38:47. Show Tarif Window.
+17:38:48. Add GateWay. Message:Параметр задан неверно.
+
+17:38:48. Hide Window.
+17:38:49. Proccess with string -  EE
+17:38:49. Proccess with string -  SZ Интернет (тариф: 0.00080)-3,AG 10.80.15.1,HW
+17:38:49. Show Tarif Window.
+17:38:49. Add GateWay. Message:Параметр задан неверно.
+
+17:38:49. Hide Window.
+17:38:58. Proccess with string -  AS,
+17:39:09. Proccess with string -  AS,
+17:39:20. Proccess with string -  AS,
+17:39:20. Proccess with string -  HZ,DG,SW
+17:39:20. Hide Tarif Window.
+17:39:20. Disable GateWay. Message:Параметр задан неверно.
+
+17:39:20. Show Window.
+17:39:31. Proccess with string -  AS,
+17:39:31. Proccess with string -  EE
+17:39:31. Proccess with string -  SZ Интернет (тариф: 0.00080)-3,AG 10.80.15.1,HW
+17:39:31. Show Tarif Window.
+17:39:32. Add GateWay. Message:Параметр задан неверно.
+
+17:39:32. Hide Window.
+17:39:42. Proccess with string -  AS,
+17:39:53. Proccess with string -  AS,
+17:40:04. Proccess with string -  AS,
+17:40:15. Proccess with string -  AS,
+17:40:26. Proccess with string -  AS,
+17:40:37. Proccess with string -  AS,
+17:40:48. Proccess with string -  AS,
+17:40:59. Proccess with string -  AS,
+17:41:10. Proccess with string -  AS,
+17:41:21. Proccess with string -  AS,
+17:41:32. Proccess with string -  AS,
+17:41:43. Proccess with string -  AS,
+17:41:54. Proccess with string -  AS,
+17:42:05. Proccess with string -  AS,
+17:42:16. Proccess with string -  AS,
+17:42:28. Proccess with string -  AS,
+17:42:39. Proccess with string -  AS,
+17:42:49. Proccess with string -  HZ,DG,SW
+17:42:49. Hide Tarif Window.
+17:42:50. Disable GateWay. Message:Параметр задан неверно.
+
+17:42:50. Show Window.
+17:42:50. Proccess with string -  AS,
+17:42:57. Proccess with string -  HZ,DG,SW
+17:42:57. Hide Tarif Window.
+17:42:57. Disable GateWay. Message:Параметр задан неверно.
+
+17:42:57. Show Window.
+17:43:02. Proccess with string -  HZ,DG,SW
+17:43:02. Hide Tarif Window.
+17:43:02. Disable GateWay. Message:Параметр задан неверно.
+
+17:43:02. Show Window.
+17:43:11. Proccess with string -  HZ,DG,SW
+17:43:11. Hide Tarif Window.
+17:43:11. Disable GateWay. Message:Параметр задан неверно.
+
+17:43:11. Show Window.

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.03.16 11:50:27.387.pas,C:\KASSA\Unit2.pas=C:\KASSA\rfReq.pas</Transaction>
+    <Transaction>2013.09.11 13:17:25.563.pas,F:\Project\PC\Internet\KASSA\HcTLB_TLB.pas=</Transaction>
+    <Transaction>2013.09.16 16:38:18.382.dproj,F:\Project\PC\Internet\KASSA\Project1.dproj=F:\Project\PC\Internet\KASSA\Rf2160.dproj</Transaction>
+    <Transaction>2013.09.25 12:17:16.604.pas,F:\Project\PC\Internet\KASSA\NewItem.pas=</Transaction>
+    <Transaction>2013.09.25 12:17:16.604.dfm,F:\Project\PC\Internet\KASSA\NewItem.dfm=</Transaction>
+    <Transaction>2013.09.27 15:27:52.036.ico,F:\Project\PC\Internet\KASSA\icon.ico=</Transaction>
+    <Transaction>2013.09.27 15:27:54.864.ico,F:\Project\PC\Internet\KASSA\icon2.ico=</Transaction>
+  </Transactions>
+</BorlandProject>

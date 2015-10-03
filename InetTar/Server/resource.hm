@@ -1,0 +1,7 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by InetTarif.rc
+//
+#define HIDC_PROGRESS                   0x808205dc    // IDD_COMPINET
+#define HIDC_RASBUTTON                  0x80820578    // IDD_COMPINET
+#define HIDC_ZALOGBUTTON                0x80820514    // IDD_COMPINET
+#define HIDC_ZALOGEDIT                  0x808204b0    // IDD_COMPINET

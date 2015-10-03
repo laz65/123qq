@@ -1,0 +1,78 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, CPort, StdCtrls,
+  rfUnit;
+
+type
+  TForm1 = class(TForm)
+    ComPort1: TComPort;
+    Button1: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    procedure Button1Click(Sender: TObject);
+    procedure ComPort1RxChar(Sender: TObject; Count: Integer);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var Buf: String;
+    Cnt: Integer;
+    i: Integer;
+begin
+     ComPort1.Open;
+{
+     GeneratePacket(SndPacket, 10);
+     SndPacket.Data[ofsData + 0] := 'o';
+     SndPacket.Data[ofsData + 1] := '1';
+     SndPacket.Data[ofsData + 2] := '0';
+     SndPacket.Data[ofsData + 3] := '0';
+     SndPacket.Data[ofsData + 4] := '0';
+     SndPacket.Data[ofsData + 5] := '0';
+     SndPacket.Data[ofsData + 6] := '0';
+     SndPacket.Data[ofsData + 7] := '0';
+     SndPacket.Data[ofsData + 8] := '0';
+     SndPacket.Data[ofsData + 9] := '0';
+     UpdateChecksum(SndPacket);
+     ComPort1.WriteStr(SndPacket.Data);}
+{     Sleep(2000);
+
+
+     GeneratePacket(SndPacket, 1);
+     SndPacket.Data[ofsData + 0] := 'R';
+     UpdateChecksum(SndPacket);
+     ComPort1.WriteStr(SndPacket.Data);}
+
+     ComPort := ComPort1;
+     GeneratePacket(SndPacket, 1);
+     SndPacket.Data[ofsData + 0] := '0';
+     UpdateChecksum(SndPacket);
+
+     Edit1.Text := IntToStr(Ord(SendPacket(99)));
+
+end;
+
+procedure TForm1.ComPort1RxChar(Sender: TObject; Count: Integer);
+var Buf: String;
+    i: Integer;
+begin
+     ComPort1.ReadStr(Buf, Count);
+     Edit1.Text := Edit1.Text + Buf;
+     for i := 1 to Count do
+         Edit2.Text := Edit2.Text + IntToHex(Ord(Buf[i]),2) + ' ';
+end;
+
+end.

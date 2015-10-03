@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="_UInfo" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAACAAAAAAQAAAAAAAAAgEQAAAAAAAAA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Dopusl" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAGAAAAAAAAAAAEAAAAAAAAACAAQEA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Setup">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAQQKAgAAAAAAAAQBAACAEEggAAAAAAAACEAACQICA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OldSetup" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAJQQKAgQAAAAAEBQBAACAEEggAAIBAAACCEAACAKCI=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Bill" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQ=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CompInfo" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAQBAgADAEUAAAAAAAjAEAAAAAgABAQAAIAAAAAUA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="hDopusl" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hSetup" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hOldSetup" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hCompInfo" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StdAfx.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

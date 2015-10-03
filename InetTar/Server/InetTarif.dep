@@ -1,0 +1,109 @@
+# Microsoft Developer Studio Generated Dependency File, included by InetTarif.mak
+
+.\ClientRaschet.cpp : \
+	".\ClientRaschet.h"\
+	".\InetTarif.h"\
+	
+
+.\ComPortDlg.cpp : \
+	".\ComPortDlg.h"\
+	".\InetTarif.h"\
+	
+
+.\ComputerInet.cpp : \
+	".\ComputerInet.h"\
+	".\InetTarif.h"\
+	
+
+.\ComSetupDlg.cpp : \
+	".\ComPortDlg.h"\
+	".\ComSetupDlg.h"\
+	".\InetTarif.h"\
+	".\msflexgrid.h"\
+	
+
+.\InetTarif.cpp : \
+	".\InetTarif.h"\
+	".\InetTarifDlg.h"\
+	
+
+!IF  "$(CFG)" == "InetTarif - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "InetTarif - Win32 Debug"
+
+!ENDIF 
+
+.\InetTarif.rc : \
+	".\res\_emblem.BMP"\
+	".\res\bitmap4.bmp"\
+	".\res\emblem.bmp"\
+	".\res\hierwiz.ico"\
+	".\res\InetTarif.rc2"\
+	".\res\litebulb.bmp"\
+	".\res\logo.BMP"\
+	".\res\U_logo.bmp"\
+	".\res\UKRTELECOM.BMP"\
+	".\res\utelecom.BMP"\
+	".\resource.hm"\
+	
+
+.\InetTarifDlg.cpp : \
+	".\ClientRaschet.h"\
+	".\ComputerInet.h"\
+	".\ComSetupDlg.h"\
+	".\InetTarif.h"\
+	".\InetTarifDlg.h"\
+	".\msflexgrid.h"\
+	".\PasswDlg.h"\
+	".\ReportDlg.h"\
+	".\TarifDlg.h"\
+	
+
+.\msflexgrid.cpp : \
+	".\msflexgrid.h"\
+	".\picture.h"\
+	".\rowcursor.h"\
+	
+
+.\PasswDlg.cpp : \
+	".\InetTarif.h"\
+	".\PasswDlg.h"\
+	
+
+.\picture.cpp : \
+	".\picture.h"\
+	
+
+.\ReportDlg.cpp : \
+	".\InetTarif.h"\
+	".\msflexgrid.h"\
+	".\ReportDlg.h"\
+	
+
+.\rowcursor.cpp : \
+	".\rowcursor.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	".\TipDlg.h"\
+	"e:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\TarifDlg.cpp : \
+	".\InetTarif.h"\
+	".\TarifDlg.h"\
+	
+
+!IF  "$(CFG)" == "InetTarif - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "InetTarif - Win32 Debug"
+
+!ENDIF 
+
+!IF  "$(CFG)" == "InetTarif - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "InetTarif - Win32 Debug"
+
+!ENDIF 
+
